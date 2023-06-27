@@ -1,0 +1,18 @@
+[2023-06-10T11:13:18.022+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: check_pass_fail.bash_list manual__2023-06-10T05:43:09.508746+00:00 [queued]>
+[2023-06-10T11:13:18.031+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: check_pass_fail.bash_list manual__2023-06-10T05:43:09.508746+00:00 [queued]>
+[2023-06-10T11:13:18.031+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-06-10T11:13:18.048+0530] {taskinstance.py:1350} INFO - Executing <Task(BashOperator): bash_list> on 2023-06-10 05:43:09.508746+00:00
+[2023-06-10T11:13:18.051+0530] {standard_task_runner.py:57} INFO - Started process 7062 to run task
+[2023-06-10T11:13:18.056+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'check_pass_fail', 'bash_list', 'manual__2023-06-10T05:43:09.508746+00:00', '--job-id', '890', '--raw', '--subdir', 'DAGS_FOLDER/emailoperator_demo.py', '--cfg-path', '/tmp/tmpsyxdbirg']
+[2023-06-10T11:13:18.059+0530] {standard_task_runner.py:85} INFO - Job 890: Subtask bash_list
+[2023-06-10T11:13:18.108+0530] {task_command.py:410} INFO - Running <TaskInstance: check_pass_fail.bash_list manual__2023-06-10T05:43:09.508746+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-06-10T11:13:18.178+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='check_pass_fail' AIRFLOW_CTX_TASK_ID='bash_list' AIRFLOW_CTX_EXECUTION_DATE='2023-06-10T05:43:09.508746+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-10T05:43:09.508746+00:00'
+[2023-06-10T11:13:18.180+0530] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-06-10T11:13:18.181+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'ls -ltr']
+[2023-06-10T11:13:18.190+0530] {subprocess.py:86} INFO - Output:
+[2023-06-10T11:13:18.195+0530] {subprocess.py:93} INFO - total 0
+[2023-06-10T11:13:18.195+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-06-10T11:13:18.217+0530] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=check_pass_fail, task_id=bash_list, execution_date=20230610T054309, start_date=20230610T054318, end_date=20230610T054318
+[2023-06-10T11:13:18.267+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-06-10T11:13:18.286+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

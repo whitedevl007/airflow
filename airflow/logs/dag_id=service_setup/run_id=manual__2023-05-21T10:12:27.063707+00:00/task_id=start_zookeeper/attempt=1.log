@@ -1,0 +1,25 @@
+[2023-05-21T15:42:35.257+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: service_setup.start_zookeeper manual__2023-05-21T10:12:27.063707+00:00 [queued]>
+[2023-05-21T15:42:35.266+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: service_setup.start_zookeeper manual__2023-05-21T10:12:27.063707+00:00 [queued]>
+[2023-05-21T15:42:35.266+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-21T15:42:35.287+0530] {taskinstance.py:1350} INFO - Executing <Task(BashOperator): start_zookeeper> on 2023-05-21 10:12:27.063707+00:00
+[2023-05-21T15:42:35.292+0530] {standard_task_runner.py:57} INFO - Started process 31967 to run task
+[2023-05-21T15:42:35.300+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'service_setup', 'start_zookeeper', 'manual__2023-05-21T10:12:27.063707+00:00', '--job-id', '778', '--raw', '--subdir', 'DAGS_FOLDER/service_setup.py', '--cfg-path', '/tmp/tmpzv04pnn8']
+[2023-05-21T15:42:35.303+0530] {standard_task_runner.py:85} INFO - Job 778: Subtask start_zookeeper
+[2023-05-21T15:42:35.365+0530] {task_command.py:410} INFO - Running <TaskInstance: service_setup.start_zookeeper manual__2023-05-21T10:12:27.063707+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-21T15:42:35.473+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='service_setup' AIRFLOW_CTX_TASK_ID='start_zookeeper' AIRFLOW_CTX_EXECUTION_DATE='2023-05-21T10:12:27.063707+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-21T10:12:27.063707+00:00'
+[2023-05-21T15:42:35.475+0530] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-21T15:42:35.476+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'docker run -d --name zookeeper -p 2181:2181 wurstmeister/zookeeper']
+[2023-05-21T15:42:35.486+0530] {subprocess.py:86} INFO - Output:
+[2023-05-21T15:42:36.721+0530] {subprocess.py:93} INFO - docker: Error response from daemon: Conflict. The container name "/zookeeper" is already in use by container "95216626371e26c2f8829a861473150cf359b029df183d28467df103908d0307". You have to remove (or rename) that container to be able to reuse that name.
+[2023-05-21T15:42:36.721+0530] {subprocess.py:93} INFO - See 'docker run --help'.
+[2023-05-21T15:42:36.730+0530] {subprocess.py:97} INFO - Command exited with return code 125
+[2023-05-21T15:42:36.739+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 125.
+[2023-05-21T15:42:36.743+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=service_setup, task_id=start_zookeeper, execution_date=20230521T101227, start_date=20230521T101235, end_date=20230521T101236
+[2023-05-21T15:42:36.760+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 778 for task start_zookeeper (Bash command failed. The command returned a non-zero exit code 125.; 31967)
+[2023-05-21T15:42:36.805+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-21T15:42:36.833+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

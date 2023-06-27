@@ -1,0 +1,49 @@
+[2023-05-19T12:18:27.449+0530] {taskinstance.py:1115} INFO - Dependencies not met for <TaskInstance: mongodb_to_kafka_and_consumer.read_and_send_task manual__2023-05-19T06:47:12.071506+00:00 [up_for_retry]>, dependency 'Not In Retry Period' FAILED: Task is not ready for retry yet but will be retried automatically. Current date is 2023-05-19T06:48:27.449511+00:00 and task will be retried at 2023-05-19T06:53:23.472851+00:00.
+[2023-05-19T12:18:27.460+0530] {local_task_job_runner.py:161} INFO - Task is not able to be run
+[2023-05-19T12:59:34.116+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mongodb_to_kafka_and_consumer.read_and_send_task manual__2023-05-19T06:47:12.071506+00:00 [queued]>
+[2023-05-19T12:59:34.129+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mongodb_to_kafka_and_consumer.read_and_send_task manual__2023-05-19T06:47:12.071506+00:00 [queued]>
+[2023-05-19T12:59:34.129+0530] {taskinstance.py:1331} INFO - Starting attempt 2 of 2
+[2023-05-19T12:59:34.169+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): read_and_send_task> on 2023-05-19 06:47:12.071506+00:00
+[2023-05-19T12:59:34.175+0530] {standard_task_runner.py:57} INFO - Started process 20107 to run task
+[2023-05-19T12:59:34.181+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'mongodb_to_kafka_and_consumer', 'read_and_send_task', 'manual__2023-05-19T06:47:12.071506+00:00', '--job-id', '738', '--raw', '--subdir', 'DAGS_FOLDER/test1.py', '--cfg-path', '/tmp/tmpx49l1s7k']
+[2023-05-19T12:59:34.181+0530] {standard_task_runner.py:85} INFO - Job 738: Subtask read_and_send_task
+[2023-05-19T12:59:34.242+0530] {task_command.py:410} INFO - Running <TaskInstance: mongodb_to_kafka_and_consumer.read_and_send_task manual__2023-05-19T06:47:12.071506+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-19T12:59:34.349+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='mongodb_to_kafka_and_consumer' AIRFLOW_CTX_TASK_ID='read_and_send_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-19T06:47:12.071506+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-19T06:47:12.071506+00:00'
+[2023-05-19T12:59:34.359+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/srv_resolver.py", line 89, in _resolve_uri
+    results = _resolve(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/srv_resolver.py", line 43, in _resolve
+    return resolver.resolve(*args, **kwargs)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/dns/resolver.py", line 1368, in resolve
+    return get_default_resolver().resolve(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/dns/resolver.py", line 1201, in resolve
+    (nameserver, port, tcp, backoff) = resolution.next_nameserver()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/dns/resolver.py", line 704, in next_nameserver
+    raise NoNameservers(request=self.request, errors=self.errors)
+dns.resolver.NoNameservers: All nameservers failed to answer the query _mongodb._tcp.cluster0.vgtdfso.mongodb.net. IN SRV: Server 127.0.0.53 UDP port 53 answered SERVFAIL
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/test1.py", line 25, in read_from_mongodb_and_send_to_kafka
+    client = MongoClient(mongo_uri)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/mongo_client.py", line 736, in __init__
+    res = uri_parser.parse_uri(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/uri_parser.py", line 542, in parse_uri
+    nodes = dns_resolver.get_hosts()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/srv_resolver.py", line 121, in get_hosts
+    _, nodes = self._get_srv_response_and_hosts(True)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/srv_resolver.py", line 101, in _get_srv_response_and_hosts
+    results = self._resolve_uri(encapsulate_errors)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/srv_resolver.py", line 97, in _resolve_uri
+    raise ConfigurationError(str(exc))
+pymongo.errors.ConfigurationError: All nameservers failed to answer the query _mongodb._tcp.cluster0.vgtdfso.mongodb.net. IN SRV: Server 127.0.0.53 UDP port 53 answered SERVFAIL
+[2023-05-19T12:59:34.373+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=mongodb_to_kafka_and_consumer, task_id=read_and_send_task, execution_date=20230519T064712, start_date=20230519T072934, end_date=20230519T072934
+[2023-05-19T12:59:34.392+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 738 for task read_and_send_task (All nameservers failed to answer the query _mongodb._tcp.cluster0.vgtdfso.mongodb.net. IN SRV: Server 127.0.0.53 UDP port 53 answered SERVFAIL; 20107)
+[2023-05-19T12:59:34.436+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-19T12:59:34.453+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

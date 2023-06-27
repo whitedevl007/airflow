@@ -1,0 +1,29 @@
+[2023-06-09T17:44:12.268+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: emailoperator_demo.send_email manual__2023-06-09T12:14:01.990207+00:00 [queued]>
+[2023-06-09T17:44:12.279+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: emailoperator_demo.send_email manual__2023-06-09T12:14:01.990207+00:00 [queued]>
+[2023-06-09T17:44:12.279+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-06-09T17:44:12.302+0530] {taskinstance.py:1350} INFO - Executing <Task(EmailOperator): send_email> on 2023-06-09 12:14:01.990207+00:00
+[2023-06-09T17:44:12.307+0530] {standard_task_runner.py:57} INFO - Started process 18616 to run task
+[2023-06-09T17:44:12.314+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'emailoperator_demo', 'send_email', 'manual__2023-06-09T12:14:01.990207+00:00', '--job-id', '856', '--raw', '--subdir', 'DAGS_FOLDER/emailoperator_demo.py', '--cfg-path', '/tmp/tmpylr83moi']
+[2023-06-09T17:44:12.316+0530] {standard_task_runner.py:85} INFO - Job 856: Subtask send_email
+[2023-06-09T17:44:12.372+0530] {task_command.py:410} INFO - Running <TaskInstance: emailoperator_demo.send_email manual__2023-06-09T12:14:01.990207+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-06-09T17:44:12.455+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='emailoperator_demo' AIRFLOW_CTX_TASK_ID='send_email' AIRFLOW_CTX_EXECUTION_DATE='2023-06-09T12:14:01.990207+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-09T12:14:01.990207+00:00'
+[2023-06-09T17:44:12.473+0530] {logging_mixin.py:149} WARNING - /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/utils/email.py:152 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2023-06-09T17:44:12.474+0530] {configuration.py:675} WARNING - section/key [smtp/smtp_user] not found in config
+[2023-06-09T17:44:12.474+0530] {email.py:268} INFO - Email alerting: attempt 1
+[2023-06-09T17:44:12.480+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/email.py", line 77, in execute
+    send_email(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/utils/email.py", line 78, in send_email
+    return backend(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/utils/email.py", line 152, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/utils/email.py", line 277, in send_mime_email
+    smtp_conn.starttls()
+  File "/usr/lib/python3.10/smtplib.py", line 771, in starttls
+    raise SMTPNotSupportedError(
+smtplib.SMTPNotSupportedError: STARTTLS extension not supported by server.
+[2023-06-09T17:44:12.487+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=emailoperator_demo, task_id=send_email, execution_date=20230609T121401, start_date=20230609T121412, end_date=20230609T121412
+[2023-06-09T17:44:12.502+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 856 for task send_email (STARTTLS extension not supported by server.; 18616)
+[2023-06-09T17:44:12.527+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-06-09T17:44:12.542+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

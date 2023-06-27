@@ -1,0 +1,63 @@
+[2023-05-16T10:45:13.039+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kafka_storm_connection.connect_to_kafka_task manual__2023-05-16T05:14:41.347440+00:00 [queued]>
+[2023-05-16T10:45:13.047+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kafka_storm_connection.connect_to_kafka_task manual__2023-05-16T05:14:41.347440+00:00 [queued]>
+[2023-05-16T10:45:13.048+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-16T10:45:13.062+0530] {taskinstance.py:1350} INFO - Executing <Task(BashOperator): connect_to_kafka_task> on 2023-05-16 05:14:41.347440+00:00
+[2023-05-16T10:45:13.066+0530] {standard_task_runner.py:57} INFO - Started process 7758 to run task
+[2023-05-16T10:45:13.071+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'kafka_storm_connection', 'connect_to_kafka_task', 'manual__2023-05-16T05:14:41.347440+00:00', '--job-id', '213', '--raw', '--subdir', 'DAGS_FOLDER/kafka-storm con.py', '--cfg-path', '/tmp/tmpa4df9x50']
+[2023-05-16T10:45:13.072+0530] {standard_task_runner.py:85} INFO - Job 213: Subtask connect_to_kafka_task
+[2023-05-16T10:45:13.117+0530] {task_command.py:410} INFO - Running <TaskInstance: kafka_storm_connection.connect_to_kafka_task manual__2023-05-16T05:14:41.347440+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-16T10:45:13.190+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='kafka_storm_connection' AIRFLOW_CTX_TASK_ID='connect_to_kafka_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-16T05:14:41.347440+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-16T05:14:41.347440+00:00'
+[2023-05-16T10:45:13.192+0530] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-16T10:45:13.192+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'storm kafka -t test -b localhost:9092']
+[2023-05-16T10:45:13.203+0530] {subprocess.py:86} INFO - Output:
+[2023-05-16T10:45:13.280+0530] {subprocess.py:93} INFO - Unknown command: [storm kafka -t test -b localhost:9092]
+[2023-05-16T10:45:13.280+0530] {subprocess.py:93} INFO - Commands:
+[2023-05-16T10:45:13.280+0530] {subprocess.py:93} INFO - 	activate
+[2023-05-16T10:45:13.280+0530] {subprocess.py:93} INFO - 	blobstore
+[2023-05-16T10:45:13.281+0530] {subprocess.py:93} INFO - 	classpath
+[2023-05-16T10:45:13.281+0530] {subprocess.py:93} INFO - 	deactivate
+[2023-05-16T10:45:13.281+0530] {subprocess.py:93} INFO - 	dev-zookeeper
+[2023-05-16T10:45:13.281+0530] {subprocess.py:93} INFO - 	drpc
+[2023-05-16T10:45:13.281+0530] {subprocess.py:93} INFO - 	get-errors
+[2023-05-16T10:45:13.281+0530] {subprocess.py:93} INFO - 	heartbeats
+[2023-05-16T10:45:13.281+0530] {subprocess.py:93} INFO - 	help
+[2023-05-16T10:45:13.281+0530] {subprocess.py:93} INFO - 	jar
+[2023-05-16T10:45:13.282+0530] {subprocess.py:93} INFO - 	kill
+[2023-05-16T10:45:13.282+0530] {subprocess.py:93} INFO - 	kill_workers
+[2023-05-16T10:45:13.282+0530] {subprocess.py:93} INFO - 	list
+[2023-05-16T10:45:13.282+0530] {subprocess.py:93} INFO - 	localconfvalue
+[2023-05-16T10:45:13.282+0530] {subprocess.py:93} INFO - 	logviewer
+[2023-05-16T10:45:13.283+0530] {subprocess.py:93} INFO - 	monitor
+[2023-05-16T10:45:13.283+0530] {subprocess.py:93} INFO - 	nimbus
+[2023-05-16T10:45:13.283+0530] {subprocess.py:93} INFO - 	node-health-check
+[2023-05-16T10:45:13.283+0530] {subprocess.py:93} INFO - 	pacemaker
+[2023-05-16T10:45:13.283+0530] {subprocess.py:93} INFO - 	rebalance
+[2023-05-16T10:45:13.284+0530] {subprocess.py:93} INFO - 	remoteconfvalue
+[2023-05-16T10:45:13.284+0530] {subprocess.py:93} INFO - 	repl
+[2023-05-16T10:45:13.284+0530] {subprocess.py:93} INFO - 	set_log_level
+[2023-05-16T10:45:13.284+0530] {subprocess.py:93} INFO - 	shell
+[2023-05-16T10:45:13.284+0530] {subprocess.py:93} INFO - 	sql
+[2023-05-16T10:45:13.285+0530] {subprocess.py:93} INFO - 	supervisor
+[2023-05-16T10:45:13.285+0530] {subprocess.py:93} INFO - 	ui
+[2023-05-16T10:45:13.285+0530] {subprocess.py:93} INFO - 	upload-credentials
+[2023-05-16T10:45:13.285+0530] {subprocess.py:93} INFO - 	version
+[2023-05-16T10:45:13.287+0530] {subprocess.py:93} INFO - 
+[2023-05-16T10:45:13.287+0530] {subprocess.py:93} INFO - Help:
+[2023-05-16T10:45:13.287+0530] {subprocess.py:93} INFO - 	help
+[2023-05-16T10:45:13.287+0530] {subprocess.py:93} INFO - 	help <command>
+[2023-05-16T10:45:13.287+0530] {subprocess.py:93} INFO - 
+[2023-05-16T10:45:13.288+0530] {subprocess.py:93} INFO - Documentation for the storm client can be found at http://storm.apache.org/documentation/Command-line-client.html
+[2023-05-16T10:45:13.288+0530] {subprocess.py:93} INFO - 
+[2023-05-16T10:45:13.288+0530] {subprocess.py:93} INFO - Configs can be overridden using one or more -c flags, e.g. "storm list -c nimbus.host=nimbus.mycompany.com"
+[2023-05-16T10:45:13.288+0530] {subprocess.py:93} INFO - 
+[2023-05-16T10:45:13.291+0530] {subprocess.py:97} INFO - Command exited with return code 254
+[2023-05-16T10:45:13.300+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 254.
+[2023-05-16T10:45:13.303+0530] {taskinstance.py:1368} INFO - Marking task as UP_FOR_RETRY. dag_id=kafka_storm_connection, task_id=connect_to_kafka_task, execution_date=20230516T051441, start_date=20230516T051513, end_date=20230516T051513
+[2023-05-16T10:45:13.316+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 213 for task connect_to_kafka_task (Bash command failed. The command returned a non-zero exit code 254.; 7758)
+[2023-05-16T10:45:13.322+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-16T10:45:13.344+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,26 @@
+[2023-05-17T12:31:37.939+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mongodb_to_kafka_and_consumer2.check_task_completion manual__2023-05-17T07:01:32.617075+00:00 [queued]>
+[2023-05-17T12:31:37.947+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mongodb_to_kafka_and_consumer2.check_task_completion manual__2023-05-17T07:01:32.617075+00:00 [queued]>
+[2023-05-17T12:31:37.947+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-17T12:31:37.965+0530] {taskinstance.py:1350} INFO - Executing <Task(BranchPythonOperator): check_task_completion> on 2023-05-17 07:01:32.617075+00:00
+[2023-05-17T12:31:37.970+0530] {standard_task_runner.py:57} INFO - Started process 11664 to run task
+[2023-05-17T12:31:37.975+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'mongodb_to_kafka_and_consumer2', 'check_task_completion', 'manual__2023-05-17T07:01:32.617075+00:00', '--job-id', '319', '--raw', '--subdir', 'DAGS_FOLDER/mongokafka.py', '--cfg-path', '/tmp/tmpzw8w0vus']
+[2023-05-17T12:31:37.976+0530] {standard_task_runner.py:85} INFO - Job 319: Subtask check_task_completion
+[2023-05-17T12:31:38.032+0530] {task_command.py:410} INFO - Running <TaskInstance: mongodb_to_kafka_and_consumer2.check_task_completion manual__2023-05-17T07:01:32.617075+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-17T12:31:38.134+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='mongodb_to_kafka_and_consumer2' AIRFLOW_CTX_TASK_ID='check_task_completion' AIRFLOW_CTX_EXECUTION_DATE='2023-05-17T07:01:32.617075+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-17T07:01:32.617075+00:00'
+[2023-05-17T12:31:38.136+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 215, in execute
+    branch = super().execute(context)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/mongokafka.py", line 80, in check_task_completion
+    dag_run = DagRun.get_task_instances(dag_id=dag_id, dag_run_id=dag_run_id)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, session=session, **kwargs)
+TypeError: DagRun.get_task_instances() got an unexpected keyword argument 'dag_id'
+[2023-05-17T12:31:38.144+0530] {taskinstance.py:1368} INFO - Marking task as UP_FOR_RETRY. dag_id=mongodb_to_kafka_and_consumer2, task_id=check_task_completion, execution_date=20230517T070132, start_date=20230517T070137, end_date=20230517T070138
+[2023-05-17T12:31:38.160+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 319 for task check_task_completion (DagRun.get_task_instances() got an unexpected keyword argument 'dag_id'; 11664)
+[2023-05-17T12:31:38.187+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-17T12:31:38.213+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

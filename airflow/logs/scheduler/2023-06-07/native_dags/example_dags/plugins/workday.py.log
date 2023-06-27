@@ -1,0 +1,6 @@
+[2023-06-07T22:20:10.886+0530] {processor.py:156} INFO - Started process (PID=18929) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-06-07T22:20:10.903+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-06-07T22:20:10.928+0530] {logging_mixin.py:149} INFO - [2023-06-07T22:20:10.928+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-06-07T22:20:11.083+0530] {logging_mixin.py:149} INFO - [2023-06-07T22:20:11.076+0530] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-06-07T22:20:11.102+0530] {processor.py:811} WARNING - No viable dags retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-06-07T22:20:11.228+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.358 seconds

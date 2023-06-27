@@ -1,0 +1,42 @@
+[2023-05-19T01:09:09.658+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: storm_topology1.submit_task scheduled__2023-05-16T00:06:00+00:00 [queued]>
+[2023-05-19T01:09:09.668+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: storm_topology1.submit_task scheduled__2023-05-16T00:06:00+00:00 [queued]>
+[2023-05-19T01:09:09.669+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-19T01:09:09.696+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): submit_task> on 2023-05-16 00:06:00+00:00
+[2023-05-19T01:09:09.701+0530] {standard_task_runner.py:57} INFO - Started process 13571 to run task
+[2023-05-19T01:09:09.705+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'storm_topology1', 'submit_task', 'scheduled__2023-05-16T00:06:00+00:00', '--job-id', '547', '--raw', '--subdir', 'DAGS_FOLDER/kafkastorm.py', '--cfg-path', '/tmp/tmpyx0f8wfm']
+[2023-05-19T01:09:09.706+0530] {standard_task_runner.py:85} INFO - Job 547: Subtask submit_task
+[2023-05-19T01:09:09.763+0530] {task_command.py:410} INFO - Running <TaskInstance: storm_topology1.submit_task scheduled__2023-05-16T00:06:00+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-19T01:09:09.891+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='storm_topology1' AIRFLOW_CTX_TASK_ID='submit_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-16T00:06:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-16T00:06:00+00:00'
+[2023-05-19T01:13:40.910+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 13571. PIDs of all processes in the group: [13572, 13573, 13771, 13772, 13993, 13994, 13571]
+[2023-05-19T01:13:40.914+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 13571
+[2023-05-19T01:13:40.921+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13993, status='terminated', started='01:10:36') (13993) terminated with exit code None
+[2023-05-19T01:13:40.941+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-19T01:13:41.098+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13994, status='terminated', started='01:10:36') (13994) terminated with exit code None
+[2023-05-19T01:13:41.098+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13572, status='terminated', started='01:09:09') (13572) terminated with exit code None
+[2023-05-19T01:13:41.208+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/kafkastorm.py", line 67, in submit_topology
+    python_callable=read_from_mongodb_and_send_to_kafka,
+  File "/usr/lib/python3.10/subprocess.py", line 503, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1144, in communicate
+    self.wait()
+  File "/usr/lib/python3.10/subprocess.py", line 1207, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1941, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1899, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1542, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-05-19T01:13:41.241+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=storm_topology1, task_id=submit_task, execution_date=20230516T000600, start_date=20230518T193909, end_date=20230518T194341
+[2023-05-19T01:13:41.271+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13573, status='terminated', started='01:09:09') (13573) terminated with exit code None
+[2023-05-19T01:13:41.272+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13771, status='terminated', started='01:10:03') (13771) terminated with exit code None
+[2023-05-19T01:13:41.341+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 547 for task submit_task (Task received SIGTERM signal; 13571)
+[2023-05-19T01:13:41.365+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13571, status='terminated', exitcode=1, started='01:09:09') (13571) terminated with exit code 1
+[2023-05-19T01:13:41.366+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13772, status='terminated', started='01:10:03') (13772) terminated with exit code None

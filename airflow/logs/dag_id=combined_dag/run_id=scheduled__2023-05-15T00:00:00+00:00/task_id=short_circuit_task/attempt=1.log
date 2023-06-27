@@ -1,0 +1,15 @@
+[2023-05-18T14:28:44.305+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: combined_dag.short_circuit_task scheduled__2023-05-15T00:00:00+00:00 [queued]>
+[2023-05-18T14:28:44.313+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: combined_dag.short_circuit_task scheduled__2023-05-15T00:00:00+00:00 [queued]>
+[2023-05-18T14:28:44.313+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 4
+[2023-05-18T14:28:44.329+0530] {taskinstance.py:1350} INFO - Executing <Task(ShortCircuitOperator): short_circuit_task> on 2023-05-15 00:00:00+00:00
+[2023-05-18T14:28:44.333+0530] {standard_task_runner.py:57} INFO - Started process 13480 to run task
+[2023-05-18T14:28:44.338+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'combined_dag', 'short_circuit_task', 'scheduled__2023-05-15T00:00:00+00:00', '--job-id', '453', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpdlzm68l7']
+[2023-05-18T14:28:44.339+0530] {standard_task_runner.py:85} INFO - Job 453: Subtask short_circuit_task
+[2023-05-18T14:28:44.392+0530] {task_command.py:410} INFO - Running <TaskInstance: combined_dag.short_circuit_task scheduled__2023-05-15T00:00:00+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-18T14:28:44.456+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='combined_dag' AIRFLOW_CTX_TASK_ID='short_circuit_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-15T00:00:00+00:00'
+[2023-05-18T14:28:44.458+0530] {python.py:183} INFO - Done. Returned value was: True
+[2023-05-18T14:28:44.458+0530] {python.py:253} INFO - Condition result is True
+[2023-05-18T14:28:44.459+0530] {python.py:256} INFO - Proceeding with downstream tasks...
+[2023-05-18T14:28:44.475+0530] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=combined_dag, task_id=short_circuit_task, execution_date=20230515T000000, start_date=20230518T085844, end_date=20230518T085844
+[2023-05-18T14:28:44.509+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-05-18T14:28:44.552+0530] {taskinstance.py:2674} INFO - 1 downstream tasks scheduled from follow-on schedule check

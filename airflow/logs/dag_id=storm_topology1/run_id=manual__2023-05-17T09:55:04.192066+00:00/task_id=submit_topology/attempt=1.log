@@ -1,0 +1,35 @@
+[2023-05-17T16:32:01.104+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: storm_topology1.submit_topology manual__2023-05-17T09:55:04.192066+00:00 [queued]>
+[2023-05-17T16:32:01.114+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: storm_topology1.submit_topology manual__2023-05-17T09:55:04.192066+00:00 [queued]>
+[2023-05-17T16:32:01.114+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-17T16:32:01.136+0530] {taskinstance.py:1350} INFO - Executing <Task(BashOperator): submit_topology> on 2023-05-17 09:55:04.192066+00:00
+[2023-05-17T16:32:01.140+0530] {standard_task_runner.py:57} INFO - Started process 13086 to run task
+[2023-05-17T16:32:01.145+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'storm_topology1', 'submit_topology', 'manual__2023-05-17T09:55:04.192066+00:00', '--job-id', '343', '--raw', '--subdir', 'DAGS_FOLDER/kafkastorm.py', '--cfg-path', '/tmp/tmp0o1ldh4w']
+[2023-05-17T16:32:01.147+0530] {standard_task_runner.py:85} INFO - Job 343: Subtask submit_topology
+[2023-05-17T16:32:01.205+0530] {task_command.py:410} INFO - Running <TaskInstance: storm_topology1.submit_topology manual__2023-05-17T09:55:04.192066+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-17T16:32:01.284+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='storm_topology1' AIRFLOW_CTX_TASK_ID='submit_topology' AIRFLOW_CTX_EXECUTION_DATE='2023-05-17T09:55:04.192066+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-17T09:55:04.192066+00:00'
+[2023-05-17T16:32:01.287+0530] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-17T16:32:01.288+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/nizam/project/Kafka-Storm && sparse run --name first_topology']
+[2023-05-17T16:32:01.299+0530] {subprocess.py:86} INFO - Output:
+[2023-05-17T16:32:11.860+0530] {subprocess.py:93} INFO - Cleaning from prior builds...
+[2023-05-17T16:32:13.809+0530] {subprocess.py:93} INFO - Creating topology Uber-JAR...
+[2023-05-17T16:32:18.786+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 13086. PIDs of all processes in the group: [13087, 13215, 13216, 13223, 13086]
+[2023-05-17T16:32:18.787+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 13086
+[2023-05-17T16:32:18.788+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-17T16:32:18.789+0530] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2023-05-17T16:32:18.816+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13215, status='terminated', started='16:32:12') (13215) terminated with exit code None
+[2023-05-17T16:32:18.818+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/bash.py", line 201, in execute
+    result = self.subprocess_hook.run_command(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/hooks/subprocess.py", line 91, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b""):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1542, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-05-17T16:32:18.828+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=storm_topology1, task_id=submit_topology, execution_date=20230517T095504, start_date=20230517T110201, end_date=20230517T110218
+[2023-05-17T16:32:18.850+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 343 for task submit_topology (Task received SIGTERM signal; 13086)
+[2023-05-17T16:32:18.868+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13086, status='terminated', exitcode=1, started='16:32:00') (13086) terminated with exit code 1
+[2023-05-17T16:32:18.869+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13216, status='terminated', started='16:32:12') (13216) terminated with exit code None
+[2023-05-17T16:32:18.869+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13087, status='terminated', started='16:32:00') (13087) terminated with exit code None
+[2023-05-17T16:32:18.870+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=13223, status='terminated', started='16:32:12') (13223) terminated with exit code None

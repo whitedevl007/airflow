@@ -1,0 +1,56 @@
+[2023-05-19T16:13:05.597+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: combined_dag.read_and_send_task manual__2023-05-19T10:40:47.215840+00:00 [queued]>
+[2023-05-19T16:13:05.606+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: combined_dag.read_and_send_task manual__2023-05-19T10:40:47.215840+00:00 [queued]>
+[2023-05-19T16:13:05.606+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-19T16:13:05.625+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): read_and_send_task> on 2023-05-19 10:40:47.215840+00:00
+[2023-05-19T16:13:05.630+0530] {standard_task_runner.py:57} INFO - Started process 26360 to run task
+[2023-05-19T16:13:05.635+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'combined_dag', 'read_and_send_task', 'manual__2023-05-19T10:40:47.215840+00:00', '--job-id', '747', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmph8dnfrdz']
+[2023-05-19T16:13:05.636+0530] {standard_task_runner.py:85} INFO - Job 747: Subtask read_and_send_task
+[2023-05-19T16:13:05.693+0530] {task_command.py:410} INFO - Running <TaskInstance: combined_dag.read_and_send_task manual__2023-05-19T10:40:47.215840+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-19T16:13:05.768+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='combined_dag' AIRFLOW_CTX_TASK_ID='read_and_send_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-19T10:40:47.215840+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-19T10:40:47.215840+00:00'
+[2023-05-19T16:13:07.606+0530] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-19T16:13:07.607+0530] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2023-05-19T16:13:07.608+0530] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-19T16:13:07.722+0530] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2023-05-19T16:13:07.722+0530] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2023-05-19T16:13:09.093+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 26360. PIDs of all processes in the group: [26360]
+[2023-05-19T16:13:09.094+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 26360
+[2023-05-19T16:13:09.094+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-19T16:13:09.105+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/dag.py", line 39, in read_from_mongodb_and_send_to_kafka
+    for document in cursor:
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/cursor.py", line 1165, in _refresh
+    self.__send_message(q)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/cursor.py", line 1052, in __send_message
+    response = client._run_operation(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1330, in _run_operation
+    return self._retryable_read(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1441, in _retryable_read
+    server = self._select_server(read_pref, session, address=address)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1257, in _select_server
+    server = topology.select_server(server_selector)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/topology.py", line 272, in select_server
+    server = self._select_server(selector, server_selection_timeout, address)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/topology.py", line 261, in _select_server
+    servers = self.select_servers(selector, server_selection_timeout, address)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/topology.py", line 223, in select_servers
+    server_descriptions = self._select_servers_loop(selector, server_timeout, address)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/topology.py", line 250, in _select_servers_loop
+    self._condition.wait(common.MIN_HEARTBEAT_INTERVAL)
+  File "/usr/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1542, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-05-19T16:13:09.111+0530] {taskinstance.py:1368} INFO - Marking task as UP_FOR_RETRY. dag_id=combined_dag, task_id=read_and_send_task, execution_date=20230519T104047, start_date=20230519T104305, end_date=20230519T104309
+[2023-05-19T16:13:09.126+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 747 for task read_and_send_task (Task received SIGTERM signal; 26360)

@@ -1,0 +1,34 @@
+[2023-05-11T11:26:08.764+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test1.read_and_send_task manual__2023-05-11T05:56:04.969856+00:00 [queued]>
+[2023-05-11T11:26:08.784+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test1.read_and_send_task manual__2023-05-11T05:56:04.969856+00:00 [queued]>
+[2023-05-11T11:26:08.785+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-11T11:26:08.839+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): read_and_send_task> on 2023-05-11 05:56:04.969856+00:00
+[2023-05-11T11:26:08.872+0530] {standard_task_runner.py:57} INFO - Started process 6202 to run task
+[2023-05-11T11:26:08.881+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'test1', 'read_and_send_task', 'manual__2023-05-11T05:56:04.969856+00:00', '--job-id', '74', '--raw', '--subdir', 'DAGS_FOLDER/test1.py', '--cfg-path', '/tmp/tmpfdu8d8do']
+[2023-05-11T11:26:08.882+0530] {standard_task_runner.py:85} INFO - Job 74: Subtask read_and_send_task
+[2023-05-11T11:26:09.052+0530] {task_command.py:410} INFO - Running <TaskInstance: test1.read_and_send_task manual__2023-05-11T05:56:04.969856+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-11T11:26:09.132+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test1' AIRFLOW_CTX_TASK_ID='read_and_send_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-11T05:56:04.969856+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-11T05:56:04.969856+00:00'
+[2023-05-11T11:26:09.245+0530] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-11T11:26:09.246+0530] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2023-05-11T11:26:09.247+0530] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-11T11:26:09.358+0530] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2023-05-11T11:26:09.359+0530] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2023-05-11T11:26:15.729+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-11T11:26:15.731+0530] {conn.py:410} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-11T11:26:15.731+0530] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+[2023-05-11T11:56:08.772+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 6202. PIDs of all processes in the group: [6202]
+[2023-05-11T11:56:08.778+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 6202
+[2023-05-11T11:56:08.780+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-11T11:56:08.807+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/test1.py", line 56, in read_from_mongodb_and_send_to_kafka
+    time.sleep(1)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1542, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-05-11T11:56:08.815+0530] {taskinstance.py:1368} INFO - Marking task as UP_FOR_RETRY. dag_id=test1, task_id=read_and_send_task, execution_date=20230511T055604, start_date=20230511T055608, end_date=20230511T062608
+[2023-05-11T11:56:08.834+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 74 for task read_and_send_task (Task received SIGTERM signal; 6202)
+[2023-05-11T11:56:08.871+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=6202, status='terminated', exitcode=1, started='11:26:08') (6202) terminated with exit code 1

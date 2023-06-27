@@ -1,0 +1,20 @@
+[2023-05-18T14:31:06.913+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: combined_dag.read_and_send_task manual__2023-05-18T08:59:01.122926+00:00 [queued]>
+[2023-05-18T14:31:06.924+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: combined_dag.read_and_send_task manual__2023-05-18T08:59:01.122926+00:00 [queued]>
+[2023-05-18T14:31:06.925+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 4
+[2023-05-18T14:31:06.944+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): read_and_send_task> on 2023-05-18 08:59:01.122926+00:00
+[2023-05-18T14:31:06.948+0530] {standard_task_runner.py:57} INFO - Started process 13948 to run task
+[2023-05-18T14:31:06.955+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'combined_dag', 'read_and_send_task', 'manual__2023-05-18T08:59:01.122926+00:00', '--job-id', '458', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpo_17uvr2']
+[2023-05-18T14:31:06.956+0530] {standard_task_runner.py:85} INFO - Job 458: Subtask read_and_send_task
+[2023-05-18T14:31:07.029+0530] {task_command.py:410} INFO - Running <TaskInstance: combined_dag.read_and_send_task manual__2023-05-18T08:59:01.122926+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-18T14:31:07.132+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='combined_dag' AIRFLOW_CTX_TASK_ID='read_and_send_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-18T08:59:01.122926+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-18T08:59:01.122926+00:00'
+[2023-05-18T14:31:07.178+0530] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-18T14:31:07.178+0530] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2023-05-18T14:31:07.179+0530] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-18T14:31:07.291+0530] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2023-05-18T14:31:07.291+0530] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2023-05-18T14:31:07.295+0530] {logging_mixin.py:149} INFO - Error occurred in read_from_mongodb_and_send_to_kafka: 'Cursor' object has no attribute 'count'
+[2023-05-18T14:31:07.301+0530] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+[2023-05-18T14:31:07.302+0530] {python.py:183} INFO - Done. Returned value was: False
+[2023-05-18T14:31:07.324+0530] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=combined_dag, task_id=read_and_send_task, execution_date=20230518T085901, start_date=20230518T090106, end_date=20230518T090107
+[2023-05-18T14:31:07.368+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-05-18T14:31:07.402+0530] {taskinstance.py:2674} INFO - 1 downstream tasks scheduled from follow-on schedule check

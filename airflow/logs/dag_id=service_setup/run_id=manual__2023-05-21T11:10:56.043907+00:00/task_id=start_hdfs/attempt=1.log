@@ -1,0 +1,52 @@
+[2023-05-21T16:41:05.912+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: service_setup.start_hdfs manual__2023-05-21T11:10:56.043907+00:00 [queued]>
+[2023-05-21T16:41:05.921+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: service_setup.start_hdfs manual__2023-05-21T11:10:56.043907+00:00 [queued]>
+[2023-05-21T16:41:05.922+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-21T16:41:05.940+0530] {taskinstance.py:1350} INFO - Executing <Task(BashOperator): start_hdfs> on 2023-05-21 11:10:56.043907+00:00
+[2023-05-21T16:41:05.945+0530] {standard_task_runner.py:57} INFO - Started process 38839 to run task
+[2023-05-21T16:41:05.950+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'service_setup', 'start_hdfs', 'manual__2023-05-21T11:10:56.043907+00:00', '--job-id', '793', '--raw', '--subdir', 'DAGS_FOLDER/service_setup.py', '--cfg-path', '/tmp/tmpq5mbiovv']
+[2023-05-21T16:41:05.953+0530] {standard_task_runner.py:85} INFO - Job 793: Subtask start_hdfs
+[2023-05-21T16:41:06.000+0530] {task_command.py:410} INFO - Running <TaskInstance: service_setup.start_hdfs manual__2023-05-21T11:10:56.043907+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-21T16:41:06.048+0530] {abstractoperator.py:578} ERROR - Exception rendering Jinja template for task 'start_hdfs', field 'bash_command'. Template: 'cd /home/nizam/Downloads/hadoop-2.7.5/sbin && start-all.sh'
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 570, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/template/templater.py", line 153, in render_template
+    template = jinja_env.get_template(value)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: cd /home/nizam/Downloads/hadoop-2.7.5/sbin && start-all.sh
+[2023-05-21T16:41:06.050+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1430, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1554, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2202, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 1254, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 570, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/template/templater.py", line 153, in render_template
+    template = jinja_env.get_template(value)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: cd /home/nizam/Downloads/hadoop-2.7.5/sbin && start-all.sh
+[2023-05-21T16:41:06.058+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=service_setup, task_id=start_hdfs, execution_date=20230521T111056, start_date=20230521T111105, end_date=20230521T111106
+[2023-05-21T16:41:06.074+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 793 for task start_hdfs (cd /home/nizam/Downloads/hadoop-2.7.5/sbin && start-all.sh; 38839)
+[2023-05-21T16:41:06.081+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-21T16:41:06.098+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

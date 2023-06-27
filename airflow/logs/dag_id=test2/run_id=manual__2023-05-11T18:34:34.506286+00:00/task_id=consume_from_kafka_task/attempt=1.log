@@ -1,0 +1,185 @@
+[2023-05-12T00:05:23.501+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test2.consume_from_kafka_task manual__2023-05-11T18:34:34.506286+00:00 [queued]>
+[2023-05-12T00:05:23.513+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test2.consume_from_kafka_task manual__2023-05-11T18:34:34.506286+00:00 [queued]>
+[2023-05-12T00:05:23.513+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-12T00:05:23.530+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): consume_from_kafka_task> on 2023-05-11 18:34:34.506286+00:00
+[2023-05-12T00:05:23.536+0530] {standard_task_runner.py:57} INFO - Started process 11747 to run task
+[2023-05-12T00:05:23.540+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'test2', 'consume_from_kafka_task', 'manual__2023-05-11T18:34:34.506286+00:00', '--job-id', '151', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmpw5lv6gz9']
+[2023-05-12T00:05:23.541+0530] {standard_task_runner.py:85} INFO - Job 151: Subtask consume_from_kafka_task
+[2023-05-12T00:05:23.597+0530] {task_command.py:410} INFO - Running <TaskInstance: test2.consume_from_kafka_task manual__2023-05-11T18:34:34.506286+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-12T00:05:23.670+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test2' AIRFLOW_CTX_TASK_ID='consume_from_kafka_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-11T18:34:34.506286+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-11T18:34:34.506286+00:00'
+[2023-05-12T00:05:23.675+0530] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:05:23.675+0530] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2023-05-12T00:05:23.676+0530] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-12T00:05:23.784+0530] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2023-05-12T00:05:23.784+0530] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2023-05-12T00:05:23.785+0530] {subscription_state.py:171} INFO - Updating subscribed topics to: ('test',)
+[2023-05-12T00:05:23.790+0530] {cluster.py:371} INFO - Group coordinator for group1 is BrokerMetadata(nodeId='coordinator-1001', host='localhost', port=9092, rack=None)
+[2023-05-12T00:05:23.790+0530] {base.py:693} INFO - Discovered coordinator coordinator-1001 for group group1
+[2023-05-12T00:05:23.791+0530] {base.py:741} INFO - Starting new heartbeat thread
+[2023-05-12T00:05:23.792+0530] {consumer.py:348} INFO - Revoking previously assigned partitions set() for group group1
+[2023-05-12T00:05:23.793+0530] {conn.py:380} INFO - <BrokerConnection node_id=coordinator-1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:05:23.794+0530] {conn.py:410} INFO - <BrokerConnection node_id=coordinator-1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-12T00:05:23.795+0530] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+[2023-05-12T00:05:23.896+0530] {base.py:450} INFO - (Re-)joining group group1
+[2023-05-12T00:05:23.910+0530] {base.py:521} INFO - Elected group leader -- performing partition assignments using range
+[2023-05-12T00:05:23.912+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:05:23.913+0530] {conn.py:410} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-12T00:05:23.926+0530] {base.py:335} INFO - Successfully joined group group1 with generation 179
+[2023-05-12T00:05:23.927+0530] {subscription_state.py:257} INFO - Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+[2023-05-12T00:05:23.927+0530] {consumer.py:245} INFO - Setting newly assigned partitions {TopicPartition(topic='test', partition=0)} for group group1
+[2023-05-12T00:47:49.266+0530] {conn.py:1096} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: socket disconnected
+[2023-05-12T00:47:49.396+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: socket disconnected
+[2023-05-12T00:47:49.410+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:47:49.417+0530] {future.py:79} ERROR - Fetch to node 1001 failed: KafkaConnectionError: socket disconnected
+[2023-05-12T00:47:49.420+0530] {conn.py:1096} ERROR - <BrokerConnection node_id=coordinator-1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: socket disconnected
+[2023-05-12T00:47:49.421+0530] {conn.py:919} INFO - <BrokerConnection node_id=coordinator-1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: socket disconnected
+[2023-05-12T00:47:49.425+0530] {client_async.py:331} WARNING - Node coordinator-1001 connection failed -- refreshing metadata
+[2023-05-12T00:47:49.430+0530] {base.py:495} ERROR - Error sending HeartbeatRequest_v1 to node coordinator-1001 [KafkaConnectionError: socket disconnected]
+[2023-05-12T00:47:49.431+0530] {base.py:715} WARNING - Marking the coordinator dead (node coordinator-1001) for group group1: KafkaConnectionError: socket disconnected.
+[2023-05-12T00:47:49.456+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:47:49.462+0530] {conn.py:410} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-12T00:47:59.132+0530] {conn.py:1107} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 104] Connection reset by peer
+[2023-05-12T00:47:59.207+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 104] Connection reset by peer
+[2023-05-12T00:47:59.208+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:47:59.209+0530] {base.py:495} ERROR - Error sending GroupCoordinatorRequest_v0 to node 1001 [KafkaConnectionError: [Errno 104] Connection reset by peer]
+[2023-05-12T00:47:59.362+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:47:59.363+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:47:59.365+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:47:59.365+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:47:59.517+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:47:59.518+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:47:59.518+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:47:59.519+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:47:59.772+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:47:59.773+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:47:59.774+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:47:59.775+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:00.229+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:00.230+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:00.230+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:00.231+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:01.087+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:01.088+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:01.088+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:01.088+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:01.994+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:01.995+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:01.995+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:01.996+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:03.052+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:03.053+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:03.053+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:03.053+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:04.212+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:04.213+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:04.213+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:04.214+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:05.171+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:05.172+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:05.172+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:05.173+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:06.130+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:06.130+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:06.131+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:06.131+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:07.090+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:07.091+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:07.091+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:07.091+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:08.199+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:08.200+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:08.200+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:08.200+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:09.459+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:09.460+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:09.460+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:09.461+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:10.418+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:10.418+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:10.418+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:10.419+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:11.527+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:11.527+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:11.528+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:11.528+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:12.788+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:12.789+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:12.789+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:12.790+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:13.898+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:13.898+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:13.898+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:13.899+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:15.107+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:15.107+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:15.112+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:15.115+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:16.021+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:16.022+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:16.022+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:16.023+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:17.287+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:17.288+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:17.288+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:17.288+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:18.247+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:18.248+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:18.248+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:18.249+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:19.156+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:19.157+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:19.157+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:19.158+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:20.167+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:20.168+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:20.168+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:20.169+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:21.077+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:21.078+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:21.078+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:21.079+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:22.139+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-12T00:48:22.140+0530] {conn.py:418} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+[2023-05-12T00:48:22.140+0530] {conn.py:919} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2023-05-12T00:48:22.141+0530] {client_async.py:331} WARNING - Node 1001 connection failed -- refreshing metadata
+[2023-05-12T00:48:22.207+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 11747. PIDs of all processes in the group: [11747]
+[2023-05-12T00:48:22.233+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 11747
+[2023-05-12T00:48:22.241+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-12T00:48:22.694+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/test.py", line 30, in consume_from_kafka
+    for message in consumer:
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/consumer/group.py", line 1193, in __next__
+    return self.next_v2()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/consumer/group.py", line 1201, in next_v2
+    return next(self._iterator)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/consumer/group.py", line 1116, in _message_generator_v2
+    record_map = self.poll(timeout_ms=timeout_ms, update_offsets=False)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/consumer/group.py", line 655, in poll
+    records = self._poll_once(remaining, max_records, update_offsets=update_offsets)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/consumer/group.py", line 675, in _poll_once
+    self._coordinator.poll()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/coordinator/consumer.py", line 270, in poll
+    self.ensure_coordinator_ready()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/coordinator/base.py", line 265, in ensure_coordinator_ready
+    self._client.poll(future=metadata_update)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/client_async.py", line 602, in poll
+    self._poll(timeout / 1000)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/client_async.py", line 634, in _poll
+    ready = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1542, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-05-12T00:48:22.742+0530] {taskinstance.py:1368} INFO - Marking task as UP_FOR_RETRY. dag_id=test2, task_id=consume_from_kafka_task, execution_date=20230511T183434, start_date=20230511T183523, end_date=20230511T191822
+[2023-05-12T00:48:22.855+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 151 for task consume_from_kafka_task (Task received SIGTERM signal; 11747)
+[2023-05-12T00:48:22.889+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=11747, status='terminated', exitcode=1, started='00:05:23') (11747) terminated with exit code 1

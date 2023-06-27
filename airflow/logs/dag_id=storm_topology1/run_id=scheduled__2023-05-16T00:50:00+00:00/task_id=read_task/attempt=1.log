@@ -1,0 +1,26 @@
+[2023-05-19T02:14:31.192+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: storm_topology1.read_task scheduled__2023-05-16T00:50:00+00:00 [queued]>
+[2023-05-19T02:14:31.202+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: storm_topology1.read_task scheduled__2023-05-16T00:50:00+00:00 [queued]>
+[2023-05-19T02:14:31.202+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-19T02:14:31.219+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): read_task> on 2023-05-16 00:50:00+00:00
+[2023-05-19T02:14:31.223+0530] {standard_task_runner.py:57} INFO - Started process 17519 to run task
+[2023-05-19T02:14:31.228+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'storm_topology1', 'read_task', 'scheduled__2023-05-16T00:50:00+00:00', '--job-id', '614', '--raw', '--subdir', 'DAGS_FOLDER/kafkastorm.py', '--cfg-path', '/tmp/tmp7dah1egb']
+[2023-05-19T02:14:31.231+0530] {standard_task_runner.py:85} INFO - Job 614: Subtask read_task
+[2023-05-19T02:14:31.285+0530] {task_command.py:410} INFO - Running <TaskInstance: storm_topology1.read_task scheduled__2023-05-16T00:50:00+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-19T02:14:31.360+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='storm_topology1' AIRFLOW_CTX_TASK_ID='read_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-16T00:50:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-16T00:50:00+00:00'
+[2023-05-19T02:14:31.362+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/kafkastorm.py", line 149, in read_from_mongodb_and_send_to_kafka
+    subprocess.Popen(['tmux', 'new-session', '-d', 'python /home/nizam/project/project/storm/project/my_project/mongothenga.py'])
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'tmux'
+[2023-05-19T02:14:31.369+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=storm_topology1, task_id=read_task, execution_date=20230516T005000, start_date=20230518T204431, end_date=20230518T204431
+[2023-05-19T02:14:31.385+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 614 for task read_task ([Errno 2] No such file or directory: 'tmux'; 17519)
+[2023-05-19T02:14:31.399+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-19T02:14:31.438+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

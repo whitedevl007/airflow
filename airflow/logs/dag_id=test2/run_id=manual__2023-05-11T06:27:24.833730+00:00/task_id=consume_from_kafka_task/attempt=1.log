@@ -1,0 +1,64 @@
+[2023-05-11T12:08:59.243+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test2.consume_from_kafka_task manual__2023-05-11T06:27:24.833730+00:00 [queued]>
+[2023-05-11T12:08:59.251+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test2.consume_from_kafka_task manual__2023-05-11T06:27:24.833730+00:00 [queued]>
+[2023-05-11T12:08:59.251+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-11T12:08:59.267+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): consume_from_kafka_task> on 2023-05-11 06:27:24.833730+00:00
+[2023-05-11T12:08:59.273+0530] {standard_task_runner.py:57} INFO - Started process 7249 to run task
+[2023-05-11T12:08:59.277+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'test2', 'consume_from_kafka_task', 'manual__2023-05-11T06:27:24.833730+00:00', '--job-id', '80', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmpu13jh6fr']
+[2023-05-11T12:08:59.278+0530] {standard_task_runner.py:85} INFO - Job 80: Subtask consume_from_kafka_task
+[2023-05-11T12:08:59.329+0530] {task_command.py:410} INFO - Running <TaskInstance: test2.consume_from_kafka_task manual__2023-05-11T06:27:24.833730+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-11T12:08:59.398+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test2' AIRFLOW_CTX_TASK_ID='consume_from_kafka_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-11T06:27:24.833730+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-11T06:27:24.833730+00:00'
+[2023-05-11T12:08:59.402+0530] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-11T12:08:59.402+0530] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2023-05-11T12:08:59.403+0530] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-11T12:08:59.511+0530] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2023-05-11T12:08:59.512+0530] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2023-05-11T12:08:59.513+0530] {subscription_state.py:171} INFO - Updating subscribed topics to: ('test',)
+[2023-05-11T12:08:59.518+0530] {cluster.py:371} INFO - Group coordinator for group1 is BrokerMetadata(nodeId='coordinator-1001', host='localhost', port=9092, rack=None)
+[2023-05-11T12:08:59.519+0530] {base.py:693} INFO - Discovered coordinator coordinator-1001 for group group1
+[2023-05-11T12:08:59.519+0530] {base.py:741} INFO - Starting new heartbeat thread
+[2023-05-11T12:08:59.520+0530] {consumer.py:348} INFO - Revoking previously assigned partitions set() for group group1
+[2023-05-11T12:08:59.521+0530] {conn.py:380} INFO - <BrokerConnection node_id=coordinator-1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-11T12:08:59.523+0530] {conn.py:410} INFO - <BrokerConnection node_id=coordinator-1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-11T12:08:59.523+0530] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+[2023-05-11T12:08:59.624+0530] {base.py:450} INFO - (Re-)joining group group1
+[2023-05-11T12:09:04.557+0530] {base.py:521} INFO - Elected group leader -- performing partition assignments using range
+[2023-05-11T12:09:04.559+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-11T12:09:04.560+0530] {conn.py:410} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-11T12:09:04.575+0530] {base.py:335} INFO - Successfully joined group group1 with generation 146
+[2023-05-11T12:09:04.576+0530] {subscription_state.py:257} INFO - Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+[2023-05-11T12:09:04.576+0530] {consumer.py:245} INFO - Setting newly assigned partitions {TopicPartition(topic='test', partition=0)} for group group1
+[2023-05-11T12:09:04.585+0530] {logging_mixin.py:149} INFO - {"name": "nithin", "email": "nithin@gmail.com", "phone": "994795528", "resume": {"Personal_info": {"name": "John mathew", "Age": "34", "DOB": "19-11-1989", "email": "john@gmail.com", "phone": "(91)7869569810"}, "location": {"address": "21734 broadway st", "postalCode": "CA 94115", "city": "Delhi", "countryCode": "IN"}, "education": {"area": "Software Development", "studyType": "Bachelor", "institution": "University", "startDate": "04-06-2009", "endDate": "03-05-2013", "score": "4.0"}, "skills": {"Softskills": [{"Englishspeaking": "", "Englishwriting": "", "Leadership": ""}], "Techskills": [{"python": "3"}, {"Hadoop": "5"}, {"HTML": "2"}, {"Nodejs": "4"}, {"Angular": "3"}]}, "work": {"name": "Company", "position": "Developer", "startDate": "13-05-2014", "endDate": "20-05-2020"}, "certificates": [{"name": "Experiencecertificate", "date": "06-07-2020", "issuer": "Company"}], "projects": [{"name": "Project", "description": "Description\u2026", "role": "Team Lead"}]}}
+[2023-05-11T12:09:04.585+0530] {logging_mixin.py:149} INFO - {"name": "mammootty", "email": "mammootty@gmail.com", "phone": "9988776655", "resume": {"Personal_info": {"name": "John mathew", "Age": "34", "DOB": "19-11-1989", "email": "john@gmail.com", "phone": "(91)7869569810"}, "location": {"address": "21734 broadway st", "postalCode": "CA 94115", "city": "Delhi", "countryCode": "IN"}, "education": {"area": "Software Development", "studyType": "Bachelor", "institution": "University", "startDate": "04-06-2009", "endDate": "03-05-2013", "score": "4.0"}, "skills": {"Softskills": [{"Englishspeaking": "", "Englishwriting": "", "Leadership": ""}], "Techskills": [{"python": "3"}, {"Hadoop": "5"}, {"HTML": "2"}, {"Nodejs": "4"}, {"Angular": "3"}]}, "work": {"name": "Company", "position": "Developer", "startDate": "13-05-2014", "endDate": "20-05-2020"}, "certificates": [{"name": "Experiencecertificate", "date": "06-07-2020", "issuer": "Company"}], "projects": [{"name": "Project", "description": "Description\u2026", "role": "Team Lead"}]}}
+[2023-05-11T12:12:26.423+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 7249. PIDs of all processes in the group: [7249]
+[2023-05-11T12:12:26.425+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 7249
+[2023-05-11T12:12:26.425+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-11T12:12:26.438+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/test.py", line 30, in consume_from_kafka
+    for message in consumer:
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/consumer/group.py", line 1193, in __next__
+    return self.next_v2()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/consumer/group.py", line 1201, in next_v2
+    return next(self._iterator)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/consumer/group.py", line 1116, in _message_generator_v2
+    record_map = self.poll(timeout_ms=timeout_ms, update_offsets=False)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/consumer/group.py", line 655, in poll
+    records = self._poll_once(remaining, max_records, update_offsets=update_offsets)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/consumer/group.py", line 702, in _poll_once
+    self._client.poll(timeout_ms=timeout_ms)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/client_async.py", line 602, in poll
+    self._poll(timeout / 1000)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/kafka/client_async.py", line 634, in _poll
+    ready = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1542, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-05-11T12:12:26.451+0530] {taskinstance.py:1368} INFO - Marking task as UP_FOR_RETRY. dag_id=test2, task_id=consume_from_kafka_task, execution_date=20230511T062724, start_date=20230511T063859, end_date=20230511T064226
+[2023-05-11T12:12:26.464+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 80 for task consume_from_kafka_task (Task received SIGTERM signal; 7249)
+[2023-05-11T12:12:26.478+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=7249, status='terminated', exitcode=1, started='12:08:58') (7249) terminated with exit code 1

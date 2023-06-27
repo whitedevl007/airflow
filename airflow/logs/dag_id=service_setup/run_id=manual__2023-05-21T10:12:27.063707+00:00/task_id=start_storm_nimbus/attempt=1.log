@@ -1,0 +1,24 @@
+[2023-05-21T15:42:48.286+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: service_setup.start_storm_nimbus manual__2023-05-21T10:12:27.063707+00:00 [queued]>
+[2023-05-21T15:42:48.295+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: service_setup.start_storm_nimbus manual__2023-05-21T10:12:27.063707+00:00 [queued]>
+[2023-05-21T15:42:48.296+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-21T15:42:48.315+0530] {taskinstance.py:1350} INFO - Executing <Task(BashOperator): start_storm_nimbus> on 2023-05-21 10:12:27.063707+00:00
+[2023-05-21T15:42:48.319+0530] {standard_task_runner.py:57} INFO - Started process 32009 to run task
+[2023-05-21T15:42:48.324+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'service_setup', 'start_storm_nimbus', 'manual__2023-05-21T10:12:27.063707+00:00', '--job-id', '781', '--raw', '--subdir', 'DAGS_FOLDER/service_setup.py', '--cfg-path', '/tmp/tmplim_r73a']
+[2023-05-21T15:42:48.326+0530] {standard_task_runner.py:85} INFO - Job 781: Subtask start_storm_nimbus
+[2023-05-21T15:42:48.376+0530] {task_command.py:410} INFO - Running <TaskInstance: service_setup.start_storm_nimbus manual__2023-05-21T10:12:27.063707+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-21T15:42:48.450+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='service_setup' AIRFLOW_CTX_TASK_ID='start_storm_nimbus' AIRFLOW_CTX_EXECUTION_DATE='2023-05-21T10:12:27.063707+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-21T10:12:27.063707+00:00'
+[2023-05-21T15:42:48.452+0530] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-21T15:42:48.453+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/nizam/Downloads/apache-storm-1.2.3 && bin/storm nimbus']
+[2023-05-21T15:42:48.463+0530] {subprocess.py:86} INFO - Output:
+[2023-05-21T15:43:06.140+0530] {subprocess.py:93} INFO - Running: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -server -Ddaemon.name=nimbus -Dstorm.options= -Dstorm.home=/home/nizam/Downloads/apache-storm-1.2.3 -Dstorm.log.dir=/home/nizam/Downloads/apache-storm-1.2.3/logs -Djava.library.path=/usr/local/lib:/opt/local/lib:/usr/lib -Dstorm.conf.file= -cp /home/nizam/Downloads/apache-storm-1.2.3/*:/home/nizam/Downloads/apache-storm-1.2.3/lib/*:/home/nizam/Downloads/apache-storm-1.2.3/extlib/*:/home/nizam/Downloads/apache-storm-1.2.3/extlib-daemon/*:/home/nizam/Downloads/apache-storm-1.2.3/conf -Xmx1024m -Dlogfile.name=nimbus.log -DLog4jContextSelector=org.apache.logging.log4j.core.async.AsyncLoggerContextSelector -Dlog4j.configurationFile=/home/nizam/Downloads/apache-storm-1.2.3/log4j2/cluster.xml org.apache.storm.daemon.nimbus
+[2023-05-21T15:43:35.047+0530] {subprocess.py:97} INFO - Command exited with return code 13
+[2023-05-21T15:43:35.057+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 13.
+[2023-05-21T15:43:35.062+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=service_setup, task_id=start_storm_nimbus, execution_date=20230521T101227, start_date=20230521T101248, end_date=20230521T101335
+[2023-05-21T15:43:35.077+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 781 for task start_storm_nimbus (Bash command failed. The command returned a non-zero exit code 13.; 32009)
+[2023-05-21T15:43:35.123+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-21T15:43:35.152+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,26 @@
+[2023-05-16T10:45:59.259+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kafka_storm_connection.submit_topology_task manual__2023-05-16T05:14:41.347440+00:00 [queued]>
+[2023-05-16T10:45:59.266+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kafka_storm_connection.submit_topology_task manual__2023-05-16T05:14:41.347440+00:00 [queued]>
+[2023-05-16T10:45:59.267+0530] {taskinstance.py:1331} INFO - Starting attempt 2 of 2
+[2023-05-16T10:45:59.282+0530] {taskinstance.py:1350} INFO - Executing <Task(BashOperator): submit_topology_task> on 2023-05-16 05:14:41.347440+00:00
+[2023-05-16T10:45:59.286+0530] {standard_task_runner.py:57} INFO - Started process 7854 to run task
+[2023-05-16T10:45:59.292+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'kafka_storm_connection', 'submit_topology_task', 'manual__2023-05-16T05:14:41.347440+00:00', '--job-id', '214', '--raw', '--subdir', 'DAGS_FOLDER/kafkastorm.py', '--cfg-path', '/tmp/tmpp_l9h36r']
+[2023-05-16T10:45:59.294+0530] {standard_task_runner.py:85} INFO - Job 214: Subtask submit_topology_task
+[2023-05-16T10:45:59.340+0530] {task_command.py:410} INFO - Running <TaskInstance: kafka_storm_connection.submit_topology_task manual__2023-05-16T05:14:41.347440+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-16T10:45:59.416+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='kafka_storm_connection' AIRFLOW_CTX_TASK_ID='submit_topology_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-16T05:14:41.347440+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-16T05:14:41.347440+00:00'
+[2023-05-16T10:45:59.417+0530] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-16T10:45:59.418+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'storm jar /home/nizam/project/project/storm/project/Kafka-Storm/target/my_topology-1.0-jar-with-dependencies.jar org.apache.storm.flux.Flux --remote home/nizam/project/project/storm/project/Kafka-Storm/topologies/storm_configeration.yaml']
+[2023-05-16T10:45:59.427+0530] {subprocess.py:86} INFO - Output:
+[2023-05-16T10:46:09.906+0530] {subprocess.py:93} INFO - Running: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -client -Ddaemon.name= -Dstorm.options= -Dstorm.home=/home/nizam/Downloads/apache-storm-1.2.3 -Dstorm.log.dir=/home/nizam/Downloads/apache-storm-1.2.3/logs -Djava.library.path=/usr/local/lib:/opt/local/lib:/usr/lib -Dstorm.conf.file= -cp /home/nizam/Downloads/apache-storm-1.2.3/*:/home/nizam/Downloads/apache-storm-1.2.3/lib/*:/home/nizam/Downloads/apache-storm-1.2.3/extlib/*:/home/nizam/project/project/storm/project/Kafka-Storm/target/my_topology-1.0-jar-with-dependencies.jar://home/nizam/Downloads/apache-storm-1.2.3/conf:/home/nizam/Downloads/apache-storm-1.2.3/bin -Dstorm.jar=/home/nizam/project/project/storm/project/Kafka-Storm/target/my_topology-1.0-jar-with-dependencies.jar -Dstorm.dependency.jars= -Dstorm.dependency.artifacts={} org.apache.storm.flux.Flux --remote home/nizam/project/project/storm/project/Kafka-Storm/topologies/storm_configeration.yaml
+[2023-05-16T10:46:10.037+0530] {subprocess.py:93} INFO - Error: Could not find or load main class org.apache.storm.flux.Flux
+[2023-05-16T10:46:10.038+0530] {subprocess.py:93} INFO - Caused by: java.lang.ClassNotFoundException: org.apache.storm.flux.Flux
+[2023-05-16T10:46:10.042+0530] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-05-16T10:46:10.054+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-05-16T10:46:10.059+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=kafka_storm_connection, task_id=submit_topology_task, execution_date=20230516T051441, start_date=20230516T051559, end_date=20230516T051610
+[2023-05-16T10:46:10.074+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 214 for task submit_topology_task (Bash command failed. The command returned a non-zero exit code 1.; 7854)
+[2023-05-16T10:46:10.105+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-16T10:46:10.124+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

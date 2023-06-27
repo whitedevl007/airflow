@@ -1,0 +1,38 @@
+[2023-05-18T12:13:59.093+0530] {taskinstance.py:1115} INFO - Dependencies not met for <TaskInstance: combined_dag.submit_topology manual__2023-05-18T06:38:19.333416+00:00 [up_for_retry]>, dependency 'Not In Retry Period' FAILED: Task is not ready for retry yet but will be retried automatically. Current date is 2023-05-18T06:43:59.092953+00:00 and task will be retried at 2023-05-18T06:44:03.976989+00:00.
+[2023-05-18T12:13:59.100+0530] {local_task_job_runner.py:161} INFO - Task is not able to be run
+[2023-05-18T12:33:19.163+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: combined_dag.submit_topology manual__2023-05-18T06:38:19.333416+00:00 [queued]>
+[2023-05-18T12:33:19.173+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: combined_dag.submit_topology manual__2023-05-18T06:38:19.333416+00:00 [queued]>
+[2023-05-18T12:33:19.174+0530] {taskinstance.py:1331} INFO - Starting attempt 2 of 4
+[2023-05-18T12:33:19.193+0530] {taskinstance.py:1350} INFO - Executing <Task(BashOperator): submit_topology> on 2023-05-18 06:38:19.333416+00:00
+[2023-05-18T12:33:19.197+0530] {standard_task_runner.py:57} INFO - Started process 7904 to run task
+[2023-05-18T12:33:19.203+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'combined_dag', 'submit_topology', 'manual__2023-05-18T06:38:19.333416+00:00', '--job-id', '435', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpt2hupa82']
+[2023-05-18T12:33:19.204+0530] {standard_task_runner.py:85} INFO - Job 435: Subtask submit_topology
+[2023-05-18T12:33:19.264+0530] {task_command.py:410} INFO - Running <TaskInstance: combined_dag.submit_topology manual__2023-05-18T06:38:19.333416+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-18T12:33:19.358+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='combined_dag' AIRFLOW_CTX_TASK_ID='submit_topology' AIRFLOW_CTX_EXECUTION_DATE='2023-05-18T06:38:19.333416+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-18T06:38:19.333416+00:00'
+[2023-05-18T12:33:19.361+0530] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-18T12:33:19.361+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/nizam/project/Kafka-Storm && sparse run --name first_topology']
+[2023-05-18T12:33:19.373+0530] {subprocess.py:86} INFO - Output:
+[2023-05-18T12:33:33.190+0530] {subprocess.py:93} INFO - Cleaning from prior builds...
+[2023-05-18T12:33:35.268+0530] {subprocess.py:93} INFO - Creating topology Uber-JAR...
+[2023-05-18T12:33:54.581+0530] {local_task_job_runner.py:298} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2023-05-18T12:33:54.598+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 7904. PIDs of all processes in the group: [7905, 8034, 8035, 8042, 7904]
+[2023-05-18T12:33:54.598+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 7904
+[2023-05-18T12:33:54.598+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-18T12:33:54.599+0530] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2023-05-18T12:33:54.606+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=8034, status='terminated', started='12:33:35') (8034) terminated with exit code None
+[2023-05-18T12:33:54.614+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/bash.py", line 201, in execute
+    result = self.subprocess_hook.run_command(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/hooks/subprocess.py", line 91, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b""):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1542, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-05-18T12:33:54.623+0530] {taskinstance.py:1368} INFO - Marking task as UP_FOR_RETRY. dag_id=combined_dag, task_id=submit_topology, execution_date=20230518T063819, start_date=20230518T070319, end_date=20230518T070354
+[2023-05-18T12:33:54.646+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 435 for task submit_topology (Task received SIGTERM signal; 7904)
+[2023-05-18T12:33:54.660+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=8042, status='terminated', started='12:33:35') (8042) terminated with exit code None
+[2023-05-18T12:33:54.660+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=7904, status='terminated', exitcode=1, started='12:33:19') (7904) terminated with exit code 1
+[2023-05-18T12:33:54.660+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=8035, status='terminated', started='12:33:35') (8035) terminated with exit code None
+[2023-05-18T12:33:54.661+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=7905, status='terminated', started='12:33:19') (7905) terminated with exit code None

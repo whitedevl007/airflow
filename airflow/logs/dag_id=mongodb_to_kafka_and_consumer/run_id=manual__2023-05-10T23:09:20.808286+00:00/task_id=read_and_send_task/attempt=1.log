@@ -1,0 +1,41 @@
+[2023-05-11T04:39:24.418+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mongodb_to_kafka_and_consumer.read_and_send_task manual__2023-05-10T23:09:20.808286+00:00 [queued]>
+[2023-05-11T04:39:24.426+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mongodb_to_kafka_and_consumer.read_and_send_task manual__2023-05-10T23:09:20.808286+00:00 [queued]>
+[2023-05-11T04:39:24.426+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-11T04:39:24.441+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): read_and_send_task> on 2023-05-10 23:09:20.808286+00:00
+[2023-05-11T04:39:24.444+0530] {standard_task_runner.py:57} INFO - Started process 24721 to run task
+[2023-05-11T04:39:24.449+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'mongodb_to_kafka_and_consumer', 'read_and_send_task', 'manual__2023-05-10T23:09:20.808286+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/mongokafka.py', '--cfg-path', '/tmp/tmp8nb_l8cj']
+[2023-05-11T04:39:24.450+0530] {standard_task_runner.py:85} INFO - Job 61: Subtask read_and_send_task
+[2023-05-11T04:39:24.509+0530] {task_command.py:410} INFO - Running <TaskInstance: mongodb_to_kafka_and_consumer.read_and_send_task manual__2023-05-10T23:09:20.808286+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-11T04:39:24.596+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='mongodb_to_kafka_and_consumer' AIRFLOW_CTX_TASK_ID='read_and_send_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-10T23:09:20.808286+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-10T23:09:20.808286+00:00'
+[2023-05-11T04:39:24.780+0530] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-11T04:39:24.780+0530] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2023-05-11T04:39:24.781+0530] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-11T04:39:24.888+0530] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2023-05-11T04:39:24.888+0530] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2023-05-11T04:39:54.893+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/mongokafka.py", line 40, in read_from_mongodb_and_send_to_kafka
+    for document in cursor:
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-90kskrr-shard-00-00.vgtdfso.mongodb.net:27017: connection closed,ac-90kskrr-shard-00-02.vgtdfso.mongodb.net:27017: connection closed,ac-90kskrr-shard-00-01.vgtdfso.mongodb.net:27017: connection closed, Timeout: 30s, Topology Description: <TopologyDescription id: 645c2424859a2416db52f3a6, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-90kskrr-shard-00-00.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-00.vgtdfso.mongodb.net:27017: connection closed')>, <ServerDescription ('ac-90kskrr-shard-00-01.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-01.vgtdfso.mongodb.net:27017: connection closed')>, <ServerDescription ('ac-90kskrr-shard-00-02.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-02.vgtdfso.mongodb.net:27017: connection closed')>]>
+[2023-05-11T04:39:54.905+0530] {taskinstance.py:1368} INFO - Marking task as UP_FOR_RETRY. dag_id=mongodb_to_kafka_and_consumer, task_id=read_and_send_task, execution_date=20230510T230920, start_date=20230510T230924, end_date=20230510T230954
+[2023-05-11T04:39:54.925+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 61 for task read_and_send_task (ac-90kskrr-shard-00-00.vgtdfso.mongodb.net:27017: connection closed,ac-90kskrr-shard-00-02.vgtdfso.mongodb.net:27017: connection closed,ac-90kskrr-shard-00-01.vgtdfso.mongodb.net:27017: connection closed, Timeout: 30s, Topology Description: <TopologyDescription id: 645c2424859a2416db52f3a6, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-90kskrr-shard-00-00.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-00.vgtdfso.mongodb.net:27017: connection closed')>, <ServerDescription ('ac-90kskrr-shard-00-01.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-01.vgtdfso.mongodb.net:27017: connection closed')>, <ServerDescription ('ac-90kskrr-shard-00-02.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-02.vgtdfso.mongodb.net:27017: connection closed')>]>; 24721)
+[2023-05-11T04:39:54.957+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-11T04:39:55.001+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,30 @@
+[2023-05-19T11:35:29.099+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: concurrent_bash_tasks.kafkamongo manual__2023-05-19T06:03:07.499623+00:00 [queued]>
+[2023-05-19T11:35:29.107+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: concurrent_bash_tasks.kafkamongo manual__2023-05-19T06:03:07.499623+00:00 [queued]>
+[2023-05-19T11:35:29.107+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-19T11:35:29.124+0530] {taskinstance.py:1350} INFO - Executing <Task(BashOperator): kafkamongo> on 2023-05-19 06:03:07.499623+00:00
+[2023-05-19T11:35:29.128+0530] {standard_task_runner.py:57} INFO - Started process 11623 to run task
+[2023-05-19T11:35:29.133+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'concurrent_bash_tasks', 'kafkamongo', 'manual__2023-05-19T06:03:07.499623+00:00', '--job-id', '680', '--raw', '--subdir', 'DAGS_FOLDER/kafkastorm.py', '--cfg-path', '/tmp/tmpd60tiqht']
+[2023-05-19T11:35:29.136+0530] {standard_task_runner.py:85} INFO - Job 680: Subtask kafkamongo
+[2023-05-19T11:35:29.185+0530] {task_command.py:410} INFO - Running <TaskInstance: concurrent_bash_tasks.kafkamongo manual__2023-05-19T06:03:07.499623+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-19T11:35:29.265+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='concurrent_bash_tasks' AIRFLOW_CTX_TASK_ID='kafkamongo' AIRFLOW_CTX_EXECUTION_DATE='2023-05-19T06:03:07.499623+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-19T06:03:07.499623+00:00'
+[2023-05-19T11:35:29.267+0530] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-19T11:35:29.268+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/nizam/project/project/storm/project/my_project/mongothenga.py']
+[2023-05-19T11:35:29.278+0530] {subprocess.py:86} INFO - Output:
+[2023-05-19T11:35:43.721+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 11623. PIDs of all processes in the group: [11624, 11623]
+[2023-05-19T11:35:43.721+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 11623
+[2023-05-19T11:35:43.722+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-19T11:35:43.722+0530] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2023-05-19T11:35:43.737+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/bash.py", line 201, in execute
+    result = self.subprocess_hook.run_command(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/hooks/subprocess.py", line 91, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b""):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1542, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-05-19T11:35:43.741+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=concurrent_bash_tasks, task_id=kafkamongo, execution_date=20230519T060307, start_date=20230519T060529, end_date=20230519T060543
+[2023-05-19T11:35:43.759+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 680 for task kafkamongo (Task received SIGTERM signal; 11623)
+[2023-05-19T11:35:43.774+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=11623, status='terminated', exitcode=1, started='11:35:28') (11623) terminated with exit code 1
+[2023-05-19T11:35:43.774+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=11624, status='terminated', started='11:35:28') (11624) terminated with exit code None

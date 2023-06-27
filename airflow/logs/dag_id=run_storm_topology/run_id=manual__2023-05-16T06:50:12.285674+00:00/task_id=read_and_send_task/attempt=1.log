@@ -1,0 +1,23 @@
+[2023-05-16T12:20:16.709+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: run_storm_topology.read_and_send_task manual__2023-05-16T06:50:12.285674+00:00 [queued]>
+[2023-05-16T12:20:16.719+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: run_storm_topology.read_and_send_task manual__2023-05-16T06:50:12.285674+00:00 [queued]>
+[2023-05-16T12:20:16.719+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-16T12:20:16.736+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): read_and_send_task> on 2023-05-16 06:50:12.285674+00:00
+[2023-05-16T12:20:16.740+0530] {standard_task_runner.py:57} INFO - Started process 16421 to run task
+[2023-05-16T12:20:16.744+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'run_storm_topology', 'read_and_send_task', 'manual__2023-05-16T06:50:12.285674+00:00', '--job-id', '257', '--raw', '--subdir', 'DAGS_FOLDER/kafkastorm.py', '--cfg-path', '/tmp/tmpam0pnpbq']
+[2023-05-16T12:20:16.746+0530] {standard_task_runner.py:85} INFO - Job 257: Subtask read_and_send_task
+[2023-05-16T12:20:16.808+0530] {task_command.py:410} INFO - Running <TaskInstance: run_storm_topology.read_and_send_task manual__2023-05-16T06:50:12.285674+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-16T12:20:16.919+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='run_storm_topology' AIRFLOW_CTX_TASK_ID='read_and_send_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-16T06:50:12.285674+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-16T06:50:12.285674+00:00'
+[2023-05-16T12:20:17.904+0530] {logging_mixin.py:149} INFO - Command failed with return code 1.
+[2023-05-16T12:20:17.904+0530] {logging_mixin.py:149} INFO - Error message:
+[2023-05-16T12:20:17.904+0530] {logging_mixin.py:149} INFO - Traceback (most recent call last):
+  File "/home/nizam/.local/bin/sparse", line 5, in <module>
+    from streamparse.cli.sparse import main
+  File "/home/nizam/.local/lib/python3.10/site-packages/streamparse/cli/sparse.py", line 15, in <module>
+    from ..util import die
+  File "/home/nizam/.local/lib/python3.10/site-packages/streamparse/util.py", line 21, in <module>
+    from texttable import Texttable
+ModuleNotFoundError: No module named 'texttable'
+[2023-05-16T12:20:17.904+0530] {python.py:183} INFO - Done. Returned value was: None
+[2023-05-16T12:20:17.910+0530] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=run_storm_topology, task_id=read_and_send_task, execution_date=20230516T065012, start_date=20230516T065016, end_date=20230516T065017
+[2023-05-16T12:20:17.959+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-05-16T12:20:17.980+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

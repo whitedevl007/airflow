@@ -1,0 +1,60 @@
+[2023-06-10T11:04:58.402+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: check_pass_fail.bash_date manual__2023-06-10T05:34:43.133831+00:00 [queued]>
+[2023-06-10T11:04:58.414+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: check_pass_fail.bash_date manual__2023-06-10T05:34:43.133831+00:00 [queued]>
+[2023-06-10T11:04:58.415+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-06-10T11:04:58.436+0530] {taskinstance.py:1350} INFO - Executing <Task(BashOperator): bash_date> on 2023-06-10 05:34:43.133831+00:00
+[2023-06-10T11:04:58.440+0530] {standard_task_runner.py:57} INFO - Started process 6605 to run task
+[2023-06-10T11:04:58.445+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'check_pass_fail', 'bash_date', 'manual__2023-06-10T05:34:43.133831+00:00', '--job-id', '887', '--raw', '--subdir', 'DAGS_FOLDER/emailoperator_demo.py', '--cfg-path', '/tmp/tmp_c7w8p5h']
+[2023-06-10T11:04:58.447+0530] {standard_task_runner.py:85} INFO - Job 887: Subtask bash_date
+[2023-06-10T11:04:58.504+0530] {task_command.py:410} INFO - Running <TaskInstance: check_pass_fail.bash_date manual__2023-06-10T05:34:43.133831+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-06-10T11:04:58.583+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='check_pass_fail' AIRFLOW_CTX_TASK_ID='bash_date' AIRFLOW_CTX_EXECUTION_DATE='2023-06-10T05:34:43.133831+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-10T05:34:43.133831+00:00'
+[2023-06-10T11:04:58.585+0530] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-06-10T11:04:58.586+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'dates']
+[2023-06-10T11:04:58.596+0530] {subprocess.py:86} INFO - Output:
+[2023-06-10T11:04:58.597+0530] {subprocess.py:93} INFO - /usr/bin/bash: line 1: dates: command not found
+[2023-06-10T11:04:58.597+0530] {subprocess.py:97} INFO - Command exited with return code 127
+[2023-06-10T11:04:58.608+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2023-06-10T11:04:58.611+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=check_pass_fail, task_id=bash_date, execution_date=20230610T053443, start_date=20230610T053458, end_date=20230610T053458
+[2023-06-10T11:04:58.620+0530] {base.py:73} INFO - Using connection ID 'smtp_default' for task execution.
+[2023-06-10T11:04:58.621+0530] {email.py:268} INFO - Email alerting: attempt 1
+[2023-06-10T11:05:16.828+0530] {taskinstance.py:1604} ERROR - Error when executing failure_function callback
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1430, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1581, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1651, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1601, in _run_finished_callback
+    callback(context)
+  File "/home/nizam/airflow/dags/emailoperator_demo.py", line 177, in failure_function
+    return email_operator.execute(context=context)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/email.py", line 77, in execute
+    send_email(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/utils/email.py", line 78, in send_email
+    return backend(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/utils/email.py", line 152, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/utils/email.py", line 279, in send_mime_email
+    smtp_conn.login(smtp_user, smtp_password)
+  File "/usr/lib/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/usr/lib/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/usr/lib/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials jj4-20020a170903048400b001ac4e316b51sm4125435plb.109 - gsmtp')
+[2023-06-10T11:05:16.858+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 887 for task bash_date (Bash command failed. The command returned a non-zero exit code 127.; 6605)
+[2023-06-10T11:05:16.894+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-06-10T11:05:16.947+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
