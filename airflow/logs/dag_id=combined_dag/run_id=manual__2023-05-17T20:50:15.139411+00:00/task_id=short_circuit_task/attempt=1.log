@@ -1,0 +1,43 @@
+[2023-05-18T02:20:25.138+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: combined_dag.short_circuit_task manual__2023-05-17T20:50:15.139411+00:00 [queued]>
+[2023-05-18T02:20:25.151+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: combined_dag.short_circuit_task manual__2023-05-17T20:50:15.139411+00:00 [queued]>
+[2023-05-18T02:20:25.151+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 4
+[2023-05-18T02:20:25.169+0530] {taskinstance.py:1350} INFO - Executing <Task(ShortCircuitOperator): short_circuit_task> on 2023-05-17 20:50:15.139411+00:00
+[2023-05-18T02:20:25.174+0530] {standard_task_runner.py:57} INFO - Started process 23883 to run task
+[2023-05-18T02:20:25.181+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'combined_dag', 'short_circuit_task', 'manual__2023-05-17T20:50:15.139411+00:00', '--job-id', '388', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp8bsbosyd']
+[2023-05-18T02:20:25.182+0530] {standard_task_runner.py:85} INFO - Job 388: Subtask short_circuit_task
+[2023-05-18T02:20:25.234+0530] {task_command.py:410} INFO - Running <TaskInstance: combined_dag.short_circuit_task manual__2023-05-17T20:50:15.139411+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-18T02:20:25.302+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='combined_dag' AIRFLOW_CTX_TASK_ID='short_circuit_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-17T20:50:15.139411+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-17T20:50:15.139411+00:00'
+[2023-05-18T02:20:25.307+0530] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-18T02:20:25.308+0530] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2023-05-18T02:20:25.308+0530] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-18T02:20:25.431+0530] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2023-05-18T02:20:25.431+0530] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2023-05-18T02:20:25.433+0530] {subscription_state.py:171} INFO - Updating subscribed topics to: ('test',)
+[2023-05-18T02:20:25.440+0530] {cluster.py:371} INFO - Group coordinator for group1 is BrokerMetadata(nodeId='coordinator-1001', host='localhost', port=9092, rack=None)
+[2023-05-18T02:20:25.441+0530] {base.py:693} INFO - Discovered coordinator coordinator-1001 for group group1
+[2023-05-18T02:20:25.441+0530] {base.py:741} INFO - Starting new heartbeat thread
+[2023-05-18T02:20:25.442+0530] {consumer.py:348} INFO - Revoking previously assigned partitions set() for group group1
+[2023-05-18T02:20:25.443+0530] {conn.py:380} INFO - <BrokerConnection node_id=coordinator-1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-18T02:20:25.444+0530] {conn.py:410} INFO - <BrokerConnection node_id=coordinator-1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-18T02:20:25.444+0530] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+[2023-05-18T02:20:25.545+0530] {base.py:450} INFO - (Re-)joining group group1
+[2023-05-18T02:20:25.547+0530] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-18T02:20:25.547+0530] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-18T02:20:25.583+0530] {base.py:521} INFO - Elected group leader -- performing partition assignments using range
+[2023-05-18T02:20:25.601+0530] {base.py:335} INFO - Successfully joined group group1 with generation 235
+[2023-05-18T02:20:25.602+0530] {subscription_state.py:257} INFO - Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+[2023-05-18T02:20:25.602+0530] {consumer.py:245} INFO - Setting newly assigned partitions {TopicPartition(topic='test', partition=0)} for group group1
+[2023-05-18T02:20:25.614+0530] {conn.py:380} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-18T02:20:25.615+0530] {conn.py:410} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-18T02:20:25.615+0530] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+[2023-05-18T02:23:55.552+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 23883. PIDs of all processes in the group: [23883]
+[2023-05-18T02:23:55.552+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 23883
+[2023-05-18T02:23:55.553+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-18T02:23:55.554+0530] {logging_mixin.py:149} INFO - Error occurred in consume_from_kafka: Task received SIGTERM signal
+[2023-05-18T02:23:55.554+0530] {base.py:748} INFO - Stopping heartbeat thread
+[2023-05-18T02:23:55.555+0530] {python.py:183} INFO - Done. Returned value was: False
+[2023-05-18T02:23:55.555+0530] {python.py:253} INFO - Condition result is False
+[2023-05-18T02:23:55.556+0530] {python.py:267} INFO - Skipping all downstream tasks...
+[2023-05-18T02:23:55.585+0530] {python.py:275} INFO - Done.
+[2023-05-18T02:23:55.597+0530] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=combined_dag, task_id=short_circuit_task, execution_date=20230517T205015, start_date=20230517T205025, end_date=20230517T205355
+[2023-05-18T02:23:55.645+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=23883, status='terminated', exitcode=0, started='02:20:24') (23883) terminated with exit code 0

@@ -1,0 +1,27 @@
+[2023-05-19T02:18:47.035+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: storm_topology1.submit_topology scheduled__2023-05-16T01:21:00+00:00 [queued]>
+[2023-05-19T02:18:47.044+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: storm_topology1.submit_topology scheduled__2023-05-16T01:21:00+00:00 [queued]>
+[2023-05-19T02:18:47.044+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-19T02:18:47.061+0530] {taskinstance.py:1350} INFO - Executing <Task(BashOperator): submit_topology> on 2023-05-16 01:21:00+00:00
+[2023-05-19T02:18:47.065+0530] {standard_task_runner.py:57} INFO - Started process 17937 to run task
+[2023-05-19T02:18:47.070+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'storm_topology1', 'submit_topology', 'scheduled__2023-05-16T01:21:00+00:00', '--job-id', '647', '--raw', '--subdir', 'DAGS_FOLDER/kafkastorm.py', '--cfg-path', '/tmp/tmpn1ojdz_h']
+[2023-05-19T02:18:47.072+0530] {standard_task_runner.py:85} INFO - Job 647: Subtask submit_topology
+[2023-05-19T02:18:47.121+0530] {task_command.py:410} INFO - Running <TaskInstance: storm_topology1.submit_topology scheduled__2023-05-16T01:21:00+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-19T02:18:47.197+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='storm_topology1' AIRFLOW_CTX_TASK_ID='submit_topology' AIRFLOW_CTX_EXECUTION_DATE='2023-05-16T01:21:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-16T01:21:00+00:00'
+[2023-05-19T02:18:47.199+0530] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-19T02:18:47.201+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', <function run_submit_topology at 0x7f056af6bd90>]
+[2023-05-19T02:18:47.202+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/bash.py", line 201, in execute
+    result = self.subprocess_hook.run_command(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/hooks/subprocess.py", line 77, in run_command
+    self.sub_process = Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1778, in _execute_child
+    self.pid = _posixsubprocess.fork_exec(
+TypeError: expected str, bytes or os.PathLike object, not function
+[2023-05-19T02:18:47.208+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=storm_topology1, task_id=submit_topology, execution_date=20230516T012100, start_date=20230518T204847, end_date=20230518T204847
+[2023-05-19T02:18:47.221+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 647 for task submit_topology (expected str, bytes or os.PathLike object, not function; 17937)
+[2023-05-19T02:18:47.240+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-19T02:18:47.255+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

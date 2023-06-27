@@ -1,0 +1,22 @@
+[2023-05-19T14:49:51.038+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: combined_dag.submit_topology scheduled__2023-05-15T00:00:00+00:00 [queued]>
+[2023-05-19T14:49:51.048+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: combined_dag.submit_topology scheduled__2023-05-15T00:00:00+00:00 [queued]>
+[2023-05-19T14:49:51.048+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-19T14:49:51.065+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): submit_topology> on 2023-05-15 00:00:00+00:00
+[2023-05-19T14:49:51.069+0530] {standard_task_runner.py:57} INFO - Started process 22749 to run task
+[2023-05-19T14:49:51.074+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'combined_dag', 'submit_topology', 'scheduled__2023-05-15T00:00:00+00:00', '--job-id', '742', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp14ybx88l']
+[2023-05-19T14:49:51.075+0530] {standard_task_runner.py:85} INFO - Job 742: Subtask submit_topology
+[2023-05-19T14:49:51.124+0530] {task_command.py:410} INFO - Running <TaskInstance: combined_dag.submit_topology scheduled__2023-05-15T00:00:00+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-19T14:49:51.190+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='combined_dag' AIRFLOW_CTX_TASK_ID='submit_topology' AIRFLOW_CTX_EXECUTION_DATE='2023-05-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-15T00:00:00+00:00'
+[2023-05-19T15:22:47.292+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 22749. PIDs of all processes in the group: [22750, 22751, 22925, 22926, 23141, 23143, 22749]
+[2023-05-19T15:22:47.327+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 22749
+[2023-05-19T15:22:47.390+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-19T15:22:47.510+0530] {logging_mixin.py:149} INFO - Error occurred in submit_topology: Task received SIGTERM signal
+[2023-05-19T15:22:47.508+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=22925, status='terminated', started='14:50:30') (22925) terminated with exit code None
+[2023-05-19T15:22:47.514+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=22751, status='terminated', started='14:49:50') (22751) terminated with exit code None
+[2023-05-19T15:22:47.515+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=23143, status='terminated', started='14:50:58') (23143) terminated with exit code None
+[2023-05-19T15:22:47.521+0530] {python.py:183} INFO - Done. Returned value was: None
+[2023-05-19T15:22:47.688+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=22750, status='terminated', started='14:49:50') (22750) terminated with exit code None
+[2023-05-19T15:22:47.689+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=23141, status='terminated', started='14:50:58') (23141) terminated with exit code None
+[2023-05-19T15:22:47.861+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=22926, status='terminated', started='14:50:30') (22926) terminated with exit code None
+[2023-05-19T15:22:48.043+0530] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=combined_dag, task_id=submit_topology, execution_date=20230515T000000, start_date=20230519T091951, end_date=20230519T095248
+[2023-05-19T15:22:48.315+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=22749, status='terminated', exitcode=0, started='14:49:50') (22749) terminated with exit code 0

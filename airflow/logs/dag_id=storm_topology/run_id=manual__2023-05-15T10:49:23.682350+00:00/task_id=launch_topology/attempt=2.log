@@ -1,0 +1,22 @@
+[2023-05-15T16:24:43.894+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: storm_topology.launch_topology manual__2023-05-15T10:49:23.682350+00:00 [queued]>
+[2023-05-15T16:24:43.902+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: storm_topology.launch_topology manual__2023-05-15T10:49:23.682350+00:00 [queued]>
+[2023-05-15T16:24:43.903+0530] {taskinstance.py:1331} INFO - Starting attempt 2 of 2
+[2023-05-15T16:24:43.919+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): launch_topology> on 2023-05-15 10:49:23.682350+00:00
+[2023-05-15T16:24:43.923+0530] {standard_task_runner.py:57} INFO - Started process 15774 to run task
+[2023-05-15T16:24:43.927+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'storm_topology', 'launch_topology', 'manual__2023-05-15T10:49:23.682350+00:00', '--job-id', '195', '--raw', '--subdir', 'DAGS_FOLDER/bolt.py', '--cfg-path', '/tmp/tmpdbazgft4']
+[2023-05-15T16:24:43.929+0530] {standard_task_runner.py:85} INFO - Job 195: Subtask launch_topology
+[2023-05-15T16:24:43.974+0530] {task_command.py:410} INFO - Running <TaskInstance: storm_topology.launch_topology manual__2023-05-15T10:49:23.682350+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-15T16:24:44.044+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='storm_topology' AIRFLOW_CTX_TASK_ID='launch_topology' AIRFLOW_CTX_EXECUTION_DATE='2023-05-15T10:49:23.682350+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-15T10:49:23.682350+00:00'
+[2023-05-15T16:24:54.634+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/bolt.py", line 24, in launch_storm_topology
+    kwargs['ti'].success()
+AttributeError: 'TaskInstance' object has no attribute 'success'
+[2023-05-15T16:24:54.670+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=storm_topology, task_id=launch_topology, execution_date=20230515T104923, start_date=20230515T105443, end_date=20230515T105454
+[2023-05-15T16:24:54.701+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 195 for task launch_topology ('TaskInstance' object has no attribute 'success'; 15774)
+[2023-05-15T16:24:54.714+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-15T16:24:54.740+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

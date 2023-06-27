@@ -1,0 +1,13 @@
+[2023-05-20T14:36:50.650+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: storm_topo.submit_task manual__2023-05-20T09:06:09.284171+00:00 [queued]>
+[2023-05-20T14:36:50.662+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: storm_topo.submit_task manual__2023-05-20T09:06:09.284171+00:00 [queued]>
+[2023-05-20T14:36:50.663+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-20T14:36:50.684+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): submit_task> on 2023-05-20 09:06:09.284171+00:00
+[2023-05-20T14:36:50.690+0530] {standard_task_runner.py:57} INFO - Started process 13567 to run task
+[2023-05-20T14:36:50.695+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'storm_topo', 'submit_task', 'manual__2023-05-20T09:06:09.284171+00:00', '--job-id', '760', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpan5s_j_1']
+[2023-05-20T14:36:50.696+0530] {standard_task_runner.py:85} INFO - Job 760: Subtask submit_task
+[2023-05-20T14:36:50.757+0530] {task_command.py:410} INFO - Running <TaskInstance: storm_topo.submit_task manual__2023-05-20T09:06:09.284171+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-20T14:36:50.835+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='storm_topo' AIRFLOW_CTX_TASK_ID='submit_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-20T09:06:09.284171+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-20T09:06:09.284171+00:00'
+[2023-05-20T14:36:50.839+0530] {python.py:183} INFO - Done. Returned value was: None
+[2023-05-20T14:36:50.845+0530] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=storm_topo, task_id=submit_task, execution_date=20230520T090609, start_date=20230520T090650, end_date=20230520T090650
+[2023-05-20T14:36:50.906+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-05-20T14:36:50.923+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,2 @@
+[2023-05-19T00:30:39.397+0530] {taskinstance.py:1115} INFO - Dependencies not met for <TaskInstance: combined_dag.read_from_mongodb_task scheduled__2023-05-18T00:04:00+00:00 [skipped]>, dependency 'Not Previously Skipped' FAILED: Skipping because of previous XCom result from parent task branch_task
+[2023-05-19T00:30:39.404+0530] {local_task_job_runner.py:161} INFO - Task is not able to be run

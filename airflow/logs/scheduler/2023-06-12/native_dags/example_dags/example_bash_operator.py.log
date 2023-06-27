@@ -1,0 +1,91 @@
+[2023-06-12T12:15:05.927+0530] {processor.py:156} INFO - Started process (PID=10894) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:15:05.935+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-12T12:15:05.941+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:15:05.941+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:15:06.043+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:15:06.313+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:15:06.312+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:15:06.476+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:15:06.475+0530] {dag.py:3486} INFO - Setting next_dagrun for example_bash_operator to 2023-06-11T00:00:00+00:00, run_after=2023-06-12T00:00:00+00:00
+[2023-06-12T12:15:06.602+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.691 seconds
+[2023-06-12T12:16:22.579+0530] {processor.py:156} INFO - Started process (PID=11377) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:16:22.580+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-12T12:16:22.582+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:16:22.581+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:16:22.609+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:16:22.674+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:16:22.674+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:16:22.703+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:16:22.703+0530] {dag.py:3486} INFO - Setting next_dagrun for example_bash_operator to 2023-06-11T00:00:00+00:00, run_after=2023-06-12T00:00:00+00:00
+[2023-06-12T12:16:22.731+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.158 seconds
+[2023-06-12T12:17:34.160+0530] {processor.py:156} INFO - Started process (PID=11493) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:17:34.162+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-12T12:17:34.163+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:17:34.163+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:17:34.184+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:17:34.229+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:17:34.228+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:17:34.254+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:17:34.254+0530] {dag.py:3486} INFO - Setting next_dagrun for example_bash_operator to 2023-06-11T00:00:00+00:00, run_after=2023-06-12T00:00:00+00:00
+[2023-06-12T12:17:34.280+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.125 seconds
+[2023-06-12T12:27:31.440+0530] {processor.py:156} INFO - Started process (PID=12855) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:27:31.441+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-12T12:27:31.442+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:27:31.442+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:27:31.471+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:27:31.568+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:27:31.568+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:27:31.611+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:27:31.611+0530] {dag.py:3486} INFO - Setting next_dagrun for example_bash_operator to 2023-06-11T00:00:00+00:00, run_after=2023-06-12T00:00:00+00:00
+[2023-06-12T12:27:31.650+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.214 seconds
+[2023-06-12T12:28:39.071+0530] {processor.py:156} INFO - Started process (PID=13278) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:28:39.072+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-12T12:28:39.073+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:28:39.073+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:28:39.102+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:28:39.159+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:28:39.159+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:28:39.189+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:28:39.189+0530] {dag.py:3486} INFO - Setting next_dagrun for example_bash_operator to 2023-06-11T00:00:00+00:00, run_after=2023-06-12T00:00:00+00:00
+[2023-06-12T12:28:39.235+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.169 seconds
+[2023-06-12T12:29:32.104+0530] {processor.py:156} INFO - Started process (PID=13363) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:29:32.105+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-12T12:29:32.106+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:29:32.106+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:29:32.127+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:29:32.175+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:29:32.174+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:29:32.202+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:29:32.202+0530] {dag.py:3486} INFO - Setting next_dagrun for example_bash_operator to 2023-06-11T00:00:00+00:00, run_after=2023-06-12T00:00:00+00:00
+[2023-06-12T12:29:32.231+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.131 seconds
+[2023-06-12T12:31:31.821+0530] {processor.py:156} INFO - Started process (PID=14091) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:31:31.827+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-12T12:31:31.830+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:31:31.829+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:31:31.955+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:31:32.169+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:31:32.169+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:31:32.331+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:31:32.327+0530] {dag.py:3486} INFO - Setting next_dagrun for example_bash_operator to 2023-06-11T00:00:00+00:00, run_after=2023-06-12T00:00:00+00:00
+[2023-06-12T12:31:32.476+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.687 seconds
+[2023-06-12T12:49:19.172+0530] {processor.py:156} INFO - Started process (PID=17768) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:49:19.175+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-12T12:49:19.176+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:49:19.176+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:49:19.199+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:49:19.253+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:49:19.252+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:49:19.288+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:49:19.287+0530] {dag.py:3486} INFO - Setting next_dagrun for example_bash_operator to 2023-06-11T00:00:00+00:00, run_after=2023-06-12T00:00:00+00:00
+[2023-06-12T12:49:19.322+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.153 seconds
+[2023-06-12T12:50:33.341+0530] {processor.py:156} INFO - Started process (PID=17929) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:50:33.343+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-12T12:50:33.344+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:50:33.344+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:50:33.369+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:50:33.427+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:50:33.426+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:50:33.463+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:50:33.463+0530] {dag.py:3486} INFO - Setting next_dagrun for example_bash_operator to 2023-06-11T00:00:00+00:00, run_after=2023-06-12T00:00:00+00:00
+[2023-06-12T12:50:33.582+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.246 seconds
+[2023-06-12T12:52:13.629+0530] {processor.py:156} INFO - Started process (PID=18649) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:52:13.631+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-12T12:52:13.634+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:52:13.634+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:52:13.682+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T12:52:13.809+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:52:13.809+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:52:13.860+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:52:13.860+0530] {dag.py:3486} INFO - Setting next_dagrun for example_bash_operator to 2023-06-11T00:00:00+00:00, run_after=2023-06-12T00:00:00+00:00
+[2023-06-12T12:52:13.907+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.285 seconds
+[2023-06-12T14:50:00.558+0530] {processor.py:156} INFO - Started process (PID=8589) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T14:50:00.560+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-12T14:50:00.561+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:50:00.561+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T14:50:00.590+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T14:50:00.651+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:50:00.651+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T14:50:00.687+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:50:00.687+0530] {dag.py:3486} INFO - Setting next_dagrun for example_bash_operator to 2023-06-11T00:00:00+00:00, run_after=2023-06-12T00:00:00+00:00
+[2023-06-12T14:50:00.720+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.168 seconds
+[2023-06-12T14:50:54.675+0530] {processor.py:156} INFO - Started process (PID=8755) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T14:50:54.676+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-12T14:50:54.677+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:50:54.677+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T14:50:54.705+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T14:50:54.757+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:50:54.757+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T14:50:54.790+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:50:54.790+0530] {dag.py:3486} INFO - Setting next_dagrun for example_bash_operator to 2023-06-11T00:00:00+00:00, run_after=2023-06-12T00:00:00+00:00
+[2023-06-12T14:50:54.824+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.155 seconds
+[2023-06-12T14:52:04.974+0530] {processor.py:156} INFO - Started process (PID=8857) to work on /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T14:52:04.976+0530] {processor.py:799} INFO - Processing file /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-06-12T14:52:04.977+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:52:04.977+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T14:52:05.001+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-06-12T14:52:05.050+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:52:05.050+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T14:52:05.078+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:52:05.078+0530] {dag.py:3486} INFO - Setting next_dagrun for example_bash_operator to 2023-06-11T00:00:00+00:00, run_after=2023-06-12T00:00:00+00:00
+[2023-06-12T14:52:05.106+0530] {processor.py:178} INFO - Processing /home/nizam/env_airflow/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.137 seconds

@@ -1,0 +1,386 @@
+[2023-05-19T10:50:35.397+0530] {processor.py:156} INFO - Started process (PID=8625) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T10:50:35.398+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T10:50:35.399+0530] {logging_mixin.py:149} INFO - [2023-05-19T10:50:35.399+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T10:50:35.689+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T10:50:35.724+0530] {logging_mixin.py:149} INFO - [2023-05-19T10:50:35.724+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T10:50:35.755+0530] {logging_mixin.py:149} INFO - [2023-05-19T10:50:35.754+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T10:50:35.786+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.395 seconds
+[2023-05-19T11:13:33.537+0530] {processor.py:156} INFO - Started process (PID=10142) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:13:33.539+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:13:33.541+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:13:33.541+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:13:33.830+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:13:33.862+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:13:33.862+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:13:33.908+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:13:33.908+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:13:33.956+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.425 seconds
+[2023-05-19T11:21:58.271+0530] {processor.py:156} INFO - Started process (PID=10480) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:21:58.273+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:21:58.274+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:21:58.273+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:21:58.590+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:21:58.620+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:21:58.620+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:21:58.648+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:21:58.648+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:21:58.679+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.412 seconds
+[2023-05-19T11:23:30.622+0530] {processor.py:156} INFO - Started process (PID=10568) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:23:30.624+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:23:30.625+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:23:30.625+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:23:30.860+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:23:30.879+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:23:30.878+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:23:30.903+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:23:30.902+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:23:30.927+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.310 seconds
+[2023-05-19T11:24:12.115+0530] {processor.py:156} INFO - Started process (PID=10608) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:24:12.117+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:24:12.118+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:24:12.118+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:24:12.365+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:24:12.390+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:24:12.390+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:24:12.417+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:24:12.416+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:24:12.442+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.333 seconds
+[2023-05-19T11:25:09.055+0530] {processor.py:156} INFO - Started process (PID=10663) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:25:09.057+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:25:09.059+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:25:09.059+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:25:09.314+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:25:09.334+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:25:09.334+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:25:09.365+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:25:09.365+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:25:09.392+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.342 seconds
+[2023-05-19T11:26:01.892+0530] {processor.py:156} INFO - Started process (PID=10716) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:26:01.894+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:26:01.896+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:26:01.896+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:26:02.147+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:26:02.168+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:26:02.167+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:26:02.196+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:26:02.196+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:26:02.220+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.334 seconds
+[2023-05-19T11:26:48.113+0530] {processor.py:156} INFO - Started process (PID=10764) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:26:48.114+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:26:48.115+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:26:48.115+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:26:48.227+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:26:48.259+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:26:48.259+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:26:48.295+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:26:48.295+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:26:48.340+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.232 seconds
+[2023-05-19T11:27:36.073+0530] {processor.py:156} INFO - Started process (PID=10807) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:27:36.075+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:27:36.076+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:27:36.076+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:27:36.192+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:27:36.216+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:27:36.216+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:27:36.244+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:27:36.244+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:27:36.269+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.201 seconds
+[2023-05-19T11:28:06.866+0530] {processor.py:156} INFO - Started process (PID=10847) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:28:06.867+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:28:06.869+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:28:06.868+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:28:07.130+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:28:07.156+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:28:07.156+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:28:07.184+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:28:07.184+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:28:07.212+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.352 seconds
+[2023-05-19T11:29:10.196+0530] {processor.py:156} INFO - Started process (PID=10914) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:29:10.198+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:29:10.199+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:29:10.199+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:29:10.423+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:29:10.447+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:29:10.446+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:29:10.477+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:29:10.476+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:29:10.501+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.310 seconds
+[2023-05-19T11:30:07.489+0530] {processor.py:156} INFO - Started process (PID=10973) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:30:07.491+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:30:07.492+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:30:07.492+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:30:07.734+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:30:07.754+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:30:07.754+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:30:07.778+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:30:07.778+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:30:07.801+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.317 seconds
+[2023-05-19T11:30:54.277+0530] {processor.py:156} INFO - Started process (PID=11030) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:30:54.279+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:30:54.280+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:30:54.280+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:30:54.533+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:30:54.560+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:30:54.560+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:30:54.586+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:30:54.586+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:30:54.613+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.341 seconds
+[2023-05-19T11:31:48.917+0530] {processor.py:156} INFO - Started process (PID=11091) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:31:48.919+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:31:48.921+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:31:48.920+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:31:49.245+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:31:49.278+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:31:49.277+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:31:49.309+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:31:49.309+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:31:49.344+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.431 seconds
+[2023-05-19T11:32:46.163+0530] {processor.py:156} INFO - Started process (PID=11151) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:32:46.165+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:32:46.166+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:32:46.165+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:32:46.502+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:32:46.533+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:32:46.533+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:32:46.563+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:32:46.562+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:32:46.600+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.441 seconds
+[2023-05-19T11:32:58.918+0530] {processor.py:156} INFO - Started process (PID=11164) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:32:58.919+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:32:58.920+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:32:58.920+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:32:59.206+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:32:59.237+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:32:59.237+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:32:59.271+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:32:59.271+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:32:59.383+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.468 seconds
+[2023-05-19T11:35:53.341+0530] {processor.py:156} INFO - Started process (PID=11700) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:35:53.343+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:35:53.344+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:35:53.344+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:35:53.587+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:35:53.613+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:35:53.613+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:35:53.640+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:35:53.640+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:35:53.672+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.337 seconds
+[2023-05-19T11:42:05.155+0530] {processor.py:156} INFO - Started process (PID=12706) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:42:05.158+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:42:05.160+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:42:05.159+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:42:05.680+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:42:05.712+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:42:05.712+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:42:05.745+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:42:05.745+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:42:05.772+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.625 seconds
+[2023-05-19T11:43:50.647+0530] {processor.py:156} INFO - Started process (PID=13137) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:43:50.649+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:43:50.651+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:43:50.650+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:43:50.937+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:43:50.967+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:43:50.966+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:43:50.992+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:43:50.991+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:43:51.016+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.377 seconds
+[2023-05-19T11:58:54.537+0530] {processor.py:156} INFO - Started process (PID=15550) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:58:54.539+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:58:54.540+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:58:54.540+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:58:54.788+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:58:54.816+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:58:54.816+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:58:54.843+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:58:54.842+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:58:54.868+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.335 seconds
+[2023-05-19T11:59:51.416+0530] {processor.py:156} INFO - Started process (PID=16115) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:59:51.418+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T11:59:51.419+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:59:51.419+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:59:51.692+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T11:59:51.716+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:59:51.716+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T11:59:51.742+0530] {logging_mixin.py:149} INFO - [2023-05-19T11:59:51.742+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T11:59:51.768+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.358 seconds
+[2023-05-19T12:00:02.392+0530] {processor.py:156} INFO - Started process (PID=16124) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:00:02.394+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:00:02.395+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:00:02.395+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:00:02.655+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:00:02.680+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:00:02.680+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:00:02.705+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:00:02.705+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:00:02.730+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.344 seconds
+[2023-05-19T12:00:58.527+0530] {processor.py:156} INFO - Started process (PID=16183) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:00:58.528+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:00:58.529+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:00:58.529+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:00:58.788+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:00:58.814+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:00:58.814+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:00:58.847+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:00:58.846+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:00:58.876+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.354 seconds
+[2023-05-19T12:01:57.433+0530] {processor.py:156} INFO - Started process (PID=16267) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:01:57.435+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:01:57.436+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:01:57.436+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:01:57.696+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:01:57.728+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:01:57.728+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:01:57.779+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:01:57.779+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:01:57.807+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.379 seconds
+[2023-05-19T12:02:10.242+0530] {processor.py:156} INFO - Started process (PID=16307) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:02:10.243+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:02:10.244+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:02:10.244+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:02:10.558+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:02:10.585+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:02:10.584+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:02:10.613+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:02:10.612+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:02:10.641+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.404 seconds
+[2023-05-19T12:04:05.655+0530] {processor.py:156} INFO - Started process (PID=16839) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:04:05.657+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:04:05.658+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:04:05.658+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:04:05.925+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:04:05.954+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:04:05.954+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:04:05.986+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:04:05.985+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:04:06.016+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.365 seconds
+[2023-05-19T12:04:29.279+0530] {processor.py:156} INFO - Started process (PID=16867) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:04:29.280+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:04:29.281+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:04:29.281+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:04:29.558+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:04:29.587+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:04:29.587+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:04:29.619+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:04:29.619+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:04:29.649+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.374 seconds
+[2023-05-19T12:05:11.176+0530] {processor.py:156} INFO - Started process (PID=16976) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:05:11.178+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:05:11.179+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:05:11.178+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:05:11.412+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:05:11.436+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:05:11.436+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:05:11.459+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:05:11.459+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:05:11.484+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.313 seconds
+[2023-05-19T12:08:22.862+0530] {processor.py:156} INFO - Started process (PID=17067) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:08:22.864+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:08:22.865+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:08:22.865+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:08:23.087+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:08:23.110+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:08:23.110+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:08:23.132+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:08:23.132+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:08:23.155+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.298 seconds
+[2023-05-19T12:08:38.962+0530] {processor.py:156} INFO - Started process (PID=17084) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:08:38.964+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:08:38.965+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:08:38.965+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:08:39.194+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:08:39.221+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:08:39.221+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:08:39.248+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:08:39.248+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:08:39.275+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.320 seconds
+[2023-05-19T12:09:39.491+0530] {processor.py:156} INFO - Started process (PID=17149) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:09:39.493+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:09:39.494+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:09:39.494+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:09:39.798+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:09:39.816+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:09:39.816+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:09:39.843+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:09:39.842+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:09:40.051+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.564 seconds
+[2023-05-19T12:10:14.041+0530] {processor.py:156} INFO - Started process (PID=17216) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:10:14.043+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:10:14.045+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:10:14.044+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:10:14.284+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:10:14.326+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:10:14.326+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:10:14.352+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:10:14.351+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:10:14.378+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.342 seconds
+[2023-05-19T12:11:13.172+0530] {processor.py:156} INFO - Started process (PID=17307) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:11:13.174+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:11:13.175+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:11:13.175+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:11:13.402+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:11:13.421+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:11:13.421+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:11:13.445+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:11:13.445+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:11:13.468+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.302 seconds
+[2023-05-19T12:12:07.902+0530] {processor.py:156} INFO - Started process (PID=17362) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:12:07.904+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:12:07.905+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:12:07.905+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:12:08.129+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:12:08.148+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:12:08.148+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:12:08.175+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:12:08.174+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:12:08.199+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.303 seconds
+[2023-05-19T12:12:36.300+0530] {processor.py:156} INFO - Started process (PID=17387) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:12:36.302+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:12:36.303+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:12:36.303+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:12:36.573+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:12:36.603+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:12:36.603+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:12:36.634+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:12:36.634+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:12:36.662+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.369 seconds
+[2023-05-19T12:13:33.339+0530] {processor.py:156} INFO - Started process (PID=17458) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:13:33.341+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:13:33.342+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:13:33.342+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:13:33.580+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:13:33.601+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:13:33.600+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:13:33.626+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:13:33.625+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:13:33.652+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.319 seconds
+[2023-05-19T12:14:00.213+0530] {processor.py:156} INFO - Started process (PID=17484) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:14:00.215+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:14:00.217+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:14:00.216+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:14:00.467+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:14:00.487+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:14:00.486+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:14:00.513+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:14:00.513+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:14:00.541+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.333 seconds
+[2023-05-19T12:17:06.354+0530] {processor.py:156} INFO - Started process (PID=17658) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:17:06.356+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:17:06.357+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:17:06.357+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:17:06.721+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:17:06.744+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:17:06.744+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:17:06.770+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:17:06.770+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:17:06.796+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.445 seconds
+[2023-05-19T12:18:31.613+0530] {processor.py:156} INFO - Started process (PID=17695) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:18:31.614+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:18:31.615+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:18:31.615+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:18:31.943+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:18:31.965+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:18:31.965+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:18:31.990+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:18:31.990+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:18:32.019+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.410 seconds
+[2023-05-19T12:22:10.808+0530] {processor.py:156} INFO - Started process (PID=18186) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:22:10.810+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:22:10.811+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:22:10.810+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:22:10.830+0530] {processor.py:809} INFO - DAG(s) dict_keys(['run_storm_topology']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:22:10.905+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:22:10.905+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:22:10.933+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:22:10.933+0530] {dag.py:3486} INFO - Setting next_dagrun for run_storm_topology to None, run_after=None
+[2023-05-19T12:22:10.971+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.167 seconds
+[2023-05-19T12:23:31.331+0530] {processor.py:156} INFO - Started process (PID=18281) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:23:31.333+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:23:31.334+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:23:31.334+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:23:31.343+0530] {processor.py:809} INFO - DAG(s) dict_keys(['run_storm_topology']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:23:31.370+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:23:31.370+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:23:31.531+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:23:31.531+0530] {dag.py:3486} INFO - Setting next_dagrun for run_storm_topology to None, run_after=None
+[2023-05-19T12:23:31.557+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.232 seconds
+[2023-05-19T12:59:10.837+0530] {processor.py:156} INFO - Started process (PID=20082) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:59:10.839+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T12:59:10.840+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:59:10.839+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:59:11.171+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T12:59:11.241+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:59:11.241+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T12:59:11.265+0530] {logging_mixin.py:149} INFO - [2023-05-19T12:59:11.265+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T12:59:11.292+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.459 seconds
+[2023-05-19T14:42:51.933+0530] {processor.py:156} INFO - Started process (PID=22208) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:42:51.934+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T14:42:51.935+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:42:51.935+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:42:52.186+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:42:52.248+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:42:52.248+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T14:42:52.261+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:42:52.261+0530] {dag.py:2747} INFO - Creating ORM DAG for mongodb_to_kafka_and_consumer
+[2023-05-19T14:42:52.273+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:42:52.273+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T14:42:52.300+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.372 seconds
+[2023-05-19T14:43:48.646+0530] {processor.py:156} INFO - Started process (PID=22386) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:43:48.648+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T14:43:48.649+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:43:48.649+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:43:48.891+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:43:48.910+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:43:48.910+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T14:43:48.934+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:43:48.934+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T14:43:48.956+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.316 seconds
+[2023-05-19T14:44:43.602+0530] {processor.py:156} INFO - Started process (PID=22438) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:44:43.604+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T14:44:43.606+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:44:43.606+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:44:43.860+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:44:43.881+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:44:43.880+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T14:44:43.908+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:44:43.908+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T14:44:43.936+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.338 seconds
+[2023-05-19T14:45:31.923+0530] {processor.py:156} INFO - Started process (PID=22490) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:45:31.925+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T14:45:31.926+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:45:31.926+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:45:32.037+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:45:32.062+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:45:32.062+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T14:45:32.089+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:45:32.088+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T14:45:32.113+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.195 seconds
+[2023-05-19T14:46:18.769+0530] {processor.py:156} INFO - Started process (PID=22534) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:46:18.771+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T14:46:18.772+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:46:18.772+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:46:18.900+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:46:18.922+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:46:18.921+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T14:46:18.950+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:46:18.949+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T14:46:18.973+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.209 seconds
+[2023-05-19T14:47:03.310+0530] {processor.py:156} INFO - Started process (PID=22580) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:47:03.312+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T14:47:03.313+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:47:03.313+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:47:03.423+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:47:03.446+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:47:03.446+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T14:47:03.472+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:47:03.471+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T14:47:03.495+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.190 seconds
+[2023-05-19T14:47:53.905+0530] {processor.py:156} INFO - Started process (PID=22625) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:47:53.907+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T14:47:53.908+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:47:53.908+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:47:54.021+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:47:54.043+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:47:54.043+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T14:47:54.072+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:47:54.071+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T14:47:54.096+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.196 seconds
+[2023-05-19T14:48:42.148+0530] {processor.py:156} INFO - Started process (PID=22675) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:48:42.150+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T14:48:42.151+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:48:42.151+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:48:42.261+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T14:48:42.283+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:48:42.283+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T14:48:42.309+0530] {logging_mixin.py:149} INFO - [2023-05-19T14:48:42.309+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T14:48:42.334+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.191 seconds
+[2023-05-19T16:06:22.889+0530] {processor.py:156} INFO - Started process (PID=25893) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:06:22.891+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T16:06:22.892+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:06:22.892+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:06:23.124+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:06:23.149+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:06:23.149+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T16:06:23.177+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:06:23.176+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T16:06:23.202+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.317 seconds
+[2023-05-19T16:07:18.898+0530] {processor.py:156} INFO - Started process (PID=25962) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:07:18.900+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T16:07:18.901+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:07:18.900+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:07:19.386+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:07:19.418+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:07:19.416+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T16:07:19.468+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:07:19.468+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T16:07:19.515+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.623 seconds
+[2023-05-19T16:08:18.767+0530] {processor.py:156} INFO - Started process (PID=26019) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:08:18.768+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T16:08:18.769+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:08:18.769+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:08:18.987+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:08:19.004+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:08:19.004+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T16:08:19.029+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:08:19.029+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T16:08:19.052+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.290 seconds
+[2023-05-19T16:09:14.626+0530] {processor.py:156} INFO - Started process (PID=26107) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:09:14.628+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T16:09:14.629+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:09:14.629+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:09:14.858+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:09:14.903+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:09:14.903+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T16:09:14.955+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:09:14.955+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T16:09:14.998+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.379 seconds
+[2023-05-19T16:10:08.753+0530] {processor.py:156} INFO - Started process (PID=26161) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:10:08.755+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-19T16:10:08.757+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:10:08.756+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:10:08.918+0530] {processor.py:809} INFO - DAG(s) dict_keys(['mongodb_to_kafka_and_consumer']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-19T16:10:08.952+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:10:08.952+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-19T16:10:08.997+0530] {logging_mixin.py:149} INFO - [2023-05-19T16:10:08.997+0530] {dag.py:3486} INFO - Setting next_dagrun for mongodb_to_kafka_and_consumer to None, run_after=None
+[2023-05-19T16:10:09.035+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.287 seconds

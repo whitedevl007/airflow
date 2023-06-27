@@ -1,0 +1,23 @@
+[2023-05-18T11:00:00.380+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: combined_dag.submit_storm_topology_task manual__2023-05-18T05:17:28.245518+00:00 [queued]>
+[2023-05-18T11:00:00.391+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: combined_dag.submit_storm_topology_task manual__2023-05-18T05:17:28.245518+00:00 [queued]>
+[2023-05-18T11:00:00.391+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 4
+[2023-05-18T11:00:00.408+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): submit_storm_topology_task> on 2023-05-18 05:17:28.245518+00:00
+[2023-05-18T11:00:00.412+0530] {standard_task_runner.py:57} INFO - Started process 8550 to run task
+[2023-05-18T11:00:00.417+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'combined_dag', 'submit_storm_topology_task', 'manual__2023-05-18T05:17:28.245518+00:00', '--job-id', '405', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmph6umseon']
+[2023-05-18T11:00:00.417+0530] {standard_task_runner.py:85} INFO - Job 405: Subtask submit_storm_topology_task
+[2023-05-18T11:00:00.465+0530] {task_command.py:410} INFO - Running <TaskInstance: combined_dag.submit_storm_topology_task manual__2023-05-18T05:17:28.245518+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-18T11:00:00.552+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='combined_dag' AIRFLOW_CTX_TASK_ID='submit_storm_topology_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-18T05:17:28.245518+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-18T05:17:28.245518+00:00'
+[2023-05-18T11:00:13.566+0530] {logging_mixin.py:149} INFO - Cleaning from prior builds...
+[2023-05-18T11:00:16.067+0530] {logging_mixin.py:149} INFO - Creating topology Uber-JAR...
+[2023-05-18T11:00:18.114+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 8550. PIDs of all processes in the group: [8551, 8552, 8682, 8683, 8690, 8550]
+[2023-05-18T11:00:18.115+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 8550
+[2023-05-18T11:00:18.116+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-18T11:00:18.117+0530] {logging_mixin.py:149} INFO - Error occurred in submit_topology: Task received SIGTERM signal
+[2023-05-18T11:00:18.117+0530] {python.py:183} INFO - Done. Returned value was: None
+[2023-05-18T11:00:18.129+0530] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=combined_dag, task_id=submit_storm_topology_task, execution_date=20230518T051728, start_date=20230518T053000, end_date=20230518T053018
+[2023-05-18T11:00:18.151+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=8690, status='terminated', started='11:00:15') (8690) terminated with exit code None
+[2023-05-18T11:00:18.151+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=8551, status='terminated', started='11:00:00') (8551) terminated with exit code None
+[2023-05-18T11:00:18.152+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=8683, status='terminated', started='11:00:15') (8683) terminated with exit code None
+[2023-05-18T11:00:18.152+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=8552, status='terminated', started='11:00:00') (8552) terminated with exit code None
+[2023-05-18T11:00:18.154+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=8550, status='terminated', exitcode=0, started='11:00:00') (8550) terminated with exit code 0
+[2023-05-18T11:00:18.155+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=8682, status='terminated', started='11:00:15') (8682) terminated with exit code None

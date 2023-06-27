@@ -1,0 +1,36 @@
+[2023-06-11T13:00:13.000+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_dag.send_email manual__2023-06-11T07:29:57.341390+00:00 [queued]>
+[2023-06-11T13:00:13.013+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_dag.send_email manual__2023-06-11T07:29:57.341390+00:00 [queued]>
+[2023-06-11T13:00:13.013+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-06-11T13:00:13.033+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): send_email> on 2023-06-11 07:29:57.341390+00:00
+[2023-06-11T13:00:13.038+0530] {standard_task_runner.py:57} INFO - Started process 6932 to run task
+[2023-06-11T13:00:13.043+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'test_dag', 'send_email', 'manual__2023-06-11T07:29:57.341390+00:00', '--job-id', '898', '--raw', '--subdir', 'DAGS_FOLDER/test1.py', '--cfg-path', '/tmp/tmpxn39_ea3']
+[2023-06-11T13:00:13.045+0530] {standard_task_runner.py:85} INFO - Job 898: Subtask send_email
+[2023-06-11T13:00:13.106+0530] {task_command.py:410} INFO - Running <TaskInstance: test_dag.send_email manual__2023-06-11T07:29:57.341390+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-06-11T13:00:13.185+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_dag' AIRFLOW_CTX_TASK_ID='send_email' AIRFLOW_CTX_EXECUTION_DATE='2023-06-11T07:29:57.341390+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-11T07:29:57.341390+00:00'
+[2023-06-11T13:00:13.196+0530] {base.py:73} INFO - Using connection ID 'smtp_default' for task execution.
+[2023-06-11T13:00:13.196+0530] {email.py:268} INFO - Email alerting: attempt 1
+[2023-06-11T13:00:21.454+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/test1.py", line 15, in send_test_email
+    send_email(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/utils/email.py", line 78, in send_email
+    return backend(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/utils/email.py", line 152, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/utils/email.py", line 279, in send_mime_email
+    smtp_conn.login(smtp_user, smtp_password)
+  File "/usr/lib/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/usr/lib/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/usr/lib/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials j13-20020a63cf0d000000b004fab4455748sm5462378pgg.75 - gsmtp')
+[2023-06-11T13:00:21.466+0530] {taskinstance.py:1368} INFO - Marking task as UP_FOR_RETRY. dag_id=test_dag, task_id=send_email, execution_date=20230611T072957, start_date=20230611T073013, end_date=20230611T073021
+[2023-06-11T13:00:21.487+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 898 for task send_email ((535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials j13-20020a63cf0d000000b004fab4455748sm5462378pgg.75 - gsmtp'); 6932)
+[2023-06-11T13:00:21.499+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-06-11T13:00:21.520+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

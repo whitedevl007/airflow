@@ -1,0 +1,28 @@
+[2023-06-09T21:23:16.930+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: emailoperator_demo.send_email manual__2023-06-09T15:53:08.586121+00:00 [queued]>
+[2023-06-09T21:23:16.939+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: emailoperator_demo.send_email manual__2023-06-09T15:53:08.586121+00:00 [queued]>
+[2023-06-09T21:23:16.939+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-06-09T21:23:16.958+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): send_email> on 2023-06-09 15:53:08.586121+00:00
+[2023-06-09T21:23:16.963+0530] {standard_task_runner.py:57} INFO - Started process 32963 to run task
+[2023-06-09T21:23:16.967+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'emailoperator_demo', 'send_email', 'manual__2023-06-09T15:53:08.586121+00:00', '--job-id', '881', '--raw', '--subdir', 'DAGS_FOLDER/emailoperator_demo.py', '--cfg-path', '/tmp/tmpgu1fjno3']
+[2023-06-09T21:23:16.969+0530] {standard_task_runner.py:85} INFO - Job 881: Subtask send_email
+[2023-06-09T21:23:17.017+0530] {task_command.py:410} INFO - Running <TaskInstance: emailoperator_demo.send_email manual__2023-06-09T15:53:08.586121+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-06-09T21:23:17.097+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='emailoperator_demo' AIRFLOW_CTX_TASK_ID='send_email' AIRFLOW_CTX_EXECUTION_DATE='2023-06-09T15:53:08.586121+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-09T15:53:08.586121+00:00'
+[2023-06-09T21:23:25.069+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/emailoperator_demo.py", line 139, in send_email
+    smtp_connection.login(smtp_username, smtp_password)
+  File "/usr/lib/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/usr/lib/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/usr/lib/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (534, b'5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a8-20020a170902b58800b001a988a71617sm3441494pls.192 - gsmtp')
+[2023-06-09T21:23:25.082+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=emailoperator_demo, task_id=send_email, execution_date=20230609T155308, start_date=20230609T155316, end_date=20230609T155325
+[2023-06-09T21:23:25.106+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 881 for task send_email ((534, b'5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a8-20020a170902b58800b001a988a71617sm3441494pls.192 - gsmtp'); 32963)
+[2023-06-09T21:23:25.130+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-06-09T21:23:25.159+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

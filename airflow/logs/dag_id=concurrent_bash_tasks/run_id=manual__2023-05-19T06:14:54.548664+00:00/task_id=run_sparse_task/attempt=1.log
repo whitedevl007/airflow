@@ -1,0 +1,41 @@
+[2023-05-19T11:52:21.376+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: concurrent_bash_tasks.run_sparse_task manual__2023-05-19T06:14:54.548664+00:00 [queued]>
+[2023-05-19T11:52:21.383+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: concurrent_bash_tasks.run_sparse_task manual__2023-05-19T06:14:54.548664+00:00 [queued]>
+[2023-05-19T11:52:21.384+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-19T11:52:21.399+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): run_sparse_task> on 2023-05-19 06:14:54.548664+00:00
+[2023-05-19T11:52:21.403+0530] {standard_task_runner.py:57} INFO - Started process 14012 to run task
+[2023-05-19T11:52:21.407+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'concurrent_bash_tasks', 'run_sparse_task', 'manual__2023-05-19T06:14:54.548664+00:00', '--job-id', '707', '--raw', '--subdir', 'DAGS_FOLDER/kafkastorm.py', '--cfg-path', '/tmp/tmppynpxucf']
+[2023-05-19T11:52:21.409+0530] {standard_task_runner.py:85} INFO - Job 707: Subtask run_sparse_task
+[2023-05-19T11:52:21.457+0530] {task_command.py:410} INFO - Running <TaskInstance: concurrent_bash_tasks.run_sparse_task manual__2023-05-19T06:14:54.548664+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-19T11:52:21.532+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='concurrent_bash_tasks' AIRFLOW_CTX_TASK_ID='run_sparse_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-19T06:14:54.548664+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-19T06:14:54.548664+00:00'
+[2023-05-19T11:52:24.002+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 14012. PIDs of all processes in the group: [14013, 14014, 14015, 14016, 14027, 14012]
+[2023-05-19T11:52:24.002+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 14012
+[2023-05-19T11:52:24.005+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-19T11:52:24.017+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=14015, status='terminated', started='11:52:21') (14015) terminated with exit code None
+[2023-05-19T11:52:24.018+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=14016, status='terminated', started='11:52:21') (14016) terminated with exit code None
+[2023-05-19T11:52:24.017+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/kafkastorm.py", line 216, in run_sparse_command
+    subprocess.run(bash_command, shell=True)
+  File "/usr/lib/python3.10/subprocess.py", line 503, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1144, in communicate
+    self.wait()
+  File "/usr/lib/python3.10/subprocess.py", line 1207, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1941, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1899, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1542, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-05-19T11:52:24.021+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=concurrent_bash_tasks, task_id=run_sparse_task, execution_date=20230519T061454, start_date=20230519T062221, end_date=20230519T062224
+[2023-05-19T11:52:24.040+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 707 for task run_sparse_task (Task received SIGTERM signal; 14012)
+[2023-05-19T11:52:24.044+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=14027, status='terminated', started='11:52:21') (14027) terminated with exit code None
+[2023-05-19T11:52:24.045+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=14014, status='terminated', started='11:52:20') (14014) terminated with exit code None
+[2023-05-19T11:52:24.049+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=14012, status='terminated', exitcode=1, started='11:52:20') (14012) terminated with exit code 1
+[2023-05-19T11:52:24.049+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=14013, status='terminated', started='11:52:20') (14013) terminated with exit code None

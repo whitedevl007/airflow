@@ -1,0 +1,1394 @@
+[2023-05-21T14:36:56.935+0530] {processor.py:156} INFO - Started process (PID=23181) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:36:56.936+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:36:56.937+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:36:56.937+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:36:56.957+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:36:57.042+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:36:57.042+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:36:57.071+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:36:57.071+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:36:57.100+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.170 seconds
+[2023-05-21T14:37:54.595+0530] {processor.py:156} INFO - Started process (PID=23251) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:37:54.597+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:37:54.597+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:37:54.597+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:37:54.606+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:37:54.635+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:37:54.635+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:37:54.665+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:37:54.665+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:37:54.840+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.249 seconds
+[2023-05-21T14:38:37.541+0530] {processor.py:156} INFO - Started process (PID=23532) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:38:37.543+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:38:37.545+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:38:37.544+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:38:37.556+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:38:37.614+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:38:37.614+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:38:37.874+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:38:37.874+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:38:37.909+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.374 seconds
+[2023-05-21T14:39:19.488+0530] {processor.py:156} INFO - Started process (PID=23669) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:39:19.491+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:39:19.492+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:39:19.492+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:39:19.501+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:39:19.741+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:39:19.741+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:39:19.781+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:39:19.781+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:39:19.815+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.334 seconds
+[2023-05-21T14:40:13.772+0530] {processor.py:156} INFO - Started process (PID=23856) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:40:13.774+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:40:13.776+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:40:13.776+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:40:13.787+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:40:13.823+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:40:13.823+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:40:13.857+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:40:13.856+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:40:13.883+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.117 seconds
+[2023-05-21T14:41:02.174+0530] {processor.py:156} INFO - Started process (PID=23907) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:41:02.176+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:41:02.177+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:41:02.177+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:41:02.185+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:41:02.279+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:41:02.279+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:41:02.303+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:41:02.303+0530] {dag.py:2747} INFO - Creating ORM DAG for storm_topo
+[2023-05-21T14:41:02.323+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:41:02.323+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:41:02.361+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.191 seconds
+[2023-05-21T14:41:17.602+0530] {processor.py:156} INFO - Started process (PID=23924) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:41:17.603+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:41:17.604+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:41:17.604+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:41:17.623+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:41:17.635+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:41:17.634+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:41:17.666+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:41:17.666+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:41:17.692+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.096 seconds
+[2023-05-21T14:42:25.367+0530] {processor.py:156} INFO - Started process (PID=24183) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:42:25.370+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:42:25.372+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:42:25.372+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:42:25.382+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:42:25.418+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:42:25.417+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:42:25.456+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:42:25.456+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:42:25.703+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.341 seconds
+[2023-05-21T14:43:05.520+0530] {processor.py:156} INFO - Started process (PID=24355) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:43:05.522+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:43:05.526+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:43:05.525+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:43:05.554+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:43:05.616+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:43:05.616+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:43:06.034+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:43:06.034+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:43:06.082+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.572 seconds
+[2023-05-21T14:43:41.988+0530] {processor.py:156} INFO - Started process (PID=24525) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:43:41.990+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:43:41.992+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:43:41.991+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:43:42.000+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:43:42.203+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:43:42.202+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:43:42.239+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:43:42.239+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:43:42.270+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.288 seconds
+[2023-05-21T14:44:35.087+0530] {processor.py:156} INFO - Started process (PID=24583) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:44:35.089+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:44:35.090+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:44:35.090+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:44:35.098+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:44:35.130+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:44:35.129+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:44:35.163+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:44:35.162+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:44:35.190+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.107 seconds
+[2023-05-21T14:45:21.674+0530] {processor.py:156} INFO - Started process (PID=24815) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:45:21.675+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:45:21.677+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:45:21.676+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:45:21.686+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:45:21.729+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:45:21.728+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:45:21.772+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:45:21.771+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:45:21.807+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.139 seconds
+[2023-05-21T14:46:11.996+0530] {processor.py:156} INFO - Started process (PID=25093) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:46:11.997+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:46:11.999+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:46:11.998+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:46:12.006+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:46:12.038+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:46:12.038+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:46:12.071+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:46:12.071+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:46:12.109+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.118 seconds
+[2023-05-21T14:47:00.703+0530] {processor.py:156} INFO - Started process (PID=25153) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:47:00.704+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:47:00.705+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:47:00.705+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:47:00.711+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:47:00.744+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:47:00.744+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:47:00.779+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:47:00.779+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:47:00.809+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.111 seconds
+[2023-05-21T14:47:46.586+0530] {processor.py:156} INFO - Started process (PID=25222) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:47:46.591+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:47:46.593+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:47:46.592+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:47:46.621+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:47:46.771+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:47:46.771+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:47:46.829+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:47:46.828+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:47:46.859+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.287 seconds
+[2023-05-21T14:48:36.544+0530] {processor.py:156} INFO - Started process (PID=25398) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:48:36.546+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:48:36.548+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:48:36.547+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:48:36.557+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:48:36.598+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:48:36.598+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:48:36.641+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:48:36.641+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:48:36.687+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.150 seconds
+[2023-05-21T14:49:29.038+0530] {processor.py:156} INFO - Started process (PID=25497) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:49:29.040+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:49:29.042+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:49:29.041+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:49:29.049+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:49:29.082+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:49:29.081+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:49:29.114+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:49:29.113+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:49:29.139+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.106 seconds
+[2023-05-21T14:50:17.366+0530] {processor.py:156} INFO - Started process (PID=25554) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:50:17.369+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:50:17.370+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:50:17.370+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:50:17.379+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:50:17.412+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:50:17.412+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:50:17.443+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:50:17.443+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:50:17.468+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.107 seconds
+[2023-05-21T14:51:04.120+0530] {processor.py:156} INFO - Started process (PID=25601) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:51:04.122+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:51:04.123+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:51:04.122+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:51:04.130+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:51:04.163+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:51:04.162+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:51:04.194+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:51:04.194+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:51:04.224+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.109 seconds
+[2023-05-21T14:51:53.246+0530] {processor.py:156} INFO - Started process (PID=25685) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:51:53.247+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:51:53.248+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:51:53.248+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:51:53.256+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:51:53.294+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:51:53.294+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:51:53.323+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:51:53.323+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:51:53.350+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.109 seconds
+[2023-05-21T14:52:52.789+0530] {processor.py:156} INFO - Started process (PID=25799) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:52:52.791+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:52:52.794+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:52:52.793+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:52:52.823+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:52:52.898+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:52:52.898+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:52:52.964+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:52:52.964+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:52:52.998+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.215 seconds
+[2023-05-21T14:53:28.669+0530] {processor.py:156} INFO - Started process (PID=25969) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:53:28.670+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:53:28.671+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:53:28.671+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:53:28.678+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:53:28.712+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:53:28.712+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:53:28.746+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:53:28.745+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:53:28.778+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.115 seconds
+[2023-05-21T14:54:19.258+0530] {processor.py:156} INFO - Started process (PID=26250) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:54:19.259+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:54:19.261+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:54:19.260+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:54:19.270+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:54:19.304+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:54:19.304+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:54:19.335+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:54:19.334+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:54:19.361+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.110 seconds
+[2023-05-21T14:55:07.874+0530] {processor.py:156} INFO - Started process (PID=26305) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:55:07.876+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:55:07.877+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:55:07.877+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:55:07.886+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:55:07.920+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:55:07.920+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:55:07.951+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:55:07.951+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:55:07.978+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.110 seconds
+[2023-05-21T14:55:55.014+0530] {processor.py:156} INFO - Started process (PID=26544) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:55:55.016+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:55:55.017+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:55:55.016+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:55:55.029+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:55:55.082+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:55:55.082+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:55:55.132+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:55:55.131+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:55:55.168+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.160 seconds
+[2023-05-21T14:56:41.260+0530] {processor.py:156} INFO - Started process (PID=26701) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:56:41.262+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:56:41.263+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:56:41.263+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:56:41.271+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:56:41.303+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:56:41.303+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:56:41.336+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:56:41.336+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:56:41.369+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.115 seconds
+[2023-05-21T14:57:24.714+0530] {processor.py:156} INFO - Started process (PID=26780) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:57:24.722+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:57:24.731+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:57:24.731+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:57:24.753+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:57:24.815+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:57:24.815+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:57:24.870+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:57:24.869+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:57:24.927+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.229 seconds
+[2023-05-21T14:57:58.668+0530] {processor.py:156} INFO - Started process (PID=26939) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:57:58.670+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:57:58.671+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:57:58.671+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:57:58.679+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:57:58.715+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:57:58.715+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:57:58.762+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:57:58.761+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:57:58.793+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.130 seconds
+[2023-05-21T14:58:34.223+0530] {processor.py:156} INFO - Started process (PID=27105) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:58:34.230+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:58:34.233+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:58:34.232+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:58:34.254+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:58:34.372+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:58:34.371+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:58:34.427+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:58:34.427+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:58:34.532+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.316 seconds
+[2023-05-21T14:59:25.906+0530] {processor.py:156} INFO - Started process (PID=27372) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:59:25.909+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T14:59:25.911+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:59:25.910+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:59:25.922+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T14:59:25.956+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:59:25.956+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T14:59:25.987+0530] {logging_mixin.py:149} INFO - [2023-05-21T14:59:25.987+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T14:59:26.013+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.114 seconds
+[2023-05-21T15:00:11.765+0530] {processor.py:156} INFO - Started process (PID=27475) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:00:11.771+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:00:11.780+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:00:11.780+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:00:11.806+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:00:11.865+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:00:11.865+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:00:11.910+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:00:11.910+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:00:11.946+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.196 seconds
+[2023-05-21T15:01:03.435+0530] {processor.py:156} INFO - Started process (PID=27778) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:01:03.439+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:01:03.441+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:01:03.440+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:01:03.520+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:01:03.628+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:01:03.628+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:01:03.768+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:01:03.768+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:01:03.839+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.421 seconds
+[2023-05-21T15:02:01.475+0530] {processor.py:156} INFO - Started process (PID=27878) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:02:01.476+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:02:01.478+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:02:01.477+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:02:01.488+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:02:01.521+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:02:01.521+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:02:01.552+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:02:01.551+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:02:01.578+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.110 seconds
+[2023-05-21T15:02:47.327+0530] {processor.py:156} INFO - Started process (PID=27931) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:02:47.329+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:02:47.330+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:02:47.330+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:02:47.341+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:02:47.375+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:02:47.375+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:02:47.405+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:02:47.404+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:02:47.431+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.110 seconds
+[2023-05-21T15:03:35.363+0530] {processor.py:156} INFO - Started process (PID=27988) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:03:35.365+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:03:35.367+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:03:35.367+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:03:35.375+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:03:35.408+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:03:35.408+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:03:35.439+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:03:35.438+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:03:35.465+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.107 seconds
+[2023-05-21T15:04:23.197+0530] {processor.py:156} INFO - Started process (PID=28037) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:04:23.198+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:04:23.200+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:04:23.199+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:04:23.211+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:04:23.246+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:04:23.245+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:04:23.277+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:04:23.276+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:04:23.309+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.118 seconds
+[2023-05-21T15:05:11.455+0530] {processor.py:156} INFO - Started process (PID=28089) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:05:11.456+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:05:11.457+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:05:11.457+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:05:11.464+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:05:11.496+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:05:11.496+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:05:11.542+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:05:11.542+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:05:11.584+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.134 seconds
+[2023-05-21T15:05:53.724+0530] {processor.py:156} INFO - Started process (PID=28136) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:05:53.726+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:05:53.727+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:05:53.727+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:05:53.736+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:05:53.771+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:05:53.770+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:05:53.801+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:05:53.801+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:05:53.826+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.108 seconds
+[2023-05-21T15:06:38.677+0530] {processor.py:156} INFO - Started process (PID=28202) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:06:38.679+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:06:38.680+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:06:38.680+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:06:38.689+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:06:38.721+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:06:38.721+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:06:38.751+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:06:38.751+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:06:38.779+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.107 seconds
+[2023-05-21T15:07:25.332+0530] {processor.py:156} INFO - Started process (PID=28286) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:07:25.334+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:07:25.335+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:07:25.335+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:07:25.343+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:07:25.377+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:07:25.377+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:07:25.409+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:07:25.408+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:07:25.436+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.109 seconds
+[2023-05-21T15:08:15.656+0530] {processor.py:156} INFO - Started process (PID=28342) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:08:15.659+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:08:15.661+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:08:15.660+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:08:15.668+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:08:15.703+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:08:15.703+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:08:15.737+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:08:15.737+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:08:15.778+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.128 seconds
+[2023-05-21T15:09:02.130+0530] {processor.py:156} INFO - Started process (PID=28418) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:09:02.132+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:09:02.133+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:09:02.133+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:09:02.142+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:09:02.176+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:09:02.175+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:09:02.205+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:09:02.204+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:09:02.233+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.109 seconds
+[2023-05-21T15:09:46.360+0530] {processor.py:156} INFO - Started process (PID=28461) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:09:46.362+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:09:46.364+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:09:46.363+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:09:46.373+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:09:46.415+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:09:46.415+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:09:46.462+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:09:46.462+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:09:46.497+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.142 seconds
+[2023-05-21T15:10:33.288+0530] {processor.py:156} INFO - Started process (PID=28629) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:10:33.290+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:10:33.291+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:10:33.291+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:10:33.301+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:10:33.337+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:10:33.337+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:10:33.369+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:10:33.369+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:10:33.396+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.114 seconds
+[2023-05-21T15:11:21.917+0530] {processor.py:156} INFO - Started process (PID=28677) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:11:21.919+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:11:21.920+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:11:21.920+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:11:21.927+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:11:21.959+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:11:21.959+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:11:21.995+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:11:21.994+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:11:22.029+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.117 seconds
+[2023-05-21T15:12:06.393+0530] {processor.py:156} INFO - Started process (PID=28755) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:12:06.395+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:12:06.396+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:12:06.396+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:12:06.408+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:12:06.455+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:12:06.454+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:12:06.504+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:12:06.504+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:12:06.553+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.166 seconds
+[2023-05-21T15:12:50.933+0530] {processor.py:156} INFO - Started process (PID=28804) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:12:50.934+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:12:50.936+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:12:50.935+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:12:50.944+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:12:50.979+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:12:50.979+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:12:51.009+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:12:51.009+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:12:51.036+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.109 seconds
+[2023-05-21T15:13:35.692+0530] {processor.py:156} INFO - Started process (PID=28859) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:13:35.694+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:13:35.696+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:13:35.695+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:13:35.704+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:13:35.737+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:13:35.736+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:13:35.767+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:13:35.767+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:13:35.792+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.105 seconds
+[2023-05-21T15:14:24.320+0530] {processor.py:156} INFO - Started process (PID=28914) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:14:24.322+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:14:24.323+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:14:24.323+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:14:24.332+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:14:24.365+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:14:24.364+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:14:24.394+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:14:24.394+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:14:24.420+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.105 seconds
+[2023-05-21T15:15:13.762+0530] {processor.py:156} INFO - Started process (PID=28968) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:15:13.764+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:15:13.765+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:15:13.765+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:15:13.775+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:15:13.810+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:15:13.809+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:15:13.841+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:15:13.841+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:15:13.869+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.112 seconds
+[2023-05-21T15:16:01.822+0530] {processor.py:156} INFO - Started process (PID=29014) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:16:01.824+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:16:01.825+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:16:01.825+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:16:01.835+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:16:01.868+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:16:01.868+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:16:01.897+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:16:01.897+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:16:01.924+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.107 seconds
+[2023-05-21T15:16:51.717+0530] {processor.py:156} INFO - Started process (PID=29131) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:16:51.720+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:16:51.721+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:16:51.721+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:16:51.729+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:16:51.763+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:16:51.763+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:16:51.795+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:16:51.795+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:16:51.823+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.111 seconds
+[2023-05-21T15:17:43.378+0530] {processor.py:156} INFO - Started process (PID=29185) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:17:43.380+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:17:43.381+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:17:43.381+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:17:43.391+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:17:43.427+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:17:43.427+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:17:43.460+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:17:43.459+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:17:43.485+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.112 seconds
+[2023-05-21T15:18:34.376+0530] {processor.py:156} INFO - Started process (PID=29240) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:18:34.378+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:18:34.379+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:18:34.379+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:18:34.388+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:18:34.419+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:18:34.419+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:18:34.451+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:18:34.451+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:18:34.477+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.107 seconds
+[2023-05-21T15:19:23.775+0530] {processor.py:156} INFO - Started process (PID=29364) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:19:23.777+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:19:23.779+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:19:23.779+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:19:23.787+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:19:23.826+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:19:23.826+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:19:23.870+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:19:23.870+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:19:23.900+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.130 seconds
+[2023-05-21T15:20:12.288+0530] {processor.py:156} INFO - Started process (PID=29446) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:20:12.289+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:20:12.290+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:20:12.290+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:20:12.299+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:20:12.332+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:20:12.332+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:20:12.368+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:20:12.368+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:20:12.407+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.126 seconds
+[2023-05-21T15:21:05.314+0530] {processor.py:156} INFO - Started process (PID=29580) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:21:05.316+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:21:05.317+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:21:05.317+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:21:05.325+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:21:05.358+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:21:05.358+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:21:05.390+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:21:05.390+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:21:05.416+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.107 seconds
+[2023-05-21T15:21:58.699+0530] {processor.py:156} INFO - Started process (PID=29683) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:21:58.701+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:21:58.702+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:21:58.702+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:21:58.711+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:21:58.759+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:21:58.759+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:21:58.812+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:21:58.812+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:21:58.859+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.166 seconds
+[2023-05-21T15:22:54.072+0530] {processor.py:156} INFO - Started process (PID=29949) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:22:54.074+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:22:54.075+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:22:54.075+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:22:54.083+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:22:54.114+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:22:54.114+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:22:54.143+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:22:54.143+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:22:54.170+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.102 seconds
+[2023-05-21T15:23:42.958+0530] {processor.py:156} INFO - Started process (PID=30004) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:23:42.959+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:23:42.961+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:23:42.961+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:23:42.972+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:23:43.010+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:23:43.010+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:23:43.042+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:23:43.042+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:23:43.071+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.120 seconds
+[2023-05-21T15:24:33.656+0530] {processor.py:156} INFO - Started process (PID=30055) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:24:33.657+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:24:33.658+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:24:33.658+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:24:33.666+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:24:33.696+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:24:33.696+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:24:33.727+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:24:33.727+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:24:33.757+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.106 seconds
+[2023-05-21T15:25:24.399+0530] {processor.py:156} INFO - Started process (PID=30107) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:25:24.401+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:25:24.402+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:25:24.402+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:25:24.410+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:25:24.444+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:25:24.444+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:25:24.475+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:25:24.475+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:25:24.502+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.108 seconds
+[2023-05-21T15:26:14.152+0530] {processor.py:156} INFO - Started process (PID=30169) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:26:14.154+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:26:14.155+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:26:14.155+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:26:14.163+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:26:14.196+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:26:14.196+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:26:14.225+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:26:14.225+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:26:14.250+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.103 seconds
+[2023-05-21T15:27:03.565+0530] {processor.py:156} INFO - Started process (PID=30259) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:27:03.567+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:27:03.570+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:27:03.569+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:27:03.589+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:27:03.636+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:27:03.636+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:27:03.688+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:27:03.687+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:27:03.741+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.182 seconds
+[2023-05-21T15:36:29.038+0530] {processor.py:156} INFO - Started process (PID=31507) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:36:29.040+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:36:29.042+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:36:29.041+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:36:29.059+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:36:29.101+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:36:29.101+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:36:29.138+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:36:29.137+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:36:29.165+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.131 seconds
+[2023-05-21T15:37:27.739+0530] {processor.py:156} INFO - Started process (PID=31570) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:37:27.741+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:37:27.743+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:37:27.742+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:37:27.754+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:37:27.797+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:37:27.797+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:37:27.844+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:37:27.844+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:37:28.016+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.284 seconds
+[2023-05-21T15:37:59.427+0530] {processor.py:156} INFO - Started process (PID=31602) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:37:59.429+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:37:59.431+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:37:59.431+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:37:59.442+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:37:59.482+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:37:59.482+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:37:59.700+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:37:59.700+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:37:59.736+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.317 seconds
+[2023-05-21T15:38:40.261+0530] {processor.py:156} INFO - Started process (PID=31705) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:38:40.264+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:38:40.266+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:38:40.265+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:38:40.275+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:38:40.630+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:38:40.630+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:38:40.678+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:38:40.678+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:38:40.738+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.483 seconds
+[2023-05-21T15:39:17.296+0530] {processor.py:156} INFO - Started process (PID=31749) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:39:17.299+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:39:17.300+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:39:17.300+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:39:17.319+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:39:17.372+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:39:17.371+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:39:17.447+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:39:17.446+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:39:17.505+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.221 seconds
+[2023-05-21T15:40:16.047+0530] {processor.py:156} INFO - Started process (PID=31836) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:40:16.049+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:40:16.050+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:40:16.049+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:40:16.056+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:40:16.084+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:40:16.084+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:40:16.152+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:40:16.152+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:40:16.189+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.146 seconds
+[2023-05-21T15:40:42.100+0530] {processor.py:156} INFO - Started process (PID=31857) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:40:42.102+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:40:42.103+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:40:42.103+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:40:42.116+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:40:42.195+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:40:42.195+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:40:42.234+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:40:42.233+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:40:42.271+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.175 seconds
+[2023-05-21T15:41:43.194+0530] {processor.py:156} INFO - Started process (PID=31922) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:41:43.196+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:41:43.198+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:41:43.197+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:41:43.210+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:41:43.245+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:41:43.245+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:41:43.277+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:41:43.277+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:41:43.450+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.263 seconds
+[2023-05-21T15:42:15.757+0530] {processor.py:156} INFO - Started process (PID=31950) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:42:15.759+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:42:15.760+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:42:15.760+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:42:15.769+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:42:15.812+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:42:15.811+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:42:16.027+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:42:16.026+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:42:16.057+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.305 seconds
+[2023-05-21T15:44:22.304+0530] {processor.py:156} INFO - Started process (PID=32308) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:44:22.305+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:44:22.307+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:44:22.307+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:44:22.315+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:44:22.358+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:44:22.358+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:44:22.385+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:44:22.384+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:44:22.412+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.114 seconds
+[2023-05-21T15:45:19.631+0530] {processor.py:156} INFO - Started process (PID=32409) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:45:19.633+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:45:19.634+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:45:19.634+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:45:19.641+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:45:19.672+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:45:19.672+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:45:19.699+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:45:19.699+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:45:19.726+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.100 seconds
+[2023-05-21T15:46:10.735+0530] {processor.py:156} INFO - Started process (PID=32478) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:46:10.737+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:46:10.738+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:46:10.738+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:46:10.746+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:46:10.776+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:46:10.776+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:46:10.801+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:46:10.800+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:46:10.835+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.106 seconds
+[2023-05-21T15:47:01.795+0530] {processor.py:156} INFO - Started process (PID=32544) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:47:01.796+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:47:01.797+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:47:01.797+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:47:01.804+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:47:01.832+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:47:01.831+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:47:01.860+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:47:01.860+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:47:01.887+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.097 seconds
+[2023-05-21T15:47:52.799+0530] {processor.py:156} INFO - Started process (PID=32613) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:47:52.801+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:47:52.802+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:47:52.802+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:47:52.809+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:47:52.841+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:47:52.841+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:47:52.865+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:47:52.865+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:47:52.891+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.097 seconds
+[2023-05-21T15:48:41.160+0530] {processor.py:156} INFO - Started process (PID=32660) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:48:41.162+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:48:41.163+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:48:41.163+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:48:41.170+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:48:41.202+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:48:41.202+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:48:41.229+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:48:41.228+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:48:41.255+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.100 seconds
+[2023-05-21T15:49:00.429+0530] {processor.py:156} INFO - Started process (PID=32676) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:49:00.431+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:49:00.432+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:49:00.432+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:49:00.446+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:49:00.482+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:49:00.482+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:49:00.511+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:49:00.511+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:49:00.539+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.115 seconds
+[2023-05-21T15:50:03.657+0530] {processor.py:156} INFO - Started process (PID=32769) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:50:03.658+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:50:03.659+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:50:03.659+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:50:03.667+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:50:03.695+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:50:03.695+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:50:03.729+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:50:03.729+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:50:03.886+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.233 seconds
+[2023-05-21T15:51:02.132+0530] {processor.py:156} INFO - Started process (PID=32844) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:51:02.134+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:51:02.135+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:51:02.135+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:51:02.141+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:51:02.288+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:51:02.287+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:51:02.312+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:51:02.312+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:51:02.338+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.211 seconds
+[2023-05-21T15:51:57.978+0530] {processor.py:156} INFO - Started process (PID=32921) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:51:57.979+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:51:57.981+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:51:57.980+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:51:57.988+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:51:58.020+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:51:58.019+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:51:58.049+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:51:58.049+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:51:58.075+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.103 seconds
+[2023-05-21T15:52:44.948+0530] {processor.py:156} INFO - Started process (PID=32983) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:52:44.950+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:52:44.951+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:52:44.951+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:52:44.958+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:52:44.990+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:52:44.989+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:52:45.019+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:52:45.019+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:52:45.049+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.106 seconds
+[2023-05-21T15:53:33.514+0530] {processor.py:156} INFO - Started process (PID=33040) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:53:33.515+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:53:33.516+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:53:33.516+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:53:33.523+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:53:33.554+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:53:33.554+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:53:33.583+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:53:33.583+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:53:33.608+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.100 seconds
+[2023-05-21T15:54:23.652+0530] {processor.py:156} INFO - Started process (PID=33099) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:54:23.653+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:54:23.654+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:54:23.654+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:54:23.662+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:54:23.688+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:54:23.688+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:54:23.718+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:54:23.718+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:54:23.751+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.103 seconds
+[2023-05-21T15:55:11.868+0530] {processor.py:156} INFO - Started process (PID=33173) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:55:11.870+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:55:11.872+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:55:11.872+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:55:11.882+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:55:11.913+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:55:11.913+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:55:11.941+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:55:11.941+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:55:11.967+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.103 seconds
+[2023-05-21T15:55:59.151+0530] {processor.py:156} INFO - Started process (PID=33228) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:55:59.152+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:55:59.154+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:55:59.153+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:55:59.162+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:55:59.192+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:55:59.192+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:55:59.220+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:55:59.220+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:55:59.249+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.104 seconds
+[2023-05-21T15:56:47.410+0530] {processor.py:156} INFO - Started process (PID=33289) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:56:47.411+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:56:47.412+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:56:47.412+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:56:47.418+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:56:47.446+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:56:47.446+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:56:47.474+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:56:47.474+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:56:47.500+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.095 seconds
+[2023-05-21T15:57:32.163+0530] {processor.py:156} INFO - Started process (PID=33359) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:57:32.165+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:57:32.166+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:57:32.166+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:57:32.175+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:57:32.204+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:57:32.204+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:57:32.232+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:57:32.232+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:57:32.259+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.102 seconds
+[2023-05-21T15:58:21.782+0530] {processor.py:156} INFO - Started process (PID=33421) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:58:21.784+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:58:21.785+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:58:21.785+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:58:21.794+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:58:21.839+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:58:21.838+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:58:21.867+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:58:21.867+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:58:21.897+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.120 seconds
+[2023-05-21T15:59:09.627+0530] {processor.py:156} INFO - Started process (PID=33491) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:59:09.629+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:59:09.630+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:59:09.630+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:59:09.638+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:59:09.669+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:59:09.668+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:59:09.697+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:59:09.697+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:59:09.725+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.103 seconds
+[2023-05-21T15:59:59.474+0530] {processor.py:156} INFO - Started process (PID=33564) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:59:59.476+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T15:59:59.477+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:59:59.477+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:59:59.487+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T15:59:59.518+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:59:59.518+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T15:59:59.547+0530] {logging_mixin.py:149} INFO - [2023-05-21T15:59:59.547+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T15:59:59.577+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.108 seconds
+[2023-05-21T16:00:50.409+0530] {processor.py:156} INFO - Started process (PID=33625) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:00:50.410+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:00:50.411+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:00:50.411+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:00:50.419+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:00:50.449+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:00:50.449+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:00:50.478+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:00:50.478+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:00:50.502+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.099 seconds
+[2023-05-21T16:01:38.078+0530] {processor.py:156} INFO - Started process (PID=33684) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:01:38.079+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:01:38.080+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:01:38.080+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:01:38.087+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:01:38.118+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:01:38.118+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:01:38.149+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:01:38.149+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:01:38.179+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.105 seconds
+[2023-05-21T16:02:53.728+0530] {processor.py:156} INFO - Started process (PID=33746) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:02:53.731+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:02:53.732+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:02:53.732+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:02:53.748+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:02:53.793+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:02:53.793+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:02:53.827+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:02:53.827+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:02:53.858+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.136 seconds
+[2023-05-21T16:03:54.788+0530] {processor.py:156} INFO - Started process (PID=33859) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:03:54.790+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:03:54.792+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:03:54.791+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:03:54.803+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:03:54.843+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:03:54.842+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:03:54.880+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:03:54.880+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:03:55.062+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.280 seconds
+[2023-05-21T16:04:52.372+0530] {processor.py:156} INFO - Started process (PID=33942) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:04:52.375+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:04:52.377+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:04:52.377+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:04:52.392+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:04:52.742+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:04:52.742+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:04:52.798+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:04:52.798+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:04:52.859+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.496 seconds
+[2023-05-21T16:05:25.526+0530] {processor.py:156} INFO - Started process (PID=34011) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:05:25.527+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:05:25.529+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:05:25.528+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:05:25.536+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:05:25.568+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:05:25.568+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:05:25.605+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:05:25.604+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:05:25.635+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.114 seconds
+[2023-05-21T16:06:17.955+0530] {processor.py:156} INFO - Started process (PID=34076) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:06:17.956+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:06:17.957+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:06:17.957+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:06:17.963+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:06:17.994+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:06:17.993+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:06:18.023+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:06:18.023+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:06:18.049+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.099 seconds
+[2023-05-21T16:07:04.188+0530] {processor.py:156} INFO - Started process (PID=34128) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:07:04.190+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:07:04.191+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:07:04.191+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:07:04.199+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:07:04.240+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:07:04.240+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:07:04.287+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:07:04.287+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:07:04.319+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.137 seconds
+[2023-05-21T16:07:53.713+0530] {processor.py:156} INFO - Started process (PID=34191) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:07:53.715+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:07:53.716+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:07:53.716+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:07:53.723+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:07:53.755+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:07:53.755+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:07:53.785+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:07:53.784+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:07:53.811+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.103 seconds
+[2023-05-21T16:08:38.511+0530] {processor.py:156} INFO - Started process (PID=34242) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:08:38.512+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:08:38.513+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:08:38.513+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:08:38.520+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:08:38.553+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:08:38.552+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:08:38.584+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:08:38.584+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:08:38.612+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.107 seconds
+[2023-05-21T16:09:24.221+0530] {processor.py:156} INFO - Started process (PID=34318) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:09:24.223+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:09:24.224+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:09:24.224+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:09:24.233+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:09:24.265+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:09:24.265+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:09:24.295+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:09:24.295+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:09:24.322+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.106 seconds
+[2023-05-21T16:10:09.619+0530] {processor.py:156} INFO - Started process (PID=34377) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:10:09.621+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:10:09.623+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:10:09.623+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:10:09.633+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:10:09.661+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:10:09.661+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:10:09.689+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:10:09.689+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:10:09.716+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.102 seconds
+[2023-05-21T16:10:54.537+0530] {processor.py:156} INFO - Started process (PID=34437) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:10:54.538+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:10:54.539+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:10:54.539+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:10:54.547+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:10:54.579+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:10:54.579+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:10:54.609+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:10:54.608+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:10:54.635+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.103 seconds
+[2023-05-21T16:11:40.664+0530] {processor.py:156} INFO - Started process (PID=34495) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:11:40.665+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:11:40.666+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:11:40.666+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:11:40.673+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:11:40.703+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:11:40.703+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:11:40.738+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:11:40.738+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:11:40.772+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.113 seconds
+[2023-05-21T16:12:28.519+0530] {processor.py:156} INFO - Started process (PID=34551) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:12:28.521+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:12:28.522+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:12:28.522+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:12:28.530+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:12:28.560+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:12:28.559+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:12:28.588+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:12:28.588+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:12:28.615+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.100 seconds
+[2023-05-21T16:13:17.942+0530] {processor.py:156} INFO - Started process (PID=34611) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:13:17.944+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:13:17.946+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:13:17.945+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:13:17.953+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:13:17.985+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:13:17.984+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:13:18.013+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:13:18.013+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:13:18.039+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.102 seconds
+[2023-05-21T16:14:06.199+0530] {processor.py:156} INFO - Started process (PID=34656) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:14:06.202+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:14:06.203+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:14:06.203+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:14:06.212+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:14:06.246+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:14:06.245+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:14:06.275+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:14:06.275+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:14:06.312+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.119 seconds
+[2023-05-21T16:14:57.642+0530] {processor.py:156} INFO - Started process (PID=34724) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:14:57.644+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:14:57.645+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:14:57.645+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:14:57.654+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:14:57.687+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:14:57.686+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:14:57.715+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:14:57.715+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:14:57.741+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.104 seconds
+[2023-05-21T16:15:46.772+0530] {processor.py:156} INFO - Started process (PID=34787) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:15:46.774+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:15:46.775+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:15:46.775+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:15:46.783+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:15:46.817+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:15:46.817+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:15:46.859+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:15:46.859+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:15:46.896+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.129 seconds
+[2023-05-21T16:16:36.091+0530] {processor.py:156} INFO - Started process (PID=34844) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:16:36.093+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:16:36.094+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:16:36.094+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:16:36.101+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:16:36.130+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:16:36.130+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:16:36.160+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:16:36.160+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:16:36.187+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.102 seconds
+[2023-05-21T16:17:24.681+0530] {processor.py:156} INFO - Started process (PID=34935) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:17:24.682+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:17:24.684+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:17:24.683+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:17:24.692+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:17:24.728+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:17:24.728+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:17:24.764+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:17:24.764+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:17:24.792+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.115 seconds
+[2023-05-21T16:18:12.484+0530] {processor.py:156} INFO - Started process (PID=34988) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:18:12.486+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:18:12.487+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:18:12.487+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:18:12.496+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:18:12.533+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:18:12.533+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:18:12.564+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:18:12.564+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:18:12.592+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.114 seconds
+[2023-05-21T16:18:26.098+0530] {processor.py:156} INFO - Started process (PID=35003) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:18:26.100+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:18:26.101+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:18:26.101+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:18:26.119+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:18:26.169+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:18:26.168+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:18:26.208+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:18:26.207+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:18:26.242+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.149 seconds
+[2023-05-21T16:19:23.807+0530] {processor.py:156} INFO - Started process (PID=35095) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:19:23.811+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:19:23.813+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:19:23.813+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:19:23.849+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:19:23.937+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:19:23.937+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:19:24.041+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:19:24.041+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:19:24.757+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.955 seconds
+[2023-05-21T16:20:26.028+0530] {processor.py:156} INFO - Started process (PID=35163) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:20:26.030+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:20:26.031+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:20:26.031+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:20:26.037+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:20:26.196+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:20:26.196+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:20:26.225+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:20:26.225+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:20:26.256+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.232 seconds
+[2023-05-21T16:21:21.882+0530] {processor.py:156} INFO - Started process (PID=35213) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:21:21.885+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:21:21.886+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:21:21.886+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:21:21.895+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:21:21.927+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:21:21.927+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:21:21.957+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:21:21.957+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:21:21.986+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.110 seconds
+[2023-05-21T16:22:11.051+0530] {processor.py:156} INFO - Started process (PID=35276) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:22:11.053+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:22:11.054+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:22:11.054+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:22:11.062+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:22:11.092+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:22:11.092+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:22:11.122+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:22:11.122+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:22:11.159+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.114 seconds
+[2023-05-21T16:23:33.918+0530] {processor.py:156} INFO - Started process (PID=36426) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:23:33.923+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:23:33.933+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:23:33.932+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:23:33.985+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:23:34.092+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:23:34.091+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:23:34.234+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:23:34.234+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:23:34.333+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.437 seconds
+[2023-05-21T16:24:26.164+0530] {processor.py:156} INFO - Started process (PID=36528) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:24:26.165+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:24:26.166+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:24:26.166+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:24:26.173+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:24:26.203+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:24:26.203+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:24:26.245+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:24:26.244+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:24:26.280+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.121 seconds
+[2023-05-21T16:25:16.566+0530] {processor.py:156} INFO - Started process (PID=36588) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:25:16.568+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:25:16.569+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:25:16.569+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:25:16.576+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:25:16.609+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:25:16.609+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:25:16.644+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:25:16.643+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:25:16.672+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.112 seconds
+[2023-05-21T16:26:06.030+0530] {processor.py:156} INFO - Started process (PID=36646) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:26:06.032+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:26:06.033+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:26:06.033+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:26:06.041+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:26:06.078+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:26:06.078+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:26:06.117+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:26:06.117+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:26:06.146+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.122 seconds
+[2023-05-21T16:26:56.917+0530] {processor.py:156} INFO - Started process (PID=37327) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:26:56.919+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:26:56.920+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:26:56.920+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:26:56.927+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:26:56.956+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:26:56.955+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:26:56.986+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:26:56.986+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:26:57.012+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.100 seconds
+[2023-05-21T16:27:51.696+0530] {processor.py:156} INFO - Started process (PID=37795) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:27:51.698+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:27:51.699+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:27:51.699+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:27:51.707+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:27:51.737+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:27:51.737+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:27:51.768+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:27:51.768+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:27:51.795+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.105 seconds
+[2023-05-21T16:28:39.077+0530] {processor.py:156} INFO - Started process (PID=37860) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:28:39.078+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:28:39.080+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:28:39.079+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:28:39.087+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:28:39.121+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:28:39.121+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:28:39.157+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:28:39.157+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:28:39.191+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.119 seconds
+[2023-05-21T16:29:25.259+0530] {processor.py:156} INFO - Started process (PID=37930) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:29:25.261+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:29:25.262+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:29:25.262+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:29:25.272+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:29:25.306+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:29:25.306+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:29:25.337+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:29:25.337+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:29:25.365+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.112 seconds
+[2023-05-21T16:30:16.177+0530] {processor.py:156} INFO - Started process (PID=37997) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:30:16.179+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:30:16.180+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:30:16.180+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:30:16.190+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:30:16.224+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:30:16.224+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:30:16.254+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:30:16.254+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:30:16.280+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.108 seconds
+[2023-05-21T16:31:04.655+0530] {processor.py:156} INFO - Started process (PID=38066) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:31:04.657+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:31:04.658+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:31:04.658+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:31:04.668+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:31:04.702+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:31:04.702+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:31:04.732+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:31:04.732+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:31:04.804+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.154 seconds
+[2023-05-21T16:31:57.294+0530] {processor.py:156} INFO - Started process (PID=38127) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:31:57.297+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:31:57.299+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:31:57.299+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:31:57.311+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:31:57.350+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:31:57.350+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:31:57.384+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:31:57.384+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:31:57.413+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.123 seconds
+[2023-05-21T16:32:49.158+0530] {processor.py:156} INFO - Started process (PID=38187) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:32:49.160+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:32:49.162+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:32:49.161+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:32:49.171+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:32:49.206+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:32:49.206+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:32:49.238+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:32:49.238+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:32:49.265+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.112 seconds
+[2023-05-21T16:33:40.935+0530] {processor.py:156} INFO - Started process (PID=38243) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:33:40.937+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:33:40.938+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:33:40.938+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:33:40.947+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:33:40.979+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:33:40.978+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:33:41.011+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:33:41.011+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:33:41.037+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.108 seconds
+[2023-05-21T16:34:28.342+0530] {processor.py:156} INFO - Started process (PID=38319) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:34:28.344+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:34:28.345+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:34:28.345+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:34:28.354+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:34:28.389+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:34:28.389+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:34:28.421+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:34:28.421+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:34:28.447+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.110 seconds
+[2023-05-21T16:35:20.759+0530] {processor.py:156} INFO - Started process (PID=38374) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:35:20.760+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:35:20.761+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:35:20.761+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:35:20.768+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:35:20.809+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:35:20.808+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:35:20.847+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:35:20.847+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:35:20.876+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.122 seconds
+[2023-05-21T16:36:10.416+0530] {processor.py:156} INFO - Started process (PID=38450) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:36:10.417+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:36:10.418+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:36:10.418+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:36:10.425+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:36:10.461+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:36:10.461+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:36:10.495+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:36:10.495+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:36:10.523+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.111 seconds
+[2023-05-21T16:36:58.614+0530] {processor.py:156} INFO - Started process (PID=38518) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:36:58.615+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:36:58.617+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:36:58.616+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:36:58.624+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:36:58.652+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:36:58.652+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:36:58.681+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:36:58.681+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:36:58.709+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.100 seconds
+[2023-05-21T16:37:18.484+0530] {processor.py:156} INFO - Started process (PID=38536) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:37:18.485+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:37:18.486+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:37:18.486+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:37:18.502+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:37:18.557+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:37:18.556+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:37:18.601+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:37:18.601+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:37:18.629+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.151 seconds
+[2023-05-21T16:38:16.059+0530] {processor.py:156} INFO - Started process (PID=38612) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:38:16.060+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:38:16.061+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:38:16.061+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:38:16.068+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:38:16.095+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:38:16.095+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:38:16.125+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:38:16.125+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:38:16.265+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.210 seconds
+[2023-05-21T16:39:12.804+0530] {processor.py:156} INFO - Started process (PID=38671) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:39:12.806+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:39:12.807+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:39:12.807+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:39:12.817+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:39:12.967+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:39:12.966+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:39:12.994+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:39:12.994+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:39:13.019+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.221 seconds
+[2023-05-21T16:40:09.742+0530] {processor.py:156} INFO - Started process (PID=38760) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:40:09.744+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:40:09.745+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:40:09.744+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:40:09.753+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:40:09.787+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:40:09.787+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:40:09.817+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:40:09.817+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:40:09.844+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.109 seconds
+[2023-05-21T16:41:02.765+0530] {processor.py:156} INFO - Started process (PID=38837) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:41:02.766+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:41:02.767+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:41:02.767+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:41:02.773+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:41:02.807+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:41:02.807+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:41:02.845+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:41:02.844+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:41:02.876+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.117 seconds
+[2023-05-21T16:41:33.682+0530] {processor.py:156} INFO - Started process (PID=38892) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:41:33.683+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:41:33.684+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:41:33.684+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:41:33.692+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:41:33.722+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:41:33.721+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:41:33.752+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:41:33.752+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:41:33.783+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.105 seconds
+[2023-05-21T16:42:23.760+0530] {processor.py:156} INFO - Started process (PID=38957) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:42:23.762+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:42:23.763+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:42:23.763+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:42:23.770+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:42:23.802+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:42:23.802+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:42:23.832+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:42:23.832+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:42:23.862+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.108 seconds
+[2023-05-21T16:43:11.979+0530] {processor.py:156} INFO - Started process (PID=39017) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:43:11.981+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:43:11.983+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:43:11.982+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:43:11.991+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:43:12.022+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:43:12.022+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:43:12.050+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:43:12.050+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:43:12.079+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.105 seconds
+[2023-05-21T16:44:01.740+0530] {processor.py:156} INFO - Started process (PID=39071) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:44:01.742+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:44:01.743+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:44:01.743+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:44:01.750+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:44:01.789+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:44:01.789+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:44:01.831+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:44:01.830+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:44:01.875+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.139 seconds
+[2023-05-21T16:44:51.127+0530] {processor.py:156} INFO - Started process (PID=39149) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:44:51.129+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:44:51.130+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:44:51.130+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:44:51.139+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:44:51.172+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:44:51.172+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:44:51.202+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:44:51.201+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:44:51.239+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.117 seconds
+[2023-05-21T16:45:45.431+0530] {processor.py:156} INFO - Started process (PID=39657) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:45:45.433+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:45:45.435+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:45:45.434+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:45:45.445+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:45:45.477+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:45:45.476+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:45:45.508+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:45:45.508+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:45:45.540+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.114 seconds
+[2023-05-21T16:46:36.453+0530] {processor.py:156} INFO - Started process (PID=40425) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:46:36.456+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:46:36.457+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:46:36.457+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:46:36.466+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:46:36.520+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:46:36.520+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:46:36.579+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:46:36.579+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:46:36.628+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.183 seconds
+[2023-05-21T16:47:24.710+0530] {processor.py:156} INFO - Started process (PID=40551) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:47:24.712+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:47:24.713+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:47:24.713+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:47:24.720+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:47:24.751+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:47:24.750+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:47:24.778+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:47:24.778+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:47:24.806+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.101 seconds
+[2023-05-21T16:48:12.041+0530] {processor.py:156} INFO - Started process (PID=40608) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:48:12.042+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:48:12.043+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:48:12.043+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:48:12.051+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:48:12.090+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:48:12.090+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:48:12.132+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:48:12.132+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:48:12.160+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.124 seconds
+[2023-05-21T16:49:00.071+0530] {processor.py:156} INFO - Started process (PID=40662) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:49:00.072+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:49:00.073+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:49:00.073+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:49:00.083+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:49:00.115+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:49:00.114+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:49:00.143+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:49:00.142+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:49:00.171+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.106 seconds
+[2023-05-21T16:49:42.911+0530] {processor.py:156} INFO - Started process (PID=40728) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:49:42.913+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:49:42.914+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:49:42.914+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:49:42.921+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:49:42.955+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:49:42.955+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:49:42.985+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:49:42.985+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:49:43.014+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.108 seconds
+[2023-05-21T16:50:31.311+0530] {processor.py:156} INFO - Started process (PID=40817) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:50:31.312+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:50:31.314+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:50:31.314+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:50:31.323+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:50:31.359+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:50:31.359+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:50:31.395+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:50:31.395+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:50:31.424+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.119 seconds
+[2023-05-21T16:50:46.562+0530] {processor.py:156} INFO - Started process (PID=40830) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:50:46.563+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:50:46.564+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:50:46.564+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:50:46.577+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:50:46.616+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:50:46.616+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:50:46.646+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:50:46.646+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:50:46.671+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.114 seconds
+[2023-05-21T16:51:45.178+0530] {processor.py:156} INFO - Started process (PID=40897) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:51:45.180+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:51:45.180+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:51:45.180+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:51:45.187+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:51:45.214+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:51:45.214+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:51:45.254+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:51:45.253+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:51:45.391+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.216 seconds
+[2023-05-21T16:52:45.179+0530] {processor.py:156} INFO - Started process (PID=40965) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:52:45.180+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:52:45.181+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:52:45.181+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:52:45.188+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:52:45.377+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:52:45.376+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:52:45.412+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:52:45.411+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:52:45.449+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.274 seconds
+[2023-05-21T16:53:48.622+0530] {processor.py:156} INFO - Started process (PID=41040) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:53:48.624+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:53:48.625+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:53:48.625+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:53:48.636+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:53:48.669+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:53:48.668+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:53:48.699+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:53:48.699+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:53:48.728+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.111 seconds
+[2023-05-21T16:54:43.506+0530] {processor.py:156} INFO - Started process (PID=41131) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:54:43.507+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:54:43.508+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:54:43.508+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:54:43.515+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:54:43.544+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:54:43.543+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:54:43.575+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:54:43.575+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:54:43.609+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.107 seconds
+[2023-05-21T16:55:34.879+0530] {processor.py:156} INFO - Started process (PID=41204) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:55:34.881+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:55:34.882+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:55:34.882+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:55:34.889+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:55:34.921+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:55:34.921+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:55:34.950+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:55:34.950+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:55:34.979+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.107 seconds
+[2023-05-21T16:56:25.806+0530] {processor.py:156} INFO - Started process (PID=41272) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:56:25.808+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:56:25.810+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:56:25.809+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:56:25.818+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:56:25.858+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:56:25.858+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:56:25.890+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:56:25.889+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:56:25.918+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.116 seconds
+[2023-05-21T16:57:34.194+0530] {processor.py:156} INFO - Started process (PID=41334) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:57:34.196+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:57:34.197+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:57:34.196+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:57:34.209+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:57:34.251+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:57:34.251+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:57:34.285+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:57:34.285+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:57:34.314+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.124 seconds
+[2023-05-21T16:58:39.165+0530] {processor.py:156} INFO - Started process (PID=41435) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:58:39.166+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:58:39.168+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:58:39.167+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:58:39.176+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:58:39.208+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:58:39.207+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:58:39.251+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:58:39.251+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:58:39.407+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.247 seconds
+[2023-05-21T16:59:39.004+0530] {processor.py:156} INFO - Started process (PID=41523) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:59:39.006+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T16:59:39.007+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:59:39.007+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:59:39.014+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T16:59:39.182+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:59:39.182+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T16:59:39.211+0530] {logging_mixin.py:149} INFO - [2023-05-21T16:59:39.211+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T16:59:39.238+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.239 seconds
+[2023-05-21T17:00:31.691+0530] {processor.py:156} INFO - Started process (PID=41595) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:00:31.692+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:00:31.694+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:00:31.694+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:00:31.703+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:00:31.735+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:00:31.735+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:00:31.763+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:00:31.763+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:00:31.788+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.102 seconds
+[2023-05-21T17:01:19.747+0530] {processor.py:156} INFO - Started process (PID=41661) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:01:19.749+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:01:19.750+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:01:19.750+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:01:19.758+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:01:19.790+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:01:19.790+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:01:19.819+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:01:19.819+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:01:19.845+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.104 seconds
+[2023-05-21T17:02:09.100+0530] {processor.py:156} INFO - Started process (PID=41733) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:02:09.101+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:02:09.102+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:02:09.102+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:02:09.109+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:02:09.135+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:02:09.134+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:02:09.162+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:02:09.162+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:02:09.187+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.091 seconds
+[2023-05-21T17:02:56.836+0530] {processor.py:156} INFO - Started process (PID=41793) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:02:56.838+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:02:56.839+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:02:56.839+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:02:56.845+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:02:56.879+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:02:56.878+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:02:56.907+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:02:56.907+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:02:56.933+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.102 seconds
+[2023-05-21T17:03:48.791+0530] {processor.py:156} INFO - Started process (PID=41852) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:03:48.793+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:03:48.795+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:03:48.794+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:03:48.804+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:03:48.838+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:03:48.837+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:03:48.871+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:03:48.871+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:03:48.900+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.114 seconds
+[2023-05-21T17:04:40.010+0530] {processor.py:156} INFO - Started process (PID=41931) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:04:40.011+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:04:40.013+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:04:40.012+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:04:40.020+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:04:40.053+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:04:40.053+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:04:40.081+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:04:40.080+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:04:40.106+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.101 seconds
+[2023-05-21T17:05:27.166+0530] {processor.py:156} INFO - Started process (PID=41983) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:05:27.168+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:05:27.170+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:05:27.169+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:05:27.176+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:05:27.212+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:05:27.212+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:05:27.253+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:05:27.253+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:05:27.285+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.125 seconds
+[2023-05-21T17:06:16.309+0530] {processor.py:156} INFO - Started process (PID=42033) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:06:16.310+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:06:16.312+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:06:16.312+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:06:16.319+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:06:16.358+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:06:16.358+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:06:16.385+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:06:16.385+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:06:16.410+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.106 seconds
+[2023-05-21T17:07:02.579+0530] {processor.py:156} INFO - Started process (PID=42086) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:07:02.580+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:07:02.582+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:07:02.581+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:07:02.588+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:07:02.615+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:07:02.615+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:07:02.643+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:07:02.643+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:07:02.668+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.095 seconds
+[2023-05-21T17:07:48.306+0530] {processor.py:156} INFO - Started process (PID=42139) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:07:48.308+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:07:48.309+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:07:48.309+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:07:48.316+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:07:48.346+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:07:48.346+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:07:48.374+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:07:48.374+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:07:48.405+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.103 seconds
+[2023-05-21T17:08:35.742+0530] {processor.py:156} INFO - Started process (PID=42199) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:08:35.743+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:08:35.745+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:08:35.744+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:08:35.752+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:08:35.795+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:08:35.795+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:08:35.823+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:08:35.823+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:08:35.847+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.111 seconds
+[2023-05-21T17:09:23.134+0530] {processor.py:156} INFO - Started process (PID=42253) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:09:23.139+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:09:23.141+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:09:23.141+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:09:23.148+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:09:23.179+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:09:23.179+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:09:23.209+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:09:23.209+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:09:23.235+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.105 seconds
+[2023-05-21T17:10:11.389+0530] {processor.py:156} INFO - Started process (PID=42326) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:10:11.391+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:10:11.392+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:10:11.392+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:10:11.399+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:10:11.429+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:10:11.428+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:10:11.456+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:10:11.456+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:10:11.480+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.096 seconds
+[2023-05-21T17:11:01.215+0530] {processor.py:156} INFO - Started process (PID=42376) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:11:01.217+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:11:01.219+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:11:01.218+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:11:01.229+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:11:01.259+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:11:01.259+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:11:01.285+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:11:01.285+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:11:01.310+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.100 seconds
+[2023-05-21T17:11:49.609+0530] {processor.py:156} INFO - Started process (PID=42425) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:11:49.611+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:11:49.612+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:11:49.612+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:11:49.620+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:11:49.650+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:11:49.650+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:11:49.678+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:11:49.677+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:11:49.702+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.098 seconds
+[2023-05-21T17:12:37.963+0530] {processor.py:156} INFO - Started process (PID=42475) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:12:37.965+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:12:37.967+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:12:37.966+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:12:37.974+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:12:38.004+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:12:38.004+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:12:38.032+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:12:38.031+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:12:38.067+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.109 seconds
+[2023-05-21T17:13:27.689+0530] {processor.py:156} INFO - Started process (PID=42528) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:13:27.691+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:13:27.692+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:13:27.691+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:13:27.699+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:13:27.730+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:13:27.729+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:13:27.757+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:13:27.757+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:13:27.781+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.097 seconds
+[2023-05-21T17:14:01.438+0530] {processor.py:156} INFO - Started process (PID=42556) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:14:01.439+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:14:01.440+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:14:01.440+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:14:01.447+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:14:01.477+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:14:01.477+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:14:01.504+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:14:01.504+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:14:01.528+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.095 seconds
+[2023-05-21T17:14:54.842+0530] {processor.py:156} INFO - Started process (PID=42627) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:14:54.844+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:14:54.845+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:14:54.845+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:14:54.853+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:14:54.884+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:14:54.883+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:14:54.910+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:14:54.910+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:14:54.936+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.100 seconds
+[2023-05-21T17:15:47.779+0530] {processor.py:156} INFO - Started process (PID=42759) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:15:47.781+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:15:47.782+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:15:47.782+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:15:47.790+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:15:47.821+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:15:47.821+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:15:47.848+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:15:47.848+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:15:47.872+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.099 seconds
+[2023-05-21T17:16:34.081+0530] {processor.py:156} INFO - Started process (PID=42928) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:16:34.083+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:16:34.084+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:16:34.084+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:16:34.092+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:16:34.124+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:16:34.123+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:16:34.152+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:16:34.152+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:16:34.178+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.102 seconds
+[2023-05-21T17:17:23.126+0530] {processor.py:156} INFO - Started process (PID=42980) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:17:23.128+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:17:23.129+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:17:23.129+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:17:23.140+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:17:23.190+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:17:23.189+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:17:23.264+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:17:23.264+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:17:23.312+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.192 seconds
+[2023-05-21T17:18:06.849+0530] {processor.py:156} INFO - Started process (PID=43046) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:18:06.851+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:18:06.853+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:18:06.852+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:18:06.861+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:18:06.892+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:18:06.891+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:18:06.928+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:18:06.928+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:18:06.976+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.131 seconds
+[2023-05-21T17:18:55.189+0530] {processor.py:156} INFO - Started process (PID=43096) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:18:55.191+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:18:55.193+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:18:55.193+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:18:55.200+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:18:55.246+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:18:55.246+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:18:55.293+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:18:55.293+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:18:55.334+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.152 seconds
+[2023-05-21T17:19:46.133+0530] {processor.py:156} INFO - Started process (PID=43175) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:19:46.135+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:19:46.137+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:19:46.136+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:19:46.145+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:19:46.183+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:19:46.182+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:19:46.219+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:19:46.219+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:19:46.253+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.127 seconds
+[2023-05-21T17:20:37.410+0530] {processor.py:156} INFO - Started process (PID=43233) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:20:37.411+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:20:37.412+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:20:37.412+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:20:37.419+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:20:37.446+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:20:37.446+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:20:37.474+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:20:37.473+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:20:37.499+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.095 seconds
+[2023-05-21T17:21:23.426+0530] {processor.py:156} INFO - Started process (PID=43287) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:21:23.427+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:21:23.429+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:21:23.428+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:21:23.440+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:21:23.475+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:21:23.474+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:21:23.508+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:21:23.507+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:21:23.536+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.116 seconds
+[2023-05-21T17:22:11.016+0530] {processor.py:156} INFO - Started process (PID=43346) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:22:11.018+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:22:11.019+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:22:11.019+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:22:11.027+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:22:11.058+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:22:11.058+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:22:11.090+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:22:11.090+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:22:11.117+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.106 seconds
+[2023-05-21T17:22:59.748+0530] {processor.py:156} INFO - Started process (PID=43404) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:22:59.749+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:22:59.750+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:22:59.750+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:22:59.760+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:22:59.789+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:22:59.789+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:22:59.817+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:22:59.817+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:22:59.847+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.105 seconds
+[2023-05-21T17:23:45.009+0530] {processor.py:156} INFO - Started process (PID=43463) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:23:45.011+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:23:45.012+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:23:45.012+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:23:45.022+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:23:45.050+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:23:45.050+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:23:45.093+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:23:45.093+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:23:45.119+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.115 seconds
+[2023-05-21T17:24:38.137+0530] {processor.py:156} INFO - Started process (PID=43546) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:24:38.139+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:24:38.140+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:24:38.140+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:24:38.149+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:24:38.181+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:24:38.180+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:24:38.210+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:24:38.209+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:24:38.236+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.105 seconds
+[2023-05-21T17:25:31.420+0530] {processor.py:156} INFO - Started process (PID=43730) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:25:31.422+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:25:31.423+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:25:31.422+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:25:31.429+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:25:31.466+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:25:31.466+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:25:31.503+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:25:31.503+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:25:31.539+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.123 seconds
+[2023-05-21T17:26:14.086+0530] {processor.py:156} INFO - Started process (PID=43791) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:26:14.088+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:26:14.088+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:26:14.088+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:26:14.094+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:26:14.123+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:26:14.123+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:26:14.154+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:26:14.153+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:26:14.179+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.097 seconds
+[2023-05-21T17:27:01.631+0530] {processor.py:156} INFO - Started process (PID=43861) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:27:01.633+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:27:01.633+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:27:01.633+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:27:01.640+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:27:01.667+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:27:01.667+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:27:01.695+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:27:01.694+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:27:01.720+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.093 seconds
+[2023-05-21T17:27:54.592+0530] {processor.py:156} INFO - Started process (PID=43921) to work on /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:27:54.593+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/dag.py for tasks to queue
+[2023-05-21T17:27:54.595+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:27:54.594+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:27:54.603+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topo']) retrieved from /home/nizam/airflow/dags/dag.py
+[2023-05-21T17:27:54.635+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:27:54.635+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-21T17:27:54.663+0530] {logging_mixin.py:149} INFO - [2023-05-21T17:27:54.663+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topo to None, run_after=None
+[2023-05-21T17:27:54.687+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/dag.py took 0.104 seconds

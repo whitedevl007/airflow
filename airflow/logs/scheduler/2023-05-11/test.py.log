@@ -1,0 +1,1077 @@
+[2023-05-11T11:56:19.718+0530] {processor.py:156} INFO - Started process (PID=6941) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T11:56:19.719+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T11:56:19.720+0530] {logging_mixin.py:149} INFO - [2023-05-11T11:56:19.720+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T11:56:19.943+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T11:56:20.084+0530] {logging_mixin.py:149} INFO - [2023-05-11T11:56:20.083+0530] {manager.py:504} INFO - Created Permission View: can read on DAG:test2
+[2023-05-11T11:56:20.095+0530] {logging_mixin.py:149} INFO - [2023-05-11T11:56:20.095+0530] {manager.py:504} INFO - Created Permission View: can delete on DAG:test2
+[2023-05-11T11:56:20.104+0530] {logging_mixin.py:149} INFO - [2023-05-11T11:56:20.104+0530] {manager.py:504} INFO - Created Permission View: can edit on DAG:test2
+[2023-05-11T11:56:20.105+0530] {logging_mixin.py:149} INFO - [2023-05-11T11:56:20.104+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T11:56:20.118+0530] {logging_mixin.py:149} INFO - [2023-05-11T11:56:20.118+0530] {dag.py:2747} INFO - Creating ORM DAG for test2
+[2023-05-11T11:56:20.129+0530] {logging_mixin.py:149} INFO - [2023-05-11T11:56:20.129+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T11:56:20.154+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.441 seconds
+[2023-05-11T12:08:56.470+0530] {processor.py:156} INFO - Started process (PID=7247) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T12:08:56.471+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T12:08:56.472+0530] {logging_mixin.py:149} INFO - [2023-05-11T12:08:56.472+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T12:08:56.691+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T12:08:56.713+0530] {logging_mixin.py:149} INFO - [2023-05-11T12:08:56.713+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T12:08:56.735+0530] {logging_mixin.py:149} INFO - [2023-05-11T12:08:56.735+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T12:08:56.759+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.294 seconds
+[2023-05-11T12:12:35.383+0530] {processor.py:156} INFO - Started process (PID=7332) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T12:12:35.385+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T12:12:35.386+0530] {logging_mixin.py:149} INFO - [2023-05-11T12:12:35.385+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T12:12:35.614+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T12:12:35.636+0530] {logging_mixin.py:149} INFO - [2023-05-11T12:12:35.635+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T12:12:35.659+0530] {logging_mixin.py:149} INFO - [2023-05-11T12:12:35.659+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T12:12:35.683+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.305 seconds
+[2023-05-11T13:22:35.545+0530] {processor.py:156} INFO - Started process (PID=9634) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T13:22:35.546+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T13:22:35.548+0530] {logging_mixin.py:149} INFO - [2023-05-11T13:22:35.547+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T13:22:35.804+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T13:22:35.828+0530] {logging_mixin.py:149} INFO - [2023-05-11T13:22:35.828+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T13:22:35.852+0530] {logging_mixin.py:149} INFO - [2023-05-11T13:22:35.852+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T13:22:35.879+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.339 seconds
+[2023-05-11T13:33:45.052+0530] {processor.py:156} INFO - Started process (PID=10359) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T13:33:45.053+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T13:33:45.054+0530] {logging_mixin.py:149} INFO - [2023-05-11T13:33:45.053+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T13:33:45.278+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T13:33:45.341+0530] {logging_mixin.py:149} INFO - [2023-05-11T13:33:45.341+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T13:33:45.357+0530] {logging_mixin.py:149} INFO - [2023-05-11T13:33:45.356+0530] {dag.py:2747} INFO - Creating ORM DAG for test2
+[2023-05-11T13:33:45.368+0530] {logging_mixin.py:149} INFO - [2023-05-11T13:33:45.368+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T13:33:45.394+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.346 seconds
+[2023-05-11T13:39:05.283+0530] {processor.py:156} INFO - Started process (PID=10553) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T13:39:05.285+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T13:39:05.286+0530] {logging_mixin.py:149} INFO - [2023-05-11T13:39:05.286+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T13:39:05.571+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T13:39:05.593+0530] {logging_mixin.py:149} INFO - [2023-05-11T13:39:05.593+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T13:39:05.616+0530] {logging_mixin.py:149} INFO - [2023-05-11T13:39:05.616+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T13:39:05.640+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.362 seconds
+[2023-05-11T14:08:41.914+0530] {processor.py:156} INFO - Started process (PID=11529) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:08:41.915+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:08:41.916+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:08:41.916+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:08:42.199+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:08:42.215+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:08:42.215+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:08:42.239+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:08:42.239+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:08:42.262+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.353 seconds
+[2023-05-11T14:09:36.224+0530] {processor.py:156} INFO - Started process (PID=11789) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:09:36.225+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:09:36.226+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:09:36.226+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:09:36.505+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:09:36.528+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:09:36.527+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:09:36.569+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:09:36.569+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:09:36.593+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.373 seconds
+[2023-05-11T14:10:34.661+0530] {processor.py:156} INFO - Started process (PID=11910) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:10:34.662+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:10:34.664+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:10:34.663+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:10:34.900+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:10:34.917+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:10:34.916+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:10:34.941+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:10:34.941+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:10:34.964+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.309 seconds
+[2023-05-11T14:11:29.211+0530] {processor.py:156} INFO - Started process (PID=11965) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:11:29.213+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:11:29.214+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:11:29.214+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:11:29.323+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:11:29.346+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:11:29.346+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:11:29.372+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:11:29.372+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:11:29.396+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.190 seconds
+[2023-05-11T14:12:16.144+0530] {processor.py:156} INFO - Started process (PID=12022) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:12:16.146+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:12:16.147+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:12:16.146+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:12:16.254+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:12:16.275+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:12:16.275+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:12:16.301+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:12:16.301+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:12:16.327+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.188 seconds
+[2023-05-11T14:13:10.450+0530] {processor.py:156} INFO - Started process (PID=12150) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:13:10.452+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:13:10.453+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:13:10.453+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:13:10.673+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:13:10.695+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:13:10.695+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:13:10.718+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:13:10.718+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:13:10.744+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.299 seconds
+[2023-05-11T14:15:41.984+0530] {processor.py:156} INFO - Started process (PID=12287) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:15:41.985+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:15:41.986+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:15:41.986+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:15:42.208+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:15:42.229+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:15:42.229+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:15:42.258+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:15:42.258+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:15:42.288+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.309 seconds
+[2023-05-11T14:22:57.876+0530] {processor.py:156} INFO - Started process (PID=12515) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:22:57.878+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:22:57.879+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:22:57.878+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:22:58.098+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:22:58.152+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:22:58.152+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:22:58.165+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:22:58.165+0530] {dag.py:2747} INFO - Creating ORM DAG for test2
+[2023-05-11T14:22:58.176+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:22:58.176+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:22:58.206+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.334 seconds
+[2023-05-11T14:36:36.467+0530] {processor.py:156} INFO - Started process (PID=4467) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:36:36.470+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:36:36.471+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:36:36.471+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:36:36.708+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:36:36.732+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:36:36.732+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:36:36.758+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:36:36.758+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:36:36.784+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.324 seconds
+[2023-05-11T14:37:59.258+0530] {processor.py:156} INFO - Started process (PID=4534) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:37:59.260+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:37:59.261+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:37:59.261+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:37:59.522+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:37:59.542+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:37:59.542+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:37:59.571+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:37:59.570+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:37:59.600+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.347 seconds
+[2023-05-11T14:44:07.034+0530] {processor.py:156} INFO - Started process (PID=4705) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:44:07.036+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:44:07.037+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:44:07.037+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:44:07.275+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:44:07.299+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:44:07.298+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:44:07.323+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:44:07.323+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:44:07.348+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.320 seconds
+[2023-05-11T14:45:02.737+0530] {processor.py:156} INFO - Started process (PID=4778) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:45:02.739+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:45:02.741+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:45:02.740+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:45:02.964+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:45:02.981+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:45:02.981+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:45:03.004+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:45:03.004+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:45:03.029+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.297 seconds
+[2023-05-11T14:45:53.158+0530] {processor.py:156} INFO - Started process (PID=4828) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:45:53.159+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:45:53.160+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:45:53.160+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:45:53.372+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:45:53.390+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:45:53.390+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:45:53.413+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:45:53.412+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:45:53.435+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.283 seconds
+[2023-05-11T14:46:51.838+0530] {processor.py:156} INFO - Started process (PID=4886) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:46:51.839+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:46:51.840+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:46:51.840+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:46:52.049+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:46:52.066+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:46:52.065+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:46:52.090+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:46:52.089+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:46:52.112+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.279 seconds
+[2023-05-11T14:47:43.125+0530] {processor.py:156} INFO - Started process (PID=4947) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T14:47:43.126+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T14:47:43.128+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:47:43.127+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:47:43.234+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T14:47:43.256+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:47:43.256+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T14:47:43.282+0530] {logging_mixin.py:149} INFO - [2023-05-11T14:47:43.281+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T14:47:43.306+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.186 seconds
+[2023-05-11T15:27:18.241+0530] {processor.py:156} INFO - Started process (PID=5686) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:27:18.243+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:27:18.244+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:27:18.244+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:27:18.483+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:27:18.518+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:27:18.518+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:27:18.548+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:27:18.547+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:27:18.577+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.341 seconds
+[2023-05-11T15:28:13.957+0530] {processor.py:156} INFO - Started process (PID=5746) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:28:13.959+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:28:13.960+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:28:13.960+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:28:14.182+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:28:14.199+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:28:14.198+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:28:14.222+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:28:14.222+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:28:14.246+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.294 seconds
+[2023-05-11T15:29:06.389+0530] {processor.py:156} INFO - Started process (PID=5801) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:29:06.391+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:29:06.392+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:29:06.391+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:29:06.608+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:29:06.626+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:29:06.625+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:29:06.649+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:29:06.649+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:29:06.671+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.288 seconds
+[2023-05-11T15:30:09.112+0530] {processor.py:156} INFO - Started process (PID=5903) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:30:09.113+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:30:09.115+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:30:09.114+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:30:09.327+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:30:09.344+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:30:09.344+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:30:09.369+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:30:09.369+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:30:09.393+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.286 seconds
+[2023-05-11T15:31:03.115+0530] {processor.py:156} INFO - Started process (PID=5962) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:31:03.116+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:31:03.118+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:31:03.117+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:31:03.228+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:31:03.250+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:31:03.250+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:31:03.276+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:31:03.276+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:31:03.300+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.190 seconds
+[2023-05-11T15:31:49.640+0530] {processor.py:156} INFO - Started process (PID=6166) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:31:49.642+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:31:49.643+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:31:49.643+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:31:49.752+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:31:49.773+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:31:49.773+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:31:49.801+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:31:49.801+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:31:49.835+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.200 seconds
+[2023-05-11T15:32:35.303+0530] {processor.py:156} INFO - Started process (PID=6224) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:32:35.305+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:32:35.306+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:32:35.306+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:32:35.418+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:32:35.440+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:32:35.440+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:32:35.466+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:32:35.465+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:32:35.489+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.191 seconds
+[2023-05-11T15:33:25.136+0530] {processor.py:156} INFO - Started process (PID=6278) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:33:25.137+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:33:25.138+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:33:25.138+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:33:25.247+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:33:25.268+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:33:25.268+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:33:25.294+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:33:25.293+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:33:25.320+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.189 seconds
+[2023-05-11T15:34:17.683+0530] {processor.py:156} INFO - Started process (PID=6455) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:34:17.684+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:34:17.686+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:34:17.685+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:34:17.793+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:34:17.814+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:34:17.814+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:34:17.841+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:34:17.840+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:34:17.865+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.187 seconds
+[2023-05-11T15:34:52.163+0530] {processor.py:156} INFO - Started process (PID=6513) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:34:52.165+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:34:52.166+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:34:52.166+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:34:52.402+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:34:52.424+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:34:52.424+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:34:52.447+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:34:52.447+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:34:52.472+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.313 seconds
+[2023-05-11T15:35:49.122+0530] {processor.py:156} INFO - Started process (PID=6588) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:35:49.124+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:35:49.125+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:35:49.124+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:35:49.412+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:35:49.428+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:35:49.428+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:35:49.451+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:35:49.451+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:35:49.476+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.357 seconds
+[2023-05-11T15:36:40.535+0530] {processor.py:156} INFO - Started process (PID=6651) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:36:40.537+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:36:40.538+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:36:40.538+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:36:40.776+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:36:40.794+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:36:40.793+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:36:40.817+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:36:40.817+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:36:40.841+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.311 seconds
+[2023-05-11T15:37:38.697+0530] {processor.py:156} INFO - Started process (PID=6706) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:37:38.699+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:37:38.700+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:37:38.700+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:37:38.913+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:37:38.931+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:37:38.931+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:37:38.958+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:37:38.957+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:37:38.981+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.289 seconds
+[2023-05-11T15:38:36.420+0530] {processor.py:156} INFO - Started process (PID=6769) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:38:36.422+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:38:36.423+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:38:36.423+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:38:36.545+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:38:36.567+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:38:36.567+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:38:36.593+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:38:36.592+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:38:36.617+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.202 seconds
+[2023-05-11T15:39:26.348+0530] {processor.py:156} INFO - Started process (PID=6845) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:39:26.350+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:39:26.351+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:39:26.351+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:39:26.462+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:39:26.485+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:39:26.485+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:39:26.513+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:39:26.513+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:39:26.538+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.195 seconds
+[2023-05-11T15:40:19.106+0530] {processor.py:156} INFO - Started process (PID=6895) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:40:19.108+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:40:19.109+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:40:19.109+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:40:19.251+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:40:19.287+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:40:19.287+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:40:19.334+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:40:19.333+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:40:19.455+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.353 seconds
+[2023-05-11T15:41:12.816+0530] {processor.py:156} INFO - Started process (PID=6961) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:41:12.818+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:41:12.819+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:41:12.818+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:41:12.929+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:41:12.951+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:41:12.951+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:41:12.979+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:41:12.979+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:41:13.003+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.192 seconds
+[2023-05-11T15:42:11.151+0530] {processor.py:156} INFO - Started process (PID=7049) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:42:11.153+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:42:11.154+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:42:11.154+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:42:11.264+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:42:11.289+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:42:11.289+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:42:11.317+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:42:11.316+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:42:11.342+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.195 seconds
+[2023-05-11T15:43:01.839+0530] {processor.py:156} INFO - Started process (PID=7105) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:43:01.841+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:43:01.842+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:43:01.842+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:43:01.952+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:43:01.973+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:43:01.973+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:43:02.001+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:43:02.001+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:43:02.025+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.191 seconds
+[2023-05-11T15:43:53.582+0530] {processor.py:156} INFO - Started process (PID=7156) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:43:53.583+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:43:53.584+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:43:53.584+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:43:53.697+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:43:53.719+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:43:53.719+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:43:53.746+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:43:53.746+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:43:53.771+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.195 seconds
+[2023-05-11T15:44:55.095+0530] {processor.py:156} INFO - Started process (PID=7263) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:44:55.097+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:44:55.098+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:44:55.098+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:44:55.207+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:44:55.228+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:44:55.228+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:44:55.255+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:44:55.254+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:44:55.279+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.188 seconds
+[2023-05-11T15:45:47.139+0530] {processor.py:156} INFO - Started process (PID=7317) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:45:47.141+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:45:47.142+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:45:47.142+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:45:47.252+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:45:47.275+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:45:47.275+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:45:47.301+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:45:47.301+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:45:47.326+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.191 seconds
+[2023-05-11T15:46:38.056+0530] {processor.py:156} INFO - Started process (PID=7374) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:46:38.066+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:46:38.067+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:46:38.067+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:46:38.179+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:46:38.199+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:46:38.199+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:46:38.227+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:46:38.227+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:46:38.259+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.208 seconds
+[2023-05-11T15:47:28.747+0530] {processor.py:156} INFO - Started process (PID=7427) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:47:28.748+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:47:28.750+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:47:28.749+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:47:28.858+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:47:28.881+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:47:28.881+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:47:28.907+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:47:28.907+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:47:28.931+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.190 seconds
+[2023-05-11T15:48:22.591+0530] {processor.py:156} INFO - Started process (PID=7487) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:48:22.593+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:48:22.594+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:48:22.594+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:48:22.702+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:48:22.724+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:48:22.724+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:48:22.751+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:48:22.751+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:48:22.775+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.190 seconds
+[2023-05-11T15:49:13.840+0530] {processor.py:156} INFO - Started process (PID=7536) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:49:13.842+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:49:13.843+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:49:13.843+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:49:13.952+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:49:13.974+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:49:13.974+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:49:13.999+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:49:13.999+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:49:14.040+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.204 seconds
+[2023-05-11T15:50:04.254+0530] {processor.py:156} INFO - Started process (PID=7610) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:50:04.255+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:50:04.256+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:50:04.256+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:50:04.368+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:50:04.389+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:50:04.389+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:50:04.417+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:50:04.417+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:50:04.441+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.193 seconds
+[2023-05-11T15:50:56.251+0530] {processor.py:156} INFO - Started process (PID=7658) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:50:56.253+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:50:56.254+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:50:56.254+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:50:56.363+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:50:56.386+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:50:56.385+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:50:56.412+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:50:56.412+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:50:56.436+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.190 seconds
+[2023-05-11T15:51:47.569+0530] {processor.py:156} INFO - Started process (PID=7714) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:51:47.570+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:51:47.572+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:51:47.571+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:51:47.680+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:51:47.701+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:51:47.700+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:51:47.728+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:51:47.727+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:51:47.752+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.188 seconds
+[2023-05-11T15:52:34.843+0530] {processor.py:156} INFO - Started process (PID=7768) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:52:34.845+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:52:34.846+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:52:34.846+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:52:34.955+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:52:34.977+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:52:34.976+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:52:35.002+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:52:35.002+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:52:35.026+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.188 seconds
+[2023-05-11T15:53:22.116+0530] {processor.py:156} INFO - Started process (PID=7820) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:53:22.118+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:53:22.119+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:53:22.119+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:53:22.227+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:53:22.248+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:53:22.248+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:53:22.274+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:53:22.274+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:53:22.300+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.189 seconds
+[2023-05-11T15:54:14.145+0530] {processor.py:156} INFO - Started process (PID=7872) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:54:14.146+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:54:14.147+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:54:14.147+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:54:14.257+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:54:14.290+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:54:14.290+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:54:14.318+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:54:14.318+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:54:14.344+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.204 seconds
+[2023-05-11T15:55:05.180+0530] {processor.py:156} INFO - Started process (PID=7946) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:55:05.189+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:55:05.191+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:55:05.190+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:55:05.306+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:55:05.334+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:55:05.333+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:55:05.369+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:55:05.369+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:55:05.408+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.234 seconds
+[2023-05-11T15:55:54.923+0530] {processor.py:156} INFO - Started process (PID=7999) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:55:54.925+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:55:54.926+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:55:54.926+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:55:55.036+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:55:55.058+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:55:55.058+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:55:55.086+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:55:55.086+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:55:55.111+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.193 seconds
+[2023-05-11T15:56:46.509+0530] {processor.py:156} INFO - Started process (PID=8054) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:56:46.518+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:56:46.520+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:56:46.519+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:56:46.630+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:56:46.652+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:56:46.651+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:56:46.677+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:56:46.677+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:56:46.710+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.207 seconds
+[2023-05-11T15:57:38.961+0530] {processor.py:156} INFO - Started process (PID=8109) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:57:38.963+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:57:38.964+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:57:38.963+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:57:39.075+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:57:39.096+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:57:39.096+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:57:39.123+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:57:39.123+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:57:39.147+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.191 seconds
+[2023-05-11T15:58:26.892+0530] {processor.py:156} INFO - Started process (PID=8164) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:58:26.894+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:58:26.895+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:58:26.895+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:58:27.020+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:58:27.043+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:58:27.043+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:58:27.072+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:58:27.071+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:58:27.098+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.211 seconds
+[2023-05-11T15:59:18.538+0530] {processor.py:156} INFO - Started process (PID=8211) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T15:59:18.539+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T15:59:18.541+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:59:18.540+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:59:18.650+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T15:59:18.674+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:59:18.674+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T15:59:18.702+0530] {logging_mixin.py:149} INFO - [2023-05-11T15:59:18.701+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T15:59:18.726+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.193 seconds
+[2023-05-11T16:00:11.796+0530] {processor.py:156} INFO - Started process (PID=8284) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:00:11.798+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:00:11.799+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:00:11.799+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:00:11.909+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:00:11.931+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:00:11.931+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:00:11.957+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:00:11.957+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:00:11.990+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.201 seconds
+[2023-05-11T16:01:03.576+0530] {processor.py:156} INFO - Started process (PID=8336) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:01:03.577+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:01:03.578+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:01:03.578+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:01:03.689+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:01:03.711+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:01:03.711+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:01:03.739+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:01:03.738+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:01:03.763+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.192 seconds
+[2023-05-11T16:01:56.523+0530] {processor.py:156} INFO - Started process (PID=8393) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:01:56.524+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:01:56.525+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:01:56.525+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:01:56.644+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:01:56.666+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:01:56.666+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:01:56.693+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:01:56.693+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:01:56.719+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.201 seconds
+[2023-05-11T16:02:47.835+0530] {processor.py:156} INFO - Started process (PID=8447) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:02:47.836+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:02:47.837+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:02:47.837+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:02:47.964+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:02:47.984+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:02:47.984+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:02:48.012+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:02:48.011+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:02:48.036+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.206 seconds
+[2023-05-11T16:03:41.135+0530] {processor.py:156} INFO - Started process (PID=8500) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:03:41.137+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:03:41.138+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:03:41.138+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:03:41.255+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:03:41.279+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:03:41.279+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:03:41.308+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:03:41.307+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:03:41.334+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.204 seconds
+[2023-05-11T16:04:33.416+0530] {processor.py:156} INFO - Started process (PID=8589) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:04:33.418+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:04:33.419+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:04:33.418+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:04:33.533+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:04:33.554+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:04:33.554+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:04:33.583+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:04:33.583+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:04:33.608+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.197 seconds
+[2023-05-11T16:04:43.600+0530] {processor.py:156} INFO - Started process (PID=8597) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:04:43.601+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:04:43.602+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:04:43.602+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:04:43.820+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:04:43.841+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:04:43.841+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:04:43.865+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:04:43.865+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:04:43.889+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.294 seconds
+[2023-05-11T16:05:38.743+0530] {processor.py:156} INFO - Started process (PID=8656) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:05:38.744+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:05:38.745+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:05:38.745+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:05:38.986+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:05:39.005+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:05:39.004+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:05:39.028+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:05:39.028+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:05:39.064+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.326 seconds
+[2023-05-11T16:06:32.935+0530] {processor.py:156} INFO - Started process (PID=8713) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:06:32.936+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:06:32.938+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:06:32.937+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:06:33.151+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:06:33.168+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:06:33.168+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:06:33.191+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:06:33.191+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:06:33.215+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.285 seconds
+[2023-05-11T16:06:42.580+0530] {processor.py:156} INFO - Started process (PID=8724) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:06:42.581+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:06:42.582+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:06:42.582+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:06:42.801+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:06:42.822+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:06:42.822+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:06:42.847+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:06:42.847+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:06:42.872+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.297 seconds
+[2023-05-11T16:07:36.632+0530] {processor.py:156} INFO - Started process (PID=8784) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:07:36.634+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:07:36.635+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:07:36.635+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:07:36.871+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:07:36.888+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:07:36.888+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:07:36.914+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:07:36.914+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:07:36.944+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.316 seconds
+[2023-05-11T16:08:29.559+0530] {processor.py:156} INFO - Started process (PID=8837) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:08:29.560+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:08:29.562+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:08:29.561+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:08:29.772+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:08:29.788+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:08:29.788+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:08:29.814+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:08:29.814+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:08:29.837+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.283 seconds
+[2023-05-11T16:09:20.446+0530] {processor.py:156} INFO - Started process (PID=8883) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:09:20.447+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:09:20.449+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:09:20.448+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:09:20.658+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:09:20.680+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:09:20.680+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:09:20.711+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:09:20.711+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:09:20.736+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.296 seconds
+[2023-05-11T16:10:15.625+0530] {processor.py:156} INFO - Started process (PID=8960) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:10:15.634+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:10:15.635+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:10:15.635+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:10:15.754+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:10:15.779+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:10:15.779+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:10:15.804+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:10:15.804+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:10:15.837+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.218 seconds
+[2023-05-11T16:10:46.854+0530] {processor.py:156} INFO - Started process (PID=8996) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:10:46.856+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:10:46.857+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:10:46.856+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:10:47.115+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:10:47.140+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:10:47.139+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:10:47.167+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:10:47.166+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:10:47.193+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.343 seconds
+[2023-05-11T16:11:44.047+0530] {processor.py:156} INFO - Started process (PID=9071) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:11:44.049+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:11:44.051+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:11:44.050+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:11:44.283+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:11:44.301+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:11:44.301+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:11:44.328+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:11:44.328+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:11:44.357+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.315 seconds
+[2023-05-11T16:12:38.259+0530] {processor.py:156} INFO - Started process (PID=9126) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:12:38.261+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:12:38.262+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:12:38.262+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:12:38.479+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:12:38.497+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:12:38.497+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:12:38.535+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:12:38.535+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:12:38.558+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.304 seconds
+[2023-05-11T16:13:39.396+0530] {processor.py:156} INFO - Started process (PID=9183) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:13:39.397+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:13:39.398+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:13:39.398+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:13:39.609+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:13:39.625+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:13:39.625+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:13:39.650+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:13:39.650+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:13:39.672+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.282 seconds
+[2023-05-11T16:14:36.029+0530] {processor.py:156} INFO - Started process (PID=9264) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:14:36.031+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:14:36.033+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:14:36.032+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:14:36.160+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:14:36.185+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:14:36.185+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:14:36.213+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:14:36.213+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:14:36.241+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.218 seconds
+[2023-05-11T16:15:24.787+0530] {processor.py:156} INFO - Started process (PID=9318) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:15:24.789+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:15:24.790+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:15:24.790+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:15:24.911+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:15:24.933+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:15:24.933+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:15:24.963+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:15:24.963+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:15:24.991+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.210 seconds
+[2023-05-11T16:16:17.448+0530] {processor.py:156} INFO - Started process (PID=9365) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:16:17.450+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:16:17.451+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:16:17.450+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:16:17.563+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:16:17.591+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:16:17.590+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:16:17.619+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:16:17.619+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:16:17.648+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.204 seconds
+[2023-05-11T16:17:09.949+0530] {processor.py:156} INFO - Started process (PID=9425) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:17:09.951+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:17:09.952+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:17:09.952+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:17:10.061+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:17:10.084+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:17:10.084+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:17:10.111+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:17:10.111+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:17:10.135+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.191 seconds
+[2023-05-11T16:17:58.323+0530] {processor.py:156} INFO - Started process (PID=9477) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:17:58.325+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:17:58.326+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:17:58.326+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:17:58.434+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:17:58.455+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:17:58.455+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:17:58.481+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:17:58.481+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:17:58.505+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.187 seconds
+[2023-05-11T16:18:48.279+0530] {processor.py:156} INFO - Started process (PID=9527) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:18:48.281+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:18:48.282+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:18:48.282+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:18:48.389+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:18:48.410+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:18:48.409+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:18:48.436+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:18:48.436+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:18:48.460+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.186 seconds
+[2023-05-11T16:19:36.968+0530] {processor.py:156} INFO - Started process (PID=9600) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:19:36.970+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:19:36.971+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:19:36.971+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:19:37.080+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:19:37.102+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:19:37.102+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:19:37.127+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:19:37.127+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:19:37.158+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.195 seconds
+[2023-05-11T16:20:25.949+0530] {processor.py:156} INFO - Started process (PID=9653) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:20:25.951+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:20:25.952+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:20:25.952+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:20:26.060+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:20:26.089+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:20:26.089+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:20:26.117+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:20:26.117+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:20:26.141+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.197 seconds
+[2023-05-11T16:21:15.747+0530] {processor.py:156} INFO - Started process (PID=9702) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:21:15.757+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:21:15.758+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:21:15.758+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:21:15.879+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:21:15.909+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:21:15.909+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:21:15.935+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:21:15.935+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:21:15.978+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.236 seconds
+[2023-05-11T16:22:07.757+0530] {processor.py:156} INFO - Started process (PID=9758) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:22:07.759+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:22:07.760+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:22:07.760+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:22:07.867+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:22:07.888+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:22:07.888+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:22:07.916+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:22:07.916+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:22:07.940+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.188 seconds
+[2023-05-11T16:22:56.912+0530] {processor.py:156} INFO - Started process (PID=9809) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:22:56.914+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:22:56.915+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:22:56.915+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:22:57.023+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:22:57.045+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:22:57.045+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:22:57.072+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:22:57.071+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:22:57.096+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.189 seconds
+[2023-05-11T16:23:51.551+0530] {processor.py:156} INFO - Started process (PID=9880) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:23:51.552+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:23:51.553+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:23:51.553+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:23:51.659+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:23:51.680+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:23:51.680+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:23:51.706+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:23:51.706+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:23:51.736+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.189 seconds
+[2023-05-11T16:24:38.173+0530] {processor.py:156} INFO - Started process (PID=9952) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:24:38.176+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:24:38.177+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:24:38.177+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:24:38.300+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:24:38.321+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:24:38.321+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:24:38.348+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:24:38.348+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:24:38.374+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.209 seconds
+[2023-05-11T16:25:28.196+0530] {processor.py:156} INFO - Started process (PID=10004) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:25:28.197+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:25:28.198+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:25:28.198+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:25:28.317+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:25:28.338+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:25:28.338+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:25:28.364+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:25:28.364+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:25:28.390+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.199 seconds
+[2023-05-11T16:26:14.130+0530] {processor.py:156} INFO - Started process (PID=10055) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:26:14.132+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:26:14.134+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:26:14.133+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:26:14.370+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:26:14.421+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:26:14.421+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:26:14.484+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:26:14.484+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:26:14.541+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.419 seconds
+[2023-05-11T16:27:01.799+0530] {processor.py:156} INFO - Started process (PID=10113) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:27:01.801+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:27:01.802+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:27:01.802+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:27:01.932+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:27:01.958+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:27:01.957+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:27:01.986+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:27:01.986+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:27:02.013+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.217 seconds
+[2023-05-11T16:27:56.904+0530] {processor.py:156} INFO - Started process (PID=10180) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:27:56.906+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:27:56.907+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:27:56.907+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:27:57.020+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:27:57.041+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:27:57.040+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:27:57.068+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:27:57.068+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:27:57.093+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.193 seconds
+[2023-05-11T16:28:47.909+0530] {processor.py:156} INFO - Started process (PID=10234) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:28:47.913+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:28:47.914+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:28:47.913+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:28:48.024+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:28:48.045+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:28:48.045+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:28:48.071+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:28:48.070+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:28:48.104+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.201 seconds
+[2023-05-11T16:29:38.237+0530] {processor.py:156} INFO - Started process (PID=10304) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:29:38.239+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:29:38.240+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:29:38.240+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:29:38.352+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:29:38.374+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:29:38.374+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:29:38.402+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:29:38.401+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:29:38.426+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.194 seconds
+[2023-05-11T16:30:29.410+0530] {processor.py:156} INFO - Started process (PID=10359) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:30:29.411+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:30:29.413+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:30:29.413+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:30:29.534+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:30:29.555+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:30:29.555+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:30:29.581+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:30:29.581+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:30:29.605+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.201 seconds
+[2023-05-11T16:31:17.871+0530] {processor.py:156} INFO - Started process (PID=10405) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:31:17.872+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:31:17.874+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:31:17.873+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:31:17.983+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:31:18.005+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:31:18.004+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:31:18.032+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:31:18.031+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:31:18.071+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.206 seconds
+[2023-05-11T16:32:08.124+0530] {processor.py:156} INFO - Started process (PID=10458) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:32:08.126+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:32:08.127+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:32:08.127+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:32:08.236+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:32:08.269+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:32:08.268+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:32:08.294+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:32:08.294+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:32:08.318+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.199 seconds
+[2023-05-11T16:33:00.505+0530] {processor.py:156} INFO - Started process (PID=10543) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:33:00.507+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:33:00.508+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:33:00.508+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:33:00.620+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:33:00.644+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:33:00.644+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:33:00.674+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:33:00.674+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:33:00.699+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.200 seconds
+[2023-05-11T16:33:49.197+0530] {processor.py:156} INFO - Started process (PID=10607) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:33:49.199+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:33:49.200+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:33:49.200+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:33:49.307+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:33:49.330+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:33:49.330+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:33:49.356+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:33:49.355+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:33:49.474+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.282 seconds
+[2023-05-11T16:34:38.001+0530] {processor.py:156} INFO - Started process (PID=10684) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:34:38.003+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:34:38.004+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:34:38.004+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:34:38.111+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:34:38.132+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:34:38.132+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:34:38.163+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:34:38.163+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:34:38.192+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.196 seconds
+[2023-05-11T16:35:29.454+0530] {processor.py:156} INFO - Started process (PID=10737) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:35:29.455+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:35:29.457+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:35:29.456+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:35:29.590+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:35:29.623+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:35:29.623+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:35:29.672+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:35:29.672+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:35:29.734+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.286 seconds
+[2023-05-11T16:36:20.535+0530] {processor.py:156} INFO - Started process (PID=10820) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:36:20.536+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:36:20.538+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:36:20.538+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:36:20.671+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:36:20.693+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:36:20.692+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:36:20.721+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:36:20.721+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:36:20.747+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.216 seconds
+[2023-05-11T16:37:10.276+0530] {processor.py:156} INFO - Started process (PID=10885) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T16:37:10.278+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T16:37:10.278+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:37:10.278+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:37:10.405+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T16:37:10.433+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:37:10.433+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T16:37:10.481+0530] {logging_mixin.py:149} INFO - [2023-05-11T16:37:10.481+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T16:37:10.529+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.257 seconds
+[2023-05-11T22:30:21.709+0530] {processor.py:156} INFO - Started process (PID=7639) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:30:21.711+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:30:21.712+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:30:21.712+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:30:21.992+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:30:22.016+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:30:22.016+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:30:22.039+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:30:22.039+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:30:22.066+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.361 seconds
+[2023-05-11T22:31:24.531+0530] {processor.py:156} INFO - Started process (PID=7930) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:31:24.535+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:31:24.537+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:31:24.536+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:31:25.325+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:31:25.352+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:31:25.351+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:31:25.412+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:31:25.411+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:31:25.485+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.964 seconds
+[2023-05-11T22:31:56.171+0530] {processor.py:156} INFO - Started process (PID=7967) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:31:56.173+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:31:56.174+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:31:56.174+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:31:56.629+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:31:56.664+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:31:56.664+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:31:56.700+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:31:56.699+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:31:56.736+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.570 seconds
+[2023-05-11T22:32:55.154+0530] {processor.py:156} INFO - Started process (PID=8131) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:32:55.157+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:32:55.159+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:32:55.158+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:32:55.420+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:32:55.438+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:32:55.437+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:32:55.461+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:32:55.460+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:32:55.483+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.335 seconds
+[2023-05-11T22:33:27.065+0530] {processor.py:156} INFO - Started process (PID=8161) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:33:27.067+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:33:27.068+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:33:27.068+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:33:27.527+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:33:27.553+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:33:27.552+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:33:27.593+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:33:27.593+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:33:27.633+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.576 seconds
+[2023-05-11T22:33:58.483+0530] {processor.py:156} INFO - Started process (PID=8193) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:33:58.486+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:33:58.487+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:33:58.487+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:33:58.725+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:33:58.751+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:33:58.751+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:33:58.797+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:33:58.796+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:33:58.826+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.349 seconds
+[2023-05-11T22:34:29.221+0530] {processor.py:156} INFO - Started process (PID=8241) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:34:29.223+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:34:29.224+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:34:29.224+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:34:29.393+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:34:29.424+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:34:29.424+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:34:29.457+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:34:29.457+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:34:29.547+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.329 seconds
+[2023-05-11T22:35:23.402+0530] {processor.py:156} INFO - Started process (PID=8296) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:35:23.404+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:35:23.405+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:35:23.405+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:35:23.517+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:35:23.538+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:35:23.537+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:35:23.564+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:35:23.564+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:35:23.589+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.191 seconds
+[2023-05-11T22:36:11.309+0530] {processor.py:156} INFO - Started process (PID=8344) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:36:11.310+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:36:11.311+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:36:11.311+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:36:11.424+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:36:11.446+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:36:11.445+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:36:11.471+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:36:11.471+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:36:11.498+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.195 seconds
+[2023-05-11T22:36:59.488+0530] {processor.py:156} INFO - Started process (PID=8390) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:36:59.490+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:36:59.491+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:36:59.491+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:36:59.611+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:36:59.639+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:36:59.639+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:36:59.673+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:36:59.673+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:36:59.708+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.224 seconds
+[2023-05-11T22:37:48.161+0530] {processor.py:156} INFO - Started process (PID=8454) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:37:48.162+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:37:48.163+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:37:48.163+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:37:48.271+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:37:48.294+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:37:48.294+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:37:48.341+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:37:48.341+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:37:48.366+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.208 seconds
+[2023-05-11T22:38:37.423+0530] {processor.py:156} INFO - Started process (PID=8501) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:38:37.425+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:38:37.426+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:38:37.426+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:38:37.538+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:38:37.559+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:38:37.559+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:38:37.586+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:38:37.586+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:38:37.610+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.192 seconds
+[2023-05-11T22:39:28.155+0530] {processor.py:156} INFO - Started process (PID=8559) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:39:28.157+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:39:28.158+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:39:28.158+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:39:28.273+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:39:28.295+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:39:28.295+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:39:28.323+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:39:28.323+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:39:28.348+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.198 seconds
+[2023-05-11T22:40:18.919+0530] {processor.py:156} INFO - Started process (PID=8623) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:40:18.920+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:40:18.922+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:40:18.921+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:40:19.036+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:40:19.057+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:40:19.057+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:40:19.084+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:40:19.084+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:40:19.108+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.195 seconds
+[2023-05-11T22:41:07.296+0530] {processor.py:156} INFO - Started process (PID=8672) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:41:07.297+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:41:07.298+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:41:07.298+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:41:07.406+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:41:07.428+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:41:07.428+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:41:07.454+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:41:07.454+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:41:07.480+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.190 seconds
+[2023-05-11T22:41:54.266+0530] {processor.py:156} INFO - Started process (PID=8723) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:41:54.268+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:41:54.269+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:41:54.269+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:41:54.378+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:41:54.400+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:41:54.400+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:41:54.427+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:41:54.427+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:41:54.452+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.191 seconds
+[2023-05-11T22:42:42.275+0530] {processor.py:156} INFO - Started process (PID=8771) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:42:42.277+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:42:42.278+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:42:42.278+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:42:42.387+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:42:42.409+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:42:42.408+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:42:42.434+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:42:42.434+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:42:42.459+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.189 seconds
+[2023-05-11T22:43:35.024+0530] {processor.py:156} INFO - Started process (PID=8821) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:43:35.026+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:43:35.027+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:43:35.027+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:43:35.153+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:43:35.174+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:43:35.174+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:43:35.202+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:43:35.202+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:43:35.227+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.208 seconds
+[2023-05-11T22:44:28.469+0530] {processor.py:156} INFO - Started process (PID=8870) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:44:28.470+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:44:28.471+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:44:28.471+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:44:28.581+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:44:28.604+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:44:28.604+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:44:28.630+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:44:28.630+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:44:28.655+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.192 seconds
+[2023-05-11T22:45:00.883+0530] {processor.py:156} INFO - Started process (PID=8897) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:45:00.884+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:45:00.885+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:45:00.885+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:45:00.992+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:45:01.013+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:45:01.013+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:45:01.039+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:45:01.039+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:45:01.074+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.196 seconds
+[2023-05-11T22:45:51.915+0530] {processor.py:156} INFO - Started process (PID=8960) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:45:51.917+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:45:51.918+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:45:51.918+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:45:52.028+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:45:52.050+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:45:52.050+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:45:52.076+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:45:52.076+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:45:52.100+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.190 seconds
+[2023-05-11T22:46:40.338+0530] {processor.py:156} INFO - Started process (PID=9009) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:46:40.339+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:46:40.340+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:46:40.340+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:46:40.446+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:46:40.468+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:46:40.467+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:46:40.495+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:46:40.495+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:46:40.520+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.187 seconds
+[2023-05-11T22:47:33.272+0530] {processor.py:156} INFO - Started process (PID=9059) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:47:33.273+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:47:33.274+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:47:33.274+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:47:33.384+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:47:33.407+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:47:33.407+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:47:33.434+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:47:33.433+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:47:33.458+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.192 seconds
+[2023-05-11T22:48:29.030+0530] {processor.py:156} INFO - Started process (PID=9113) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:48:29.032+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:48:29.034+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:48:29.034+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:48:29.144+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:48:29.166+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:48:29.165+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:48:29.193+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:48:29.193+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:48:29.234+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.210 seconds
+[2023-05-11T22:49:23.369+0530] {processor.py:156} INFO - Started process (PID=9170) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:49:23.370+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:49:23.371+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:49:23.371+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:49:23.531+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:49:23.564+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:49:23.564+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:49:23.603+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:49:23.603+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:49:23.633+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.268 seconds
+[2023-05-11T22:50:16.505+0530] {processor.py:156} INFO - Started process (PID=9223) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:50:16.506+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:50:16.507+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:50:16.507+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:50:16.627+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:50:16.649+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:50:16.648+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:50:16.676+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:50:16.676+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:50:16.701+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.202 seconds
+[2023-05-11T22:51:06.130+0530] {processor.py:156} INFO - Started process (PID=9272) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:51:06.132+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:51:06.133+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:51:06.133+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:51:06.243+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:51:06.264+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:51:06.264+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:51:06.290+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:51:06.290+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:51:06.321+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.197 seconds
+[2023-05-11T22:52:02.154+0530] {processor.py:156} INFO - Started process (PID=9324) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:52:02.155+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:52:02.156+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:52:02.156+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:52:02.265+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:52:02.287+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:52:02.286+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:52:02.314+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:52:02.314+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:52:02.338+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.190 seconds
+[2023-05-11T22:52:56.902+0530] {processor.py:156} INFO - Started process (PID=9443) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:52:56.903+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:52:56.904+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:52:56.904+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:52:57.033+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:52:57.055+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:52:57.055+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:52:57.082+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:52:57.082+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:52:57.108+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.212 seconds
+[2023-05-11T22:53:45.321+0530] {processor.py:156} INFO - Started process (PID=9490) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:53:45.323+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:53:45.324+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:53:45.324+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:53:45.435+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:53:45.461+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:53:45.461+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:53:45.488+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:53:45.488+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:53:45.513+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.197 seconds
+[2023-05-11T22:54:35.947+0530] {processor.py:156} INFO - Started process (PID=9551) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:54:35.949+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:54:35.950+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:54:35.950+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:54:36.060+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:54:36.082+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:54:36.082+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:54:36.109+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:54:36.109+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:54:36.133+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.191 seconds
+[2023-05-11T22:55:30.834+0530] {processor.py:156} INFO - Started process (PID=9612) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:55:30.836+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:55:30.837+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:55:30.836+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:55:30.962+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:55:30.985+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:55:30.985+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:55:31.013+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:55:31.013+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:55:31.038+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.210 seconds
+[2023-05-11T22:56:21.665+0530] {processor.py:156} INFO - Started process (PID=9685) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:56:21.666+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:56:21.668+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:56:21.668+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:56:21.826+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:56:21.848+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:56:21.848+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:56:21.875+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:56:21.875+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:56:21.900+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.241 seconds
+[2023-05-11T22:57:11.833+0530] {processor.py:156} INFO - Started process (PID=9808) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:57:11.835+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:57:11.837+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:57:11.836+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:57:11.972+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:57:11.996+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:57:11.996+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:57:12.025+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:57:12.025+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:57:12.051+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.224 seconds
+[2023-05-11T22:58:04.851+0530] {processor.py:156} INFO - Started process (PID=9865) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:58:04.852+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:58:04.854+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:58:04.853+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:58:04.983+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:58:05.005+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:58:05.005+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:58:05.033+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:58:05.033+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:58:05.058+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.213 seconds
+[2023-05-11T22:58:52.630+0530] {processor.py:156} INFO - Started process (PID=9935) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:58:52.632+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:58:52.633+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:58:52.633+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:58:52.769+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:58:52.791+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:58:52.791+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:58:52.820+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:58:52.820+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:58:52.847+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.223 seconds
+[2023-05-11T22:59:39.662+0530] {processor.py:156} INFO - Started process (PID=10011) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T22:59:39.663+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T22:59:39.664+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:59:39.664+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:59:39.783+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T22:59:39.805+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:59:39.805+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T22:59:39.835+0530] {logging_mixin.py:149} INFO - [2023-05-11T22:59:39.834+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T22:59:39.860+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.202 seconds
+[2023-05-11T23:00:32.104+0530] {processor.py:156} INFO - Started process (PID=10084) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T23:00:32.105+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T23:00:32.106+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:00:32.106+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:00:32.228+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:00:32.255+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:00:32.255+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T23:00:32.284+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:00:32.283+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T23:00:32.310+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.211 seconds
+[2023-05-11T23:01:21.155+0530] {processor.py:156} INFO - Started process (PID=10141) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T23:01:21.156+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T23:01:21.157+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:01:21.157+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:01:21.273+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:01:21.294+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:01:21.294+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T23:01:21.323+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:01:21.323+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T23:01:21.349+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.200 seconds
+[2023-05-11T23:02:10.286+0530] {processor.py:156} INFO - Started process (PID=10239) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T23:02:10.287+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T23:02:10.289+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:02:10.288+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:02:10.406+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:02:10.430+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:02:10.430+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T23:02:10.461+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:02:10.460+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T23:02:10.487+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.207 seconds
+[2023-05-11T23:03:01.073+0530] {processor.py:156} INFO - Started process (PID=10291) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T23:03:01.076+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T23:03:01.077+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:03:01.077+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:03:01.204+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:03:01.235+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:03:01.234+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T23:03:01.275+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:03:01.275+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T23:03:01.300+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.232 seconds
+[2023-05-11T23:03:50.448+0530] {processor.py:156} INFO - Started process (PID=10354) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T23:03:50.450+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T23:03:50.451+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:03:50.451+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:03:50.597+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:03:50.620+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:03:50.620+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T23:03:50.649+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:03:50.649+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T23:03:50.673+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.232 seconds
+[2023-05-11T23:22:36.063+0530] {processor.py:156} INFO - Started process (PID=10745) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T23:22:36.064+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T23:22:36.065+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:22:36.065+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:22:36.309+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:22:36.332+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:22:36.332+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T23:22:36.359+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:22:36.359+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T23:22:36.384+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.325 seconds
+[2023-05-11T23:23:15.354+0530] {processor.py:156} INFO - Started process (PID=10882) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T23:23:15.355+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T23:23:15.356+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:23:15.356+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:23:15.478+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:23:15.502+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:23:15.502+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T23:23:15.534+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:23:15.533+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T23:23:15.559+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.210 seconds
+[2023-05-11T23:24:01.198+0530] {processor.py:156} INFO - Started process (PID=10938) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T23:24:01.200+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T23:24:01.201+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:24:01.200+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:24:01.317+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:24:01.339+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:24:01.339+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T23:24:01.367+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:24:01.367+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T23:24:01.392+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.200 seconds
+[2023-05-11T23:24:48.636+0530] {processor.py:156} INFO - Started process (PID=11018) to work on /home/nizam/airflow/dags/test.py
+[2023-05-11T23:24:48.638+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-11T23:24:48.639+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:24:48.639+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:24:48.759+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-11T23:24:48.782+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:24:48.782+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-11T23:24:48.815+0530] {logging_mixin.py:149} INFO - [2023-05-11T23:24:48.815+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-11T23:24:48.840+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.210 seconds
+[2023-05-12T00:03:52.132+0530] {processor.py:156} INFO - Started process (PID=11651) to work on /home/nizam/airflow/dags/test.py
+[2023-05-12T00:03:52.133+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-12T00:03:52.134+0530] {logging_mixin.py:149} INFO - [2023-05-12T00:03:52.134+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-12T00:03:52.356+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-12T00:03:52.378+0530] {logging_mixin.py:149} INFO - [2023-05-12T00:03:52.378+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-12T00:03:52.402+0530] {logging_mixin.py:149} INFO - [2023-05-12T00:03:52.402+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-12T00:03:52.431+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.304 seconds
+[2023-05-12T00:05:15.744+0530] {processor.py:156} INFO - Started process (PID=11730) to work on /home/nizam/airflow/dags/test.py
+[2023-05-12T00:05:15.746+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test.py for tasks to queue
+[2023-05-12T00:05:15.747+0530] {logging_mixin.py:149} INFO - [2023-05-12T00:05:15.747+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test.py
+[2023-05-12T00:05:16.288+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test2']) retrieved from /home/nizam/airflow/dags/test.py
+[2023-05-12T00:05:16.314+0530] {logging_mixin.py:149} INFO - [2023-05-12T00:05:16.313+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-12T00:05:16.334+0530] {logging_mixin.py:149} INFO - [2023-05-12T00:05:16.333+0530] {dag.py:3486} INFO - Setting next_dagrun for test2 to None, run_after=None
+[2023-05-12T00:05:16.359+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test.py took 0.618 seconds

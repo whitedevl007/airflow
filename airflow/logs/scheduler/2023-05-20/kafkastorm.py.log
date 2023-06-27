@@ -1,0 +1,609 @@
+[2023-05-20T13:34:01.306+0530] {processor.py:156} INFO - Started process (PID=8019) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:34:01.308+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:34:01.309+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:34:01.309+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:34:01.325+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:34:01.355+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:34:01.355+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:34:01.384+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:34:01.384+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:34:01.408+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.107 seconds
+[2023-05-20T13:34:58.006+0530] {processor.py:156} INFO - Started process (PID=8123) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:34:58.007+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:34:58.008+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:34:58.008+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:34:58.018+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:34:58.043+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:34:58.043+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:34:58.072+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:34:58.072+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:34:58.208+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.208 seconds
+[2023-05-20T13:35:53.218+0530] {processor.py:156} INFO - Started process (PID=8197) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:35:53.220+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:35:53.221+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:35:53.221+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:35:53.236+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:35:53.455+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:35:53.455+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:35:53.497+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:35:53.496+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:35:53.539+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.326 seconds
+[2023-05-20T13:42:12.720+0530] {processor.py:156} INFO - Started process (PID=8441) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:42:12.722+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:42:12.723+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:42:12.723+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:42:12.737+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:42:12.767+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:42:12.767+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:42:12.796+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:42:12.796+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:42:12.823+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.108 seconds
+[2023-05-20T13:43:04.848+0530] {processor.py:156} INFO - Started process (PID=8496) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:43:04.850+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:43:04.851+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:43:04.851+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:43:04.865+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:43:04.903+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:43:04.903+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:43:04.936+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:43:04.936+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:43:04.963+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.122 seconds
+[2023-05-20T13:43:52.655+0530] {processor.py:156} INFO - Started process (PID=8556) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:43:52.657+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:43:52.658+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:43:52.658+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:43:52.671+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:43:52.701+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:43:52.700+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:43:52.731+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:43:52.731+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:43:52.763+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.114 seconds
+[2023-05-20T13:44:41.448+0530] {processor.py:156} INFO - Started process (PID=8644) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:44:41.449+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:44:41.451+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:44:41.450+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:44:41.461+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:44:41.485+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:44:41.485+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:44:41.512+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:44:41.512+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:44:41.543+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.101 seconds
+[2023-05-20T13:45:31.628+0530] {processor.py:156} INFO - Started process (PID=8705) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:45:31.629+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:45:31.631+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:45:31.630+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:45:31.643+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:45:31.671+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:45:31.671+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:45:31.699+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:45:31.698+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:45:31.725+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.103 seconds
+[2023-05-20T13:46:18.745+0530] {processor.py:156} INFO - Started process (PID=8763) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:46:18.747+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:46:18.748+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:46:18.748+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:46:18.759+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:46:18.786+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:46:18.786+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:46:18.817+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:46:18.817+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:46:18.848+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.108 seconds
+[2023-05-20T13:47:02.984+0530] {processor.py:156} INFO - Started process (PID=8826) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:47:02.985+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:47:02.987+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:47:02.986+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:47:03.002+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:47:03.036+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:47:03.036+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:47:03.065+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:47:03.065+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:47:03.092+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.113 seconds
+[2023-05-20T13:47:46.035+0530] {processor.py:156} INFO - Started process (PID=8884) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:47:46.036+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:47:46.037+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:47:46.037+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:47:46.047+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:47:46.071+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:47:46.071+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:47:46.106+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:47:46.105+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:47:46.135+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.104 seconds
+[2023-05-20T13:48:30.784+0530] {processor.py:156} INFO - Started process (PID=8943) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:48:30.786+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:48:30.788+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:48:30.787+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:48:30.799+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:48:30.827+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:48:30.827+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:48:30.856+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:48:30.855+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:48:30.881+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.102 seconds
+[2023-05-20T13:49:16.480+0530] {processor.py:156} INFO - Started process (PID=9017) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:49:16.482+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:49:16.484+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:49:16.483+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:49:16.494+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:49:16.522+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:49:16.522+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:49:16.555+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:49:16.554+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:49:16.583+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.109 seconds
+[2023-05-20T13:50:05.052+0530] {processor.py:156} INFO - Started process (PID=9093) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:50:05.054+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:50:05.055+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:50:05.055+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:50:05.067+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:50:05.095+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:50:05.095+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:50:05.124+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:50:05.124+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:50:05.150+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.103 seconds
+[2023-05-20T13:50:54.804+0530] {processor.py:156} INFO - Started process (PID=9151) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:50:54.806+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:50:54.808+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:50:54.807+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:50:54.818+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:50:54.846+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:50:54.845+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:50:54.875+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:50:54.874+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:50:54.900+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.101 seconds
+[2023-05-20T13:51:41.604+0530] {processor.py:156} INFO - Started process (PID=9208) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:51:41.605+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:51:41.607+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:51:41.606+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:51:41.618+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:51:41.645+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:51:41.645+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:51:41.676+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:51:41.676+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:51:41.705+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.107 seconds
+[2023-05-20T13:52:31.912+0530] {processor.py:156} INFO - Started process (PID=9259) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:52:31.913+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:52:31.914+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:52:31.914+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:52:31.925+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:52:31.951+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:52:31.951+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:52:31.980+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:52:31.980+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:52:32.005+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.099 seconds
+[2023-05-20T13:53:20.813+0530] {processor.py:156} INFO - Started process (PID=9330) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:53:20.815+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:53:20.816+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:53:20.816+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:53:20.829+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:53:20.857+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:53:20.857+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:53:20.888+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:53:20.888+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:53:20.919+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.113 seconds
+[2023-05-20T13:54:06.606+0530] {processor.py:156} INFO - Started process (PID=9394) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:54:06.608+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:54:06.609+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:54:06.609+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:54:06.620+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:54:06.647+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:54:06.647+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:54:06.676+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:54:06.676+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:54:06.707+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.106 seconds
+[2023-05-20T13:55:03.252+0530] {processor.py:156} INFO - Started process (PID=9481) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:55:03.255+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:55:03.256+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:55:03.256+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:55:03.268+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:55:03.296+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:55:03.296+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:55:03.325+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:55:03.325+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:55:03.353+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.107 seconds
+[2023-05-20T13:56:00.343+0530] {processor.py:156} INFO - Started process (PID=9556) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:56:00.345+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:56:00.347+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:56:00.346+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:56:00.360+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:56:00.395+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:56:00.395+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:56:00.430+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:56:00.430+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:56:00.459+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.122 seconds
+[2023-05-20T13:56:55.470+0530] {processor.py:156} INFO - Started process (PID=9671) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:56:55.474+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:56:55.476+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:56:55.475+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:56:55.491+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:56:55.555+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:56:55.555+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:56:55.612+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:56:55.612+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:56:55.695+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.231 seconds
+[2023-05-20T13:57:35.880+0530] {processor.py:156} INFO - Started process (PID=9715) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:57:35.883+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:57:35.884+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:57:35.884+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:57:35.917+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:57:35.966+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:57:35.965+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:57:36.012+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:57:36.011+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:57:36.048+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.174 seconds
+[2023-05-20T13:58:33.568+0530] {processor.py:156} INFO - Started process (PID=9777) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:58:33.570+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:58:33.572+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:58:33.571+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:58:33.587+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:58:33.618+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:58:33.617+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:58:33.649+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:58:33.648+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:58:33.781+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.218 seconds
+[2023-05-20T13:59:28.824+0530] {processor.py:156} INFO - Started process (PID=9879) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:59:28.826+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T13:59:28.827+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:59:28.827+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:59:28.837+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T13:59:28.990+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:59:28.989+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T13:59:29.023+0530] {logging_mixin.py:149} INFO - [2023-05-20T13:59:29.023+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T13:59:29.049+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.232 seconds
+[2023-05-20T14:00:19.162+0530] {processor.py:156} INFO - Started process (PID=9946) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:00:19.164+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:00:19.166+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:00:19.165+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:00:19.175+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:00:19.200+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:00:19.200+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:00:19.230+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:00:19.230+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:00:19.257+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.102 seconds
+[2023-05-20T14:01:07.872+0530] {processor.py:156} INFO - Started process (PID=10012) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:01:07.874+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:01:07.875+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:01:07.875+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:01:07.890+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:01:07.936+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:01:07.936+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:01:07.977+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:01:07.976+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:01:08.011+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.144 seconds
+[2023-05-20T14:02:14.922+0530] {processor.py:156} INFO - Started process (PID=10064) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:02:14.924+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:02:14.925+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:02:14.925+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:02:14.937+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:02:14.966+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:02:14.966+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:02:14.995+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:02:14.995+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:02:15.024+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.108 seconds
+[2023-05-20T14:03:07.202+0530] {processor.py:156} INFO - Started process (PID=10127) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:03:07.204+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:03:07.204+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:03:07.204+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:03:07.213+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:03:07.236+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:03:07.236+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:03:07.267+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:03:07.267+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:03:07.299+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.101 seconds
+[2023-05-20T14:04:01.209+0530] {processor.py:156} INFO - Started process (PID=10198) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:04:01.224+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:04:01.226+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:04:01.225+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:04:01.274+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:04:01.388+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:04:01.387+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:04:01.469+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:04:01.469+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:04:01.595+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.396 seconds
+[2023-05-20T14:04:57.887+0530] {processor.py:156} INFO - Started process (PID=10292) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:04:57.889+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:04:57.890+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:04:57.890+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:04:57.901+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:04:57.928+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:04:57.928+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:04:57.956+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:04:57.956+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:04:57.981+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.099 seconds
+[2023-05-20T14:05:51.083+0530] {processor.py:156} INFO - Started process (PID=10350) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:05:51.084+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:05:51.086+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:05:51.085+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:05:51.096+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:05:51.124+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:05:51.124+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:05:51.160+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:05:51.160+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:05:51.190+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.113 seconds
+[2023-05-20T14:06:36.501+0530] {processor.py:156} INFO - Started process (PID=10433) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:06:36.502+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:06:36.503+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:06:36.503+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:06:36.513+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:06:36.536+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:06:36.536+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:06:36.565+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:06:36.565+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:06:36.591+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.096 seconds
+[2023-05-20T14:07:20.944+0530] {processor.py:156} INFO - Started process (PID=10489) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:07:20.946+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:07:20.947+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:07:20.947+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:07:20.959+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:07:20.988+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:07:20.987+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:07:21.018+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:07:21.018+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:07:21.046+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.107 seconds
+[2023-05-20T14:07:51.507+0530] {processor.py:156} INFO - Started process (PID=10521) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:07:51.508+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:07:51.510+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:07:51.509+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:07:51.525+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:07:51.557+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:07:51.556+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:07:51.585+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:07:51.585+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:07:51.609+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.108 seconds
+[2023-05-20T14:09:24.047+0530] {processor.py:156} INFO - Started process (PID=10635) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:09:24.049+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:09:24.050+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:09:24.050+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:09:24.062+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:09:24.097+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:09:24.096+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:09:24.145+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:09:24.145+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:09:24.373+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.332 seconds
+[2023-05-20T14:10:20.256+0530] {processor.py:156} INFO - Started process (PID=10725) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:10:20.258+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:10:20.259+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:10:20.259+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:10:20.271+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:10:20.439+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:10:20.438+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:10:20.464+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:10:20.464+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:10:20.489+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.238 seconds
+[2023-05-20T14:11:16.024+0530] {processor.py:156} INFO - Started process (PID=10793) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:11:16.025+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:11:16.027+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:11:16.026+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:11:16.038+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:11:16.066+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:11:16.066+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:11:16.095+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:11:16.094+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:11:16.121+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.103 seconds
+[2023-05-20T14:12:02.325+0530] {processor.py:156} INFO - Started process (PID=10854) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:12:02.327+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:12:02.328+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:12:02.328+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:12:02.344+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:12:02.385+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:12:02.384+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:12:02.420+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:12:02.419+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:12:02.455+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.137 seconds
+[2023-05-20T14:12:54.764+0530] {processor.py:156} INFO - Started process (PID=10912) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:12:54.766+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:12:54.768+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:12:54.767+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:12:54.803+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:12:54.880+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:12:54.879+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:12:54.958+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:12:54.957+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:12:55.011+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.255 seconds
+[2023-05-20T14:13:49.353+0530] {processor.py:156} INFO - Started process (PID=10974) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:13:49.354+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:13:49.356+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:13:49.356+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:13:49.368+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:13:49.398+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:13:49.397+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:13:49.425+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:13:49.425+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:13:49.459+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.112 seconds
+[2023-05-20T14:14:38.025+0530] {processor.py:156} INFO - Started process (PID=11051) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:14:38.027+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:14:38.028+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:14:38.028+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:14:38.040+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:14:38.072+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:14:38.072+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:14:38.114+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:14:38.114+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:14:38.154+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.134 seconds
+[2023-05-20T14:15:32.399+0530] {processor.py:156} INFO - Started process (PID=11140) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:15:32.402+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:15:32.403+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:15:32.403+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:15:32.414+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:15:32.442+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:15:32.442+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:15:32.471+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:15:32.471+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:15:32.520+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.126 seconds
+[2023-05-20T14:16:23.792+0530] {processor.py:156} INFO - Started process (PID=11194) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:16:23.794+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:16:23.795+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:16:23.794+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:16:23.806+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:16:23.835+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:16:23.835+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:16:23.869+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:16:23.869+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:16:23.900+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.112 seconds
+[2023-05-20T14:17:17.611+0530] {processor.py:156} INFO - Started process (PID=11258) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:17:17.612+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:17:17.613+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:17:17.613+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:17:17.624+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:17:17.650+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:17:17.650+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:17:17.680+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:17:17.679+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:17:17.706+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.101 seconds
+[2023-05-20T14:17:52.828+0530] {processor.py:156} INFO - Started process (PID=11278) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:17:52.830+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:17:52.832+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:17:52.832+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:17:52.852+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:17:52.886+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:17:52.886+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:17:52.926+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:17:52.926+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:17:52.955+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.134 seconds
+[2023-05-20T14:18:48.615+0530] {processor.py:156} INFO - Started process (PID=11342) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:18:48.617+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:18:48.618+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:18:48.618+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:18:48.629+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:18:48.654+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:18:48.654+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:18:48.684+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:18:48.684+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:18:48.820+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.210 seconds
+[2023-05-20T14:20:00.156+0530] {processor.py:156} INFO - Started process (PID=11512) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:20:00.158+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:20:00.159+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:20:00.159+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:20:00.173+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:20:00.205+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:20:00.205+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:20:00.366+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:20:00.366+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:20:00.401+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.250 seconds
+[2023-05-20T14:21:01.336+0530] {processor.py:156} INFO - Started process (PID=11724) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:21:01.378+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:21:01.379+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:21:01.379+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:21:01.663+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:21:01.698+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:21:01.698+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:21:01.745+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:21:01.744+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:21:01.787+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.456 seconds
+[2023-05-20T14:22:08.773+0530] {processor.py:156} INFO - Started process (PID=11893) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:22:08.798+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:22:08.805+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:22:08.803+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:22:09.343+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:22:10.162+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:22:10.143+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:22:10.844+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:22:10.817+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:22:11.218+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 2.544 seconds
+[2023-05-20T14:24:36.274+0530] {processor.py:156} INFO - Started process (PID=12009) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:24:36.276+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:24:36.277+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:24:36.277+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:24:36.286+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:24:36.311+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:24:36.311+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:24:36.345+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:24:36.345+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:24:36.388+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.118 seconds
+[2023-05-20T14:25:14.232+0530] {processor.py:156} INFO - Started process (PID=12050) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:25:14.234+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:25:14.235+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:25:14.235+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:25:14.246+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:25:14.346+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:25:14.345+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:25:14.397+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:25:14.397+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:25:14.637+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.410 seconds
+[2023-05-20T14:26:08.575+0530] {processor.py:156} INFO - Started process (PID=12120) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:26:08.576+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:26:08.578+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:26:08.577+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:26:08.589+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:26:08.617+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:26:08.617+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:26:08.648+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:26:08.647+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:26:08.675+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.106 seconds
+[2023-05-20T14:26:54.748+0530] {processor.py:156} INFO - Started process (PID=12241) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:26:54.750+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:26:54.752+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:26:54.752+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:26:54.763+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:26:54.792+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:26:54.792+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:26:54.833+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:26:54.832+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:26:54.872+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.129 seconds
+[2023-05-20T14:27:46.970+0530] {processor.py:156} INFO - Started process (PID=12391) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:27:46.971+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:27:46.972+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:27:46.972+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:27:46.983+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:27:47.009+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:27:47.009+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:27:47.046+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:27:47.045+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:27:47.078+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.113 seconds
+[2023-05-20T14:29:18.710+0530] {processor.py:156} INFO - Started process (PID=12612) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:29:18.712+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:29:18.714+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:29:18.714+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:29:18.730+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:29:18.795+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:29:18.792+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:29:18.858+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:29:18.858+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:29:18.938+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.241 seconds
+[2023-05-20T14:30:13.415+0530] {processor.py:156} INFO - Started process (PID=12880) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:30:13.417+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:30:13.418+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:30:13.418+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:30:13.429+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:30:13.457+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:30:13.457+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:30:13.484+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:30:13.484+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:30:13.509+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.099 seconds
+[2023-05-20T14:31:19.193+0530] {processor.py:156} INFO - Started process (PID=13145) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:31:19.198+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:31:19.207+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:31:19.207+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:31:19.368+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:31:21.085+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:31:21.084+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:31:21.377+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:31:21.376+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:31:22.006+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 2.916 seconds
+[2023-05-20T14:32:28.074+0530] {processor.py:156} INFO - Started process (PID=13316) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:32:28.076+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:32:28.078+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:32:28.077+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:32:28.095+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:32:28.147+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:32:28.147+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:32:28.213+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:32:28.213+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:32:28.263+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.200 seconds
+[2023-05-20T14:33:23.242+0530] {processor.py:156} INFO - Started process (PID=13387) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:33:23.244+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:33:23.245+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:33:23.245+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:33:23.257+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:33:23.285+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:33:23.284+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:33:23.312+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:33:23.312+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:33:23.338+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.102 seconds
+[2023-05-20T14:34:18.346+0530] {processor.py:156} INFO - Started process (PID=13440) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:34:18.348+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:34:18.349+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:34:18.349+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:34:18.361+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:34:18.390+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:34:18.390+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:34:18.430+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:34:18.430+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:34:18.459+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.118 seconds
+[2023-05-20T14:35:54.280+0530] {processor.py:156} INFO - Started process (PID=13534) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:35:54.282+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:35:54.283+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:35:54.283+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:35:54.299+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:35:54.330+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:35:54.330+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:35:54.372+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:35:54.372+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:35:54.410+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.134 seconds
+[2023-05-20T14:37:43.043+0530] {processor.py:156} INFO - Started process (PID=13978) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:37:43.061+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:37:43.063+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:37:43.063+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:37:43.096+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:37:43.182+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:37:43.172+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:37:43.292+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:37:43.291+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:37:43.851+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.822 seconds
+[2023-05-20T14:38:59.830+0530] {processor.py:156} INFO - Started process (PID=14356) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:38:59.836+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:38:59.859+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:38:59.859+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:39:00.009+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:39:00.167+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:39:00.167+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:39:04.773+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:39:04.764+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:39:05.075+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 5.319 seconds
+[2023-05-20T14:44:58.477+0530] {processor.py:156} INFO - Started process (PID=15843) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:44:58.478+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:44:58.479+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:44:58.479+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:44:58.488+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:44:58.512+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:44:58.511+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:44:58.543+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:44:58.543+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:44:58.581+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.108 seconds
+[2023-05-20T14:45:35.751+0530] {processor.py:156} INFO - Started process (PID=16150) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:45:35.753+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:45:35.754+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:45:35.753+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:45:35.769+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:45:35.813+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:45:35.813+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:45:35.884+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:45:35.884+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:45:35.933+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.191 seconds
+[2023-05-20T14:46:11.475+0530] {processor.py:156} INFO - Started process (PID=16210) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:46:11.930+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:46:11.932+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:46:11.931+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:46:11.943+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:46:11.982+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:46:11.982+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:46:12.020+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:46:12.020+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:46:12.076+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.606 seconds
+[2023-05-20T14:46:47.136+0530] {processor.py:156} INFO - Started process (PID=16245) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:46:47.137+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:46:47.139+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:46:47.138+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:46:47.152+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:46:47.179+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:46:47.178+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:46:47.209+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:46:47.209+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:46:47.242+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.112 seconds
+[2023-05-20T14:47:49.097+0530] {processor.py:156} INFO - Started process (PID=16598) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:47:49.115+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:47:49.117+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:47:49.117+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:47:49.232+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:47:49.290+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:47:49.289+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:47:49.361+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:47:49.360+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:47:49.416+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.385 seconds
+[2023-05-20T14:50:52.757+0530] {processor.py:156} INFO - Started process (PID=17048) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:50:52.759+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:50:52.761+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:50:52.760+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:50:52.777+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:50:52.811+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:50:52.811+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:50:52.845+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:50:52.845+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:50:52.872+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.120 seconds
+[2023-05-20T14:52:30.750+0530] {processor.py:156} INFO - Started process (PID=17368) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:52:30.752+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:52:30.754+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:52:30.754+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:52:30.767+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:52:30.804+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:52:30.803+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:52:30.844+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:52:30.844+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:52:31.033+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.289 seconds
+[2023-05-20T14:53:27.393+0530] {processor.py:156} INFO - Started process (PID=17572) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:53:27.394+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:53:27.395+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:53:27.395+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:53:27.405+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:53:27.566+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:53:27.566+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:53:27.600+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:53:27.600+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:53:27.640+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.251 seconds
+[2023-05-20T14:54:34.293+0530] {processor.py:156} INFO - Started process (PID=17968) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:54:34.300+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:54:34.302+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:54:34.301+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:54:34.324+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:54:34.417+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:54:34.417+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:54:34.517+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:54:34.517+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:54:34.602+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.349 seconds
+[2023-05-20T14:55:28.548+0530] {processor.py:156} INFO - Started process (PID=18027) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:55:28.549+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:55:28.550+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:55:28.550+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:55:28.562+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:55:28.594+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:55:28.594+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:55:28.636+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:55:28.635+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:55:28.670+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.127 seconds
+[2023-05-20T14:56:14.366+0530] {processor.py:156} INFO - Started process (PID=18112) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:56:14.368+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:56:14.369+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:56:14.369+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:56:14.380+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:56:14.409+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:56:14.409+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:56:14.437+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:56:14.437+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:56:14.465+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.104 seconds
+[2023-05-20T14:57:00.083+0530] {processor.py:156} INFO - Started process (PID=18174) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:57:00.085+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:57:00.086+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:57:00.086+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:57:00.096+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:57:00.120+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:57:00.119+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:57:00.147+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:57:00.146+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:57:00.175+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.098 seconds
+[2023-05-20T14:57:47.993+0530] {processor.py:156} INFO - Started process (PID=18233) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:57:47.996+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:57:47.997+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:57:47.997+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:57:48.011+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:57:48.050+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:57:48.049+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:57:48.099+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:57:48.099+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:57:48.192+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.204 seconds
+[2023-05-20T14:58:37.231+0530] {processor.py:156} INFO - Started process (PID=18284) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:58:37.233+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:58:37.234+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:58:37.234+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:58:37.246+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:58:37.271+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:58:37.271+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:58:37.299+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:58:37.298+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:58:37.324+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.098 seconds
+[2023-05-20T14:59:25.721+0530] {processor.py:156} INFO - Started process (PID=18348) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:59:25.723+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T14:59:25.724+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:59:25.724+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:59:25.737+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T14:59:25.762+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:59:25.762+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T14:59:25.790+0530] {logging_mixin.py:149} INFO - [2023-05-20T14:59:25.789+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T14:59:25.815+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.099 seconds
+[2023-05-20T15:00:11.025+0530] {processor.py:156} INFO - Started process (PID=18397) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:00:11.026+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T15:00:11.027+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:00:11.027+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:00:11.037+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:00:11.063+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:00:11.063+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T15:00:11.095+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:00:11.095+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T15:00:11.127+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.107 seconds
+[2023-05-20T15:00:56.040+0530] {processor.py:156} INFO - Started process (PID=18451) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:00:56.042+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T15:00:56.043+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:00:56.043+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:00:56.055+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:00:56.086+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:00:56.086+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T15:00:56.120+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:00:56.120+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T15:00:56.150+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.116 seconds
+[2023-05-20T15:01:43.591+0530] {processor.py:156} INFO - Started process (PID=18503) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:01:43.592+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T15:01:43.594+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:01:43.593+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:01:43.608+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:01:43.643+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:01:43.643+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T15:01:43.680+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:01:43.679+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T15:01:43.705+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.119 seconds
+[2023-05-20T15:02:33.457+0530] {processor.py:156} INFO - Started process (PID=18621) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:02:33.459+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T15:02:33.460+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:02:33.460+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:02:33.470+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:02:33.498+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:02:33.498+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T15:02:33.529+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:02:33.529+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T15:02:33.560+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.108 seconds
+[2023-05-20T15:03:30.608+0530] {processor.py:156} INFO - Started process (PID=18677) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:03:30.610+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T15:03:30.611+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:03:30.611+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:03:30.624+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:03:30.650+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:03:30.650+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T15:03:30.678+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:03:30.678+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T15:03:30.706+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.103 seconds
+[2023-05-20T15:04:18.833+0530] {processor.py:156} INFO - Started process (PID=18730) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:04:18.835+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T15:04:18.836+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:04:18.836+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:04:18.848+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:04:18.874+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:04:18.874+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T15:04:18.902+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:04:18.901+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T15:04:18.929+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.101 seconds
+[2023-05-20T15:05:02.425+0530] {processor.py:156} INFO - Started process (PID=19244) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:05:02.427+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T15:05:02.428+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:05:02.428+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:05:02.439+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:05:02.465+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:05:02.465+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T15:05:02.495+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:05:02.494+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T15:05:02.524+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.105 seconds
+[2023-05-20T15:05:45.232+0530] {processor.py:156} INFO - Started process (PID=19556) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:05:45.234+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-05-20T15:05:45.235+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:05:45.235+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:05:45.247+0530] {processor.py:809} INFO - DAG(s) dict_keys(['concurrent_bash_tasks']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-05-20T15:05:45.274+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:05:45.274+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-20T15:05:45.303+0530] {logging_mixin.py:149} INFO - [2023-05-20T15:05:45.303+0530] {dag.py:3486} INFO - Setting next_dagrun for concurrent_bash_tasks to None, run_after=None
+[2023-05-20T15:05:45.330+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.104 seconds

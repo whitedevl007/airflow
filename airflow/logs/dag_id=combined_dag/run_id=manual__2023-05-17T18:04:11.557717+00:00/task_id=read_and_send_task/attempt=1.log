@@ -1,0 +1,20 @@
+[2023-05-17T23:34:15.672+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: combined_dag.read_and_send_task manual__2023-05-17T18:04:11.557717+00:00 [queued]>
+[2023-05-17T23:34:15.680+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: combined_dag.read_and_send_task manual__2023-05-17T18:04:11.557717+00:00 [queued]>
+[2023-05-17T23:34:15.680+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-17T23:34:15.697+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): read_and_send_task> on 2023-05-17 18:04:11.557717+00:00
+[2023-05-17T23:34:15.702+0530] {standard_task_runner.py:57} INFO - Started process 14303 to run task
+[2023-05-17T23:34:15.706+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'combined_dag', 'read_and_send_task', 'manual__2023-05-17T18:04:11.557717+00:00', '--job-id', '351', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpg2x2vrzg']
+[2023-05-17T23:34:15.707+0530] {standard_task_runner.py:85} INFO - Job 351: Subtask read_and_send_task
+[2023-05-17T23:34:15.752+0530] {task_command.py:410} INFO - Running <TaskInstance: combined_dag.read_and_send_task manual__2023-05-17T18:04:11.557717+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-17T23:34:15.849+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='combined_dag' AIRFLOW_CTX_TASK_ID='read_and_send_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-17T18:04:11.557717+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-17T18:04:11.557717+00:00'
+[2023-05-17T23:34:17.993+0530] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-17T23:34:17.994+0530] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2023-05-17T23:34:17.995+0530] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-17T23:34:18.103+0530] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2023-05-17T23:34:18.103+0530] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2023-05-17T23:34:48.124+0530] {logging_mixin.py:149} INFO - Error occurred in read_from_mongodb_and_send_to_kafka: ac-90kskrr-shard-00-02.vgtdfso.mongodb.net:27017: connection closed,ac-90kskrr-shard-00-00.vgtdfso.mongodb.net:27017: connection closed,ac-90kskrr-shard-00-01.vgtdfso.mongodb.net:27017: connection closed, Timeout: 30s, Topology Description: <TopologyDescription id: 6465172155f5ba480b81bd94, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-90kskrr-shard-00-00.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-00.vgtdfso.mongodb.net:27017: connection closed')>, <ServerDescription ('ac-90kskrr-shard-00-01.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-01.vgtdfso.mongodb.net:27017: connection closed')>, <ServerDescription ('ac-90kskrr-shard-00-02.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-02.vgtdfso.mongodb.net:27017: connection closed')>]>
+[2023-05-17T23:34:48.126+0530] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+[2023-05-17T23:34:48.127+0530] {python.py:183} INFO - Done. Returned value was: None
+[2023-05-17T23:34:48.139+0530] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=combined_dag, task_id=read_and_send_task, execution_date=20230517T180411, start_date=20230517T180415, end_date=20230517T180448
+[2023-05-17T23:34:48.191+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-05-17T23:34:48.217+0530] {taskinstance.py:2674} INFO - 2 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,154 @@
+[2023-06-12T12:13:11.530+0530] {processor.py:156} INFO - Started process (PID=10465) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:13:11.532+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:13:11.534+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:13:11.533+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:13:12.977+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:13:13.253+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:13:13.252+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:13:13.521+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:13:13.517+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:13:13.691+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 2.178 seconds
+[2023-06-12T12:15:16.309+0530] {processor.py:156} INFO - Started process (PID=10966) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:15:16.313+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:15:16.314+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:15:16.314+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:15:17.247+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:15:17.381+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:15:17.381+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:15:17.529+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:15:17.529+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:15:17.640+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 1.338 seconds
+[2023-06-12T12:15:58.079+0530] {processor.py:156} INFO - Started process (PID=11247) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:15:58.083+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:15:58.086+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:15:58.086+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:15:58.741+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:15:58.771+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:15:58.771+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:15:58.841+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:15:58.841+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:15:58.944+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.883 seconds
+[2023-06-12T12:16:51.853+0530] {processor.py:156} INFO - Started process (PID=11414) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:16:51.855+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:16:51.856+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:16:51.856+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:16:51.973+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:16:51.996+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:16:51.995+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:16:52.021+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:16:52.020+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:16:52.046+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.198 seconds
+[2023-06-12T12:17:38.181+0530] {processor.py:156} INFO - Started process (PID=11497) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:17:38.182+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:17:38.185+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:17:38.184+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:17:38.314+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:17:38.336+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:17:38.336+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:17:38.359+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:17:38.359+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:17:38.386+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.212 seconds
+[2023-06-12T12:26:41.673+0530] {processor.py:156} INFO - Started process (PID=12585) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:26:41.688+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:26:41.692+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:26:41.691+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:26:41.934+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:26:41.982+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:26:41.982+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:26:42.024+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:26:42.023+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:26:42.108+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.442 seconds
+[2023-06-12T12:27:38.818+0530] {processor.py:156} INFO - Started process (PID=13068) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:27:38.826+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:27:38.827+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:27:38.827+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:27:41.687+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:27:42.114+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:27:42.113+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:27:42.304+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:27:42.303+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:27:42.379+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 3.568 seconds
+[2023-06-12T12:28:45.534+0530] {processor.py:156} INFO - Started process (PID=13285) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:28:45.537+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:28:45.539+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:28:45.538+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:28:45.793+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:28:45.818+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:28:45.818+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:28:45.846+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:28:45.846+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:28:45.876+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.346 seconds
+[2023-06-12T12:29:35.760+0530] {processor.py:156} INFO - Started process (PID=13367) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:29:35.762+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:29:35.763+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:29:35.763+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:29:35.914+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:29:35.937+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:29:35.937+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:29:35.964+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:29:35.963+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:29:35.989+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.235 seconds
+[2023-06-12T12:30:39.292+0530] {processor.py:156} INFO - Started process (PID=13743) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:30:39.311+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:30:39.317+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:30:39.316+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:30:40.272+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:30:40.396+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:30:40.396+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:30:40.496+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:30:40.495+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:30:40.598+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 1.329 seconds
+[2023-06-12T12:31:38.383+0530] {processor.py:156} INFO - Started process (PID=14115) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:31:38.395+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:31:38.401+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:31:38.400+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:31:39.627+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:31:39.749+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:31:39.749+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:31:39.854+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:31:39.854+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:31:39.992+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 1.647 seconds
+[2023-06-12T12:48:29.840+0530] {processor.py:156} INFO - Started process (PID=17465) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:48:29.843+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:48:29.845+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:48:29.845+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:48:30.258+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:48:30.299+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:48:30.298+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:48:30.339+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:48:30.338+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:48:30.379+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.544 seconds
+[2023-06-12T12:49:25.647+0530] {processor.py:156} INFO - Started process (PID=17774) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:49:25.649+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:49:25.651+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:49:25.650+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:49:25.871+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:49:25.896+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:49:25.896+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:49:25.920+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:49:25.920+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:49:25.947+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.306 seconds
+[2023-06-12T12:50:15.902+0530] {processor.py:156} INFO - Started process (PID=17863) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:50:15.904+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:50:15.905+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:50:15.905+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:50:16.227+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:50:16.251+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:50:16.251+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:50:16.277+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:50:16.276+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:50:16.301+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.404 seconds
+[2023-06-12T12:51:12.579+0530] {processor.py:156} INFO - Started process (PID=18266) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:51:12.583+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:51:12.585+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:51:12.584+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:51:13.574+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:51:13.793+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:51:13.793+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:51:13.932+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:51:13.932+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:51:14.058+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 1.487 seconds
+[2023-06-12T12:52:20.752+0530] {processor.py:156} INFO - Started process (PID=18687) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:52:20.757+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:52:20.765+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:52:20.762+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:52:21.841+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:52:21.922+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:52:21.922+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:52:22.040+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:52:22.039+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:52:24.424+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 3.701 seconds
+[2023-06-12T12:53:06.260+0530] {processor.py:156} INFO - Started process (PID=19209) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:53:06.265+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T12:53:06.266+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:53:06.266+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:53:07.620+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T12:53:07.920+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:53:07.919+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T12:53:09.515+0530] {logging_mixin.py:149} INFO - [2023-06-12T12:53:09.511+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T12:53:09.815+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 3.564 seconds
+[2023-06-12T14:49:04.034+0530] {processor.py:156} INFO - Started process (PID=8068) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:49:04.067+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T14:49:04.087+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:49:04.087+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:49:05.561+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:49:05.829+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:49:05.828+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T14:49:05.992+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:49:05.991+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T14:49:06.119+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 2.097 seconds
+[2023-06-12T14:50:06.797+0530] {processor.py:156} INFO - Started process (PID=8620) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:50:06.800+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T14:50:06.801+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:50:06.801+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:50:07.080+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:50:07.104+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:50:07.104+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T14:50:07.131+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:50:07.131+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T14:50:07.161+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.369 seconds
+[2023-06-12T14:50:58.487+0530] {processor.py:156} INFO - Started process (PID=8760) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:50:58.488+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T14:50:58.489+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:50:58.489+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:50:58.627+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:50:58.658+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:50:58.658+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T14:50:58.687+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:50:58.686+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T14:50:58.717+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.237 seconds
+[2023-06-12T14:51:44.377+0530] {processor.py:156} INFO - Started process (PID=8829) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:51:44.379+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T14:51:44.380+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:51:44.380+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:51:44.499+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:51:44.522+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:51:44.521+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T14:51:44.546+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:51:44.546+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T14:51:44.570+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 0.199 seconds
+[2023-06-12T14:53:06.760+0530] {processor.py:156} INFO - Started process (PID=9305) to work on /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:53:06.768+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/kafkastorm.py for tasks to queue
+[2023-06-12T14:53:06.772+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:53:06.772+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:53:07.689+0530] {processor.py:809} INFO - DAG(s) dict_keys(['storm_topology1']) retrieved from /home/nizam/airflow/dags/kafkastorm.py
+[2023-06-12T14:53:07.861+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:53:07.861+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T14:53:07.998+0530] {logging_mixin.py:149} INFO - [2023-06-12T14:53:07.997+0530] {dag.py:3486} INFO - Setting next_dagrun for storm_topology1 to 2023-05-18T00:00:00+00:00, run_after=2023-05-18T00:01:00+00:00
+[2023-06-12T14:53:08.085+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/kafkastorm.py took 1.380 seconds

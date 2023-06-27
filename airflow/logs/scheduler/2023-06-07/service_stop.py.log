@@ -1,0 +1,32 @@
+[2023-06-07T21:56:23.627+0530] {processor.py:156} INFO - Started process (PID=9477) to work on /home/nizam/airflow/dags/service_stop.py
+[2023-06-07T21:56:23.629+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/service_stop.py for tasks to queue
+[2023-06-07T21:56:23.630+0530] {logging_mixin.py:149} INFO - [2023-06-07T21:56:23.630+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/service_stop.py
+[2023-06-07T21:56:53.635+0530] {logging_mixin.py:149} INFO - [2023-06-07T21:56:53.633+0530] {timeout.py:68} ERROR - Process timed out, PID: 9477
+[2023-06-07T21:56:53.664+0530] {logging_mixin.py:149} INFO - [2023-06-07T21:56:53.637+0530] {dagbag.py:350} ERROR - Failed to import: /home/nizam/airflow/dags/service_stop.py
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/nizam/airflow/dags/service_stop.py", line 10, in <module>
+    start_services()
+  File "/home/nizam/airflow/dags/service_stop.py", line 6, in start_services
+    subprocess.run(bash_command, shell=True)
+  File "/usr/lib/python3.10/subprocess.py", line 503, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1144, in communicate
+    self.wait()
+  File "/usr/lib/python3.10/subprocess.py", line 1207, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1941, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1899, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/nizam/airflow/dags/service_stop.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.6.0/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.6.0/best-practices.html#reducing-dag-complexity, PID: 9477
+[2023-06-07T21:56:53.665+0530] {processor.py:811} WARNING - No viable dags retrieved from /home/nizam/airflow/dags/service_stop.py
+[2023-06-07T21:56:53.734+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/service_stop.py took 30.113 seconds

@@ -1,0 +1,16 @@
+[2023-05-19T00:30:35.978+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: combined_dag.branch_task scheduled__2023-05-18T00:05:00+00:00 [queued]>
+[2023-05-19T00:30:35.986+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: combined_dag.branch_task scheduled__2023-05-18T00:05:00+00:00 [queued]>
+[2023-05-19T00:30:35.986+0530] {taskinstance.py:1331} INFO - Starting attempt 4 of 4
+[2023-05-19T00:30:36.001+0530] {taskinstance.py:1350} INFO - Executing <Task(BranchPythonOperator): branch_task> on 2023-05-18 00:05:00+00:00
+[2023-05-19T00:30:36.005+0530] {standard_task_runner.py:57} INFO - Started process 9825 to run task
+[2023-05-19T00:30:36.009+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'combined_dag', 'branch_task', 'scheduled__2023-05-18T00:05:00+00:00', '--job-id', '528', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp6bj073vt']
+[2023-05-19T00:30:36.010+0530] {standard_task_runner.py:85} INFO - Job 528: Subtask branch_task
+[2023-05-19T00:30:36.053+0530] {task_command.py:410} INFO - Running <TaskInstance: combined_dag.branch_task scheduled__2023-05-18T00:05:00+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-19T00:30:36.127+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='combined_dag' AIRFLOW_CTX_TASK_ID='branch_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-18T00:05:00+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-18T00:05:00+00:00'
+[2023-05-19T00:30:36.129+0530] {python.py:183} INFO - Done. Returned value was: submit_storm_topology_task
+[2023-05-19T00:30:36.130+0530] {python.py:216} INFO - Branch callable return submit_storm_topology_task
+[2023-05-19T00:30:36.130+0530] {skipmixin.py:161} INFO - Following branch submit_storm_topology_task
+[2023-05-19T00:30:36.130+0530] {skipmixin.py:221} INFO - Skipping tasks ['read_from_mongodb_task']
+[2023-05-19T00:30:36.162+0530] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=combined_dag, task_id=branch_task, execution_date=20230518T000500, start_date=20230518T190035, end_date=20230518T190036
+[2023-05-19T00:30:36.180+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-05-19T00:30:36.213+0530] {taskinstance.py:2674} INFO - 1 downstream tasks scheduled from follow-on schedule check

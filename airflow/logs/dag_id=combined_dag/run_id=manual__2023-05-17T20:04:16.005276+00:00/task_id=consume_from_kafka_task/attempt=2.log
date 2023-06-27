@@ -1,0 +1,2 @@
+[2023-05-18T01:36:32.838+0530] {taskinstance.py:1115} INFO - Dependencies not met for <TaskInstance: combined_dag.consume_from_kafka_task manual__2023-05-17T20:04:16.005276+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state.
+[2023-05-18T01:36:32.839+0530] {local_task_job_runner.py:161} INFO - Task is not able to be run

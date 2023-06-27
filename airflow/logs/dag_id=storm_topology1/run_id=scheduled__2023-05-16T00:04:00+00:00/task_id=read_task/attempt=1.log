@@ -1,0 +1,88 @@
+[2023-05-19T01:06:56.515+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: storm_topology1.read_task scheduled__2023-05-16T00:04:00+00:00 [queued]>
+[2023-05-19T01:06:56.524+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: storm_topology1.read_task scheduled__2023-05-16T00:04:00+00:00 [queued]>
+[2023-05-19T01:06:56.524+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-19T01:06:56.542+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): read_task> on 2023-05-16 00:04:00+00:00
+[2023-05-19T01:06:56.546+0530] {standard_task_runner.py:57} INFO - Started process 13448 to run task
+[2023-05-19T01:06:56.552+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'storm_topology1', 'read_task', 'scheduled__2023-05-16T00:04:00+00:00', '--job-id', '541', '--raw', '--subdir', 'DAGS_FOLDER/kafkastorm.py', '--cfg-path', '/tmp/tmp6yz1n57u']
+[2023-05-19T01:06:56.553+0530] {standard_task_runner.py:85} INFO - Job 541: Subtask read_task
+[2023-05-19T01:06:56.610+0530] {task_command.py:410} INFO - Running <TaskInstance: storm_topology1.read_task scheduled__2023-05-16T00:04:00+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-19T01:06:56.978+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='storm_topology1' AIRFLOW_CTX_TASK_ID='read_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-16T00:04:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-16T00:04:00+00:00'
+[2023-05-19T01:06:57.025+0530] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-19T01:06:57.026+0530] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2023-05-19T01:06:57.027+0530] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-19T01:06:57.143+0530] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2023-05-19T01:06:57.143+0530] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2023-05-19T01:07:27.595+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/kafkastorm.py", line 39, in read_from_mongodb_and_send_to_kafka
+    for document in cursor:
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-90kskrr-shard-00-01.vgtdfso.mongodb.net:27017: connection closed,ac-90kskrr-shard-00-02.vgtdfso.mongodb.net:27017: connection closed,ac-90kskrr-shard-00-00.vgtdfso.mongodb.net:27017: connection closed, Timeout: 30s, Topology Description: <TopologyDescription id: 64667e5987fde36a51ae2ae2, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-90kskrr-shard-00-00.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-00.vgtdfso.mongodb.net:27017: connection closed')>, <ServerDescription ('ac-90kskrr-shard-00-01.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-01.vgtdfso.mongodb.net:27017: connection closed')>, <ServerDescription ('ac-90kskrr-shard-00-02.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-02.vgtdfso.mongodb.net:27017: connection closed')>]>
+[2023-05-19T01:07:27.610+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=storm_topology1, task_id=read_task, execution_date=20230516T000400, start_date=20230518T193656, end_date=20230518T193727
+[2023-05-19T01:07:27.630+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 541 for task read_task (ac-90kskrr-shard-00-01.vgtdfso.mongodb.net:27017: connection closed,ac-90kskrr-shard-00-02.vgtdfso.mongodb.net:27017: connection closed,ac-90kskrr-shard-00-00.vgtdfso.mongodb.net:27017: connection closed, Timeout: 30s, Topology Description: <TopologyDescription id: 64667e5987fde36a51ae2ae2, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-90kskrr-shard-00-00.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-00.vgtdfso.mongodb.net:27017: connection closed')>, <ServerDescription ('ac-90kskrr-shard-00-01.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-01.vgtdfso.mongodb.net:27017: connection closed')>, <ServerDescription ('ac-90kskrr-shard-00-02.vgtdfso.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-90kskrr-shard-00-02.vgtdfso.mongodb.net:27017: connection closed')>]>; 13448)
+[2023-05-19T01:07:27.666+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-19T01:07:27.691+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-05-19T02:31:53.669+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: storm_topology1.read_task scheduled__2023-05-16T00:04:00+00:00 [queued]>
+[2023-05-19T02:31:53.679+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: storm_topology1.read_task scheduled__2023-05-16T00:04:00+00:00 [queued]>
+[2023-05-19T02:31:53.679+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 0
+[2023-05-19T02:31:53.696+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): read_task> on 2023-05-16 00:04:00+00:00
+[2023-05-19T02:31:53.700+0530] {standard_task_runner.py:57} INFO - Started process 18313 to run task
+[2023-05-19T02:31:53.705+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'storm_topology1', 'read_task', 'scheduled__2023-05-16T00:04:00+00:00', '--job-id', '651', '--raw', '--subdir', 'DAGS_FOLDER/kafkastorm.py', '--cfg-path', '/tmp/tmpj13a_7ul']
+[2023-05-19T02:31:53.706+0530] {standard_task_runner.py:85} INFO - Job 651: Subtask read_task
+[2023-05-19T02:31:53.758+0530] {task_command.py:410} INFO - Running <TaskInstance: storm_topology1.read_task scheduled__2023-05-16T00:04:00+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-19T02:31:53.821+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='storm_topology1' AIRFLOW_CTX_TASK_ID='read_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-16T00:04:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-16T00:04:00+00:00'
+[2023-05-19T02:31:53.852+0530] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-19T02:31:53.852+0530] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2023-05-19T02:31:53.853+0530] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-19T02:31:53.961+0530] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2023-05-19T02:31:53.961+0530] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2023-05-19T02:32:00.285+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 18313. PIDs of all processes in the group: [18313]
+[2023-05-19T02:32:00.285+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 18313
+[2023-05-19T02:32:00.285+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-19T02:32:00.294+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/kafkastorm.py", line 168, in read_from_mongodb_and_send_to_kafka
+    for document in cursor:
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/pymongo/topology.py", line 250, in _select_servers_loop
+    self._condition.wait(common.MIN_HEARTBEAT_INTERVAL)
+  File "/usr/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1542, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-05-19T02:32:00.301+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=storm_topology1, task_id=read_task, execution_date=20230516T000400, start_date=20230518T210153, end_date=20230518T210200
+[2023-05-19T02:32:00.315+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 651 for task read_task (Task received SIGTERM signal; 18313)
+[2023-05-19T02:32:00.337+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18313, status='terminated', exitcode=1, started='02:31:52') (18313) terminated with exit code 1

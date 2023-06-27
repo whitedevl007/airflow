@@ -1,0 +1,67 @@
+[2023-05-19T10:44:59.939+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: storm_topology1.read_task scheduled__2023-05-18T00:01:00+00:00 [queued]>
+[2023-05-19T10:44:59.949+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: storm_topology1.read_task scheduled__2023-05-18T00:01:00+00:00 [queued]>
+[2023-05-19T10:44:59.949+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-19T10:44:59.965+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): read_task> on 2023-05-18 00:01:00+00:00
+[2023-05-19T10:44:59.969+0530] {standard_task_runner.py:57} INFO - Started process 7566 to run task
+[2023-05-19T10:44:59.974+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'storm_topology1', 'read_task', 'scheduled__2023-05-18T00:01:00+00:00', '--job-id', '660', '--raw', '--subdir', 'DAGS_FOLDER/kafkastorm.py', '--cfg-path', '/tmp/tmpgx76zu88']
+[2023-05-19T10:44:59.975+0530] {standard_task_runner.py:85} INFO - Job 660: Subtask read_task
+[2023-05-19T10:45:00.029+0530] {task_command.py:410} INFO - Running <TaskInstance: storm_topology1.read_task scheduled__2023-05-18T00:01:00+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-19T10:45:00.101+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='storm_topology1' AIRFLOW_CTX_TASK_ID='read_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-18T00:01:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-18T00:01:00+00:00'
+[2023-05-19T10:45:00.173+0530] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2023-05-19T10:45:00.174+0530] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2023-05-19T10:45:00.174+0530] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2023-05-19T10:45:00.288+0530] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2023-05-19T10:45:00.288+0530] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2023-05-19T10:48:08.702+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 7566. PIDs of all processes in the group: [7566]
+[2023-05-19T10:48:08.702+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 7566
+[2023-05-19T10:48:08.703+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-19T10:48:08.714+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/kafkastorm.py", line 184, in read_from_mongodb_and_send_to_kafka
+    time.sleep(1)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1542, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-05-19T10:48:08.717+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=storm_topology1, task_id=read_task, execution_date=20230518T000100, start_date=20230519T051459, end_date=20230519T051808
+[2023-05-19T10:48:08.731+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 660 for task read_task (Task received SIGTERM signal; 7566)
+[2023-05-19T10:48:08.755+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=7566, status='terminated', exitcode=1, started='10:44:59') (7566) terminated with exit code 1
+[2023-05-19T11:12:30.459+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: storm_topology1.read_task scheduled__2023-05-18T00:01:00+00:00 [queued]>
+[2023-05-19T11:12:30.468+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: storm_topology1.read_task scheduled__2023-05-18T00:01:00+00:00 [queued]>
+[2023-05-19T11:12:30.469+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-19T11:12:30.485+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): read_task> on 2023-05-18 00:01:00+00:00
+[2023-05-19T11:12:30.489+0530] {standard_task_runner.py:57} INFO - Started process 10103 to run task
+[2023-05-19T11:12:30.494+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'storm_topology1', 'read_task', 'scheduled__2023-05-18T00:01:00+00:00', '--job-id', '669', '--raw', '--subdir', 'DAGS_FOLDER/kafkastorm.py', '--cfg-path', '/tmp/tmp67uy_oei']
+[2023-05-19T11:12:30.495+0530] {standard_task_runner.py:85} INFO - Job 669: Subtask read_task
+[2023-05-19T11:12:30.546+0530] {task_command.py:410} INFO - Running <TaskInstance: storm_topology1.read_task scheduled__2023-05-18T00:01:00+00:00 [running]> on host nizam-HP-15-Notebook-PC
+[2023-05-19T11:12:30.615+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='storm_topology1' AIRFLOW_CTX_TASK_ID='read_task' AIRFLOW_CTX_EXECUTION_DATE='2023-05-18T00:01:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-18T00:01:00+00:00'
+[2023-05-19T11:12:46.875+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 10103. PIDs of all processes in the group: [10104, 10105, 10103]
+[2023-05-19T11:12:46.875+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 10103
+[2023-05-19T11:12:46.876+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-19T11:12:46.883+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=10105, status='terminated', started='11:12:30') (10105) terminated with exit code None
+[2023-05-19T11:12:46.885+0530] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nizam/airflow/dags/kafkastorm.py", line 151, in read_from_mongodb_and_send_to_kafka
+    subprocess.run(bash_command, shell=True)
+  File "/usr/lib/python3.10/subprocess.py", line 503, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1144, in communicate
+    self.wait()
+  File "/usr/lib/python3.10/subprocess.py", line 1207, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1941, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1899, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+  File "/home/nizam/env_airflow/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1542, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-05-19T11:12:46.891+0530] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=storm_topology1, task_id=read_task, execution_date=20230518T000100, start_date=20230519T054230, end_date=20230519T054246
+[2023-05-19T11:12:46.904+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 669 for task read_task (Task received SIGTERM signal; 10103)

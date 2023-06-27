@@ -1,0 +1,9 @@
+[2023-05-12T13:43:13.981+0530] {processor.py:156} INFO - Started process (PID=10279) to work on /home/nizam/airflow/dags/test1.py
+[2023-05-12T13:43:13.982+0530] {processor.py:799} INFO - Processing file /home/nizam/airflow/dags/test1.py for tasks to queue
+[2023-05-12T13:43:13.984+0530] {logging_mixin.py:149} INFO - [2023-05-12T13:43:13.983+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/nizam/airflow/dags/test1.py
+[2023-05-12T13:43:14.263+0530] {logging_mixin.py:149} INFO - [2023-05-12T13:43:14.263+0530] {taskmixin.py:211} WARNING - Dependency <Task(PythonOperator): read_and_send_task>, trigger_dag2_task already registered for DAG: test1
+[2023-05-12T13:43:14.263+0530] {logging_mixin.py:149} INFO - [2023-05-12T13:43:14.263+0530] {taskmixin.py:211} WARNING - Dependency <Task(PythonOperator): trigger_dag2_task>, read_and_send_task already registered for DAG: test1
+[2023-05-12T13:43:14.466+0530] {processor.py:809} INFO - DAG(s) dict_keys(['test1']) retrieved from /home/nizam/airflow/dags/test1.py
+[2023-05-12T13:43:14.596+0530] {logging_mixin.py:149} INFO - [2023-05-12T13:43:14.596+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-12T13:43:14.627+0530] {logging_mixin.py:149} INFO - [2023-05-12T13:43:14.627+0530] {dag.py:3486} INFO - Setting next_dagrun for test1 to None, run_after=None
+[2023-05-12T13:43:14.654+0530] {processor.py:178} INFO - Processing /home/nizam/airflow/dags/test1.py took 0.679 seconds
